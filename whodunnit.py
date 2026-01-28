@@ -121,11 +121,11 @@ class Whodunnit(Environment):
 
     @classmethod
     def list_splits(cls) -> list[str]:
-        return ["test"]
+        return ["train"]
 
     @classmethod
     def list_tasks(cls, split: str) -> list[JSONObject]:
-        if split == "test":
+        if split == "train":
             return TASKS_SPEC
         raise ValueError(f"Unknown split: {split}")
 
