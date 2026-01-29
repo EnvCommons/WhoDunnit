@@ -13,8 +13,8 @@ async def main() -> None:
     or_client = AsyncOpenReward()
     oai_client = AsyncOpenAI(api_key=OPENAI_API_KEY)
 
-    environment = or_client.environments.get(name="local/Whodunnit", base_url="http://localhost:8080")
-    tasks = await environment.list_tasks(split="test")
+    environment = or_client.environments.get(name="GeneralReasoning/WhoDunit")
+    tasks = await environment.list_tasks(split="train")
     tools = await environment.list_tools(format="openai")
 
     print(f"Found {len(tasks)} tasks")
