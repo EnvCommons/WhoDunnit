@@ -20,7 +20,7 @@ async def main() -> None:
     print(f"Found {len(tasks)} tasks")
 
     # Test first task
-    task = tasks[4]
+    task = tasks[24]
     print(task)
 
     async with environment.session(task=task) as session:
