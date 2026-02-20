@@ -44,6 +44,7 @@ class Exhibit(BaseModel):
     exhibit_id: str
     title: str
     items: list[ExhibitItem]
+    description: Optional[str] = None
 
 
 class GroundTruth(BaseModel):
@@ -278,9 +279,14 @@ class Whodunnit(Environment):
             exhibits_text += f"EXHIBIT {exhibit.exhibit_id}\n"
             exhibits_text += f"{exhibit.title}\n\n"
 
-            for item in exhibit.items:
-                exhibits_text += f"• {item.name}\n"
-                exhibits_text += f"  {item.description}\n\n"
+            # If exhibit has a description (for exhibits with no items), display it
+            if exhibit.description and not exhibit.items:
+                exhibits_text += f"{exhibit.description}\n\n"
+            else:
+                # Otherwise, display items as before
+                for item in exhibit.items:
+                    exhibits_text += f"• {item.name}\n"
+                    exhibits_text += f"  {item.description}\n\n"
 
             exhibits_text += "\n"
 
