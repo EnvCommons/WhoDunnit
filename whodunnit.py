@@ -16,6 +16,7 @@ class Suspect(BaseModel):
     handedness: str
     eye_color: str
     hair_color: str
+    zodiac: Optional[str] = None
 
 
 class Location(BaseModel):
@@ -144,7 +145,12 @@ class Whodunnit(Environment):
         for suspect in self.task_data.suspects:
             suspects_text += f"{suspect.name}\n"
             suspects_text += f"{suspect.description}\n"
-            suspects_text += f"{suspect.height} • {suspect.handedness.upper()} • {suspect.eye_color.upper()} EYES • {suspect.hair_color.upper()} HAIR\n\n"
+
+            # Build characteristics line
+            characteristics = f"{suspect.height} • {suspect.handedness.upper()} • {suspect.eye_color.upper()} EYES • {suspect.hair_color.upper()} HAIR"
+            if suspect.zodiac:
+                characteristics += f" • {suspect.zodiac.upper()}"
+            suspects_text += f"{characteristics}\n\n"
 
         return ToolOutput(
             blocks=[TextBlock(type="text", text=suspects_text.strip())],
