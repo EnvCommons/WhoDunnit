@@ -20,7 +20,7 @@ async def main() -> None:
     print(f"Found {len(tasks)} tasks")
 
     # Test first task
-    task = tasks[24]
+    task = tasks[51]
     print(task)
 
     async with environment.session(task=task) as session:
@@ -46,6 +46,7 @@ async def main() -> None:
             response = await oai_client.responses.create(
                 model=MODEL_NAME,
                 tools=tools,
+                reasoning={"effort": "medium"},
                 input=input_list,
             )
 
