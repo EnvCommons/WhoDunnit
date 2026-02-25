@@ -1,6 +1,6 @@
 # Whodunnit? - Murder Mystery Environment
 
-An OpenReward environment where AI agents solve murder mystery cases by gathering information and deducing the culprit, weapon, and location.
+An ORS OpenReward environment where AI agents solve murder mystery cases by gathering information and deducing the culprit, weapon, and location.
 
 ## Overview
 
