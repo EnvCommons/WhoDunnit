@@ -13,14 +13,14 @@ async def main() -> None:
     or_client = AsyncOpenReward()
     oai_client = AsyncOpenAI(api_key=OPENAI_API_KEY)
 
-    environment = or_client.environments.get(name="GeneralReasoning/WhoDunit")
+    environment = or_client.environments.get(name="GeneralReasoning/WhoDunit", base_url="http://localhost:8080")
     tasks = await environment.list_tasks(split="train")
     tools = await environment.list_tools(format="openai")
 
     print(f"Found {len(tasks)} tasks")
 
     # Test first task
-    task = tasks[51]
+    task = tasks[75]
     print(task)
 
     async with environment.session(task=task) as session:

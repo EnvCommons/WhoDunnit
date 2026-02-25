@@ -79,9 +79,18 @@ else:
 
 # Load all tasks_*.json files
 TASKS_RAW: list[dict] = []
-tasks_files = sorted(glob.glob(str(ENV_PATH / "tasks_*.json")))
-for tasks_file in tasks_files:
-    with open(tasks_file, "r") as f:
+
+# Load tasks_impossible.json last
+elementary_file = str(ENV_PATH / "tasks_elementary.json")
+impossible_file = str(ENV_PATH / "tasks_impossible.json")
+
+if os.path.exists(elementary_file):
+    with open(elementary_file, "r") as f:
+        tasks_data = json.load(f)
+        TASKS_RAW.extend(tasks_data)
+
+if os.path.exists(impossible_file):
+    with open(impossible_file, "r") as f:
         tasks_data = json.load(f)
         TASKS_RAW.extend(tasks_data)
 
@@ -94,7 +103,6 @@ TASKS_SPEC = [
 # Load exhibits data
 with open(ENV_PATH / "exhibits.json", "r") as f:
     EXHIBITS_RAW: list[dict] = json.load(f)
-
 
 # --- Tool Input Models ---
 
