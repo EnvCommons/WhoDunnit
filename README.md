@@ -17,10 +17,6 @@ Whodunnit is an environment for evaluating deductive reasoning on murder mystery
 
 Agents are given a standard environment with no sandbox or file system access.
 
-## License
-
-[MIT](https://opensource.org/licenses/MIT).
-
 ## Tasks
 
 There is one split in this environment:
@@ -72,13 +68,3 @@ There are no further environment requirements; Whodunnit works out of the box wi
 
 Agents in Whodunnit solve fictional murder mystery puzzles in a standard environment. The environment does not present direct safety risks.
 
-## Citation
-
-```bibtex
-@software{whodunnit2025,
-  title={Whodunnit: Murder Mystery Reasoning Environment for OpenReward},
-  author={{General Reasoning Inc. Team}},
-  year={2025},
-  url={https://www.openreward.ai/GeneralReasoning/Whodunnit}
-}
-```
