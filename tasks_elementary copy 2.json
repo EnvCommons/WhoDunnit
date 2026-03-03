@@ -1,0 +1,4803 @@
+[
+  {
+    "problem_name": "Murder in Hollywood",
+    "problem_description": "When Deductive Logico was invited to a fancy dinner party at a mansion in the Hollywood Hills, he thought he had finally made it. Unfortunately, he was not the guest of honor: he was there to solve the murder of the guest of honor.",
+    "suspects": [
+      {
+        "name": "The Amazing Aureolin",
+        "description": "A magician who perfected the sawing-your-husband-in-two routine. Then, she made his body disappear.",
+        "height": "5'6\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Midnight III",
+        "description": "The grandson of the founder of Midnight Movies and a self-described self-made man.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown"
+      },
+      {
+        "name": "Dame Obsidian",
+        "description": "A mystery writer whose books have sold more copies than the Bible and Shakespeare combined.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "black"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Enormous Bathroom",
+        "indoor": true,
+        "description": "A bathroom that is bigger than Deductive Logico's house."
+      },
+      {
+        "name": "The Bedroom",
+        "indoor": true,
+        "description": "A California king-sized bed, unmade, stands in a spotless white room."
+      },
+      {
+        "name": "The Screening Room",
+        "indoor": true,
+        "description": "Red velvet seats and a popcorn machine create the ultimate screening experience."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Fork",
+        "weight": "light-weight",
+        "description": "Actually a lot more gruesome than a knife, if you think about it."
+      },
+      {
+        "name": "An Aluminum Pipe",
+        "weight": "medium-weight",
+        "description": "Safer than lead, unless it hits you in the head."
+      },
+      {
+        "name": "A Heavy Candle",
+        "weight": "medium-weight",
+        "description": "Heavy enough to kill, and yet it lightens the room."
+      }
+    ],
+    "clues": [
+      "The Amazing Aureolin trusted the suspect who brought a fork.",
+      "Midnight III was still brandishing an aluminum pipe when Logico arrived.",
+      "A heavy candle was not found in the bedroom.",
+      "Dame Obsidian was found hiding beneath red velvet seats.",
+      "The body was found inside a marble tub."
+    ],
+    "ground_truth": {
+      "who": "The Amazing Aureolin",
+      "what": "A Heavy Candle",
+      "where": "The Enormous Bathroom"
+    }
+  },
+  {
+    "problem_name": "And Then There Was Another One",
+    "problem_description": "Deductive Logico was thrilled when he heard an old man had been killed on a secluded island. Of course, that was bad, but Logico had always wanted to solve one of those secluded island murders, and this was his big chance.",
+    "suspects": [
+      {
+        "name": "Signor Emerald",
+        "description": "An Italian jeweler of great renown, Signor Emerald has traveled the world in search of rare, precious stones, which are always falling out of his pockets.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "light brown",
+        "hair_color": "black"
+      },
+      {
+        "name": "Father Mango",
+        "description": "He has taken a vow of poverty, but he drives a BMW. He's taken a vow of obedience, but he has a staff of twenty-five. He's taken a vow of chastity, too, which is why he's on vacation.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "bald"
+      },
+      {
+        "name": "Miss Saffron",
+        "description": "Gorgeous and charming, but maybe not all there in the brains department. Or maybe that's what she wants you to think. Or maybe she wants you to think that's what she wants you to think.",
+        "height": "5'2\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Cliffs",
+        "indoor": false,
+        "description": "A steep cliff overlooking the ocean. You could fall, but maybe the jagged rocks would break your fall."
+      },
+      {
+        "name": "The Ancient Ruins",
+        "indoor": false,
+        "description": "Some old standing stones with strange glyphs carved on them."
+      },
+      {
+        "name": "The Docks",
+        "indoor": false,
+        "description": "Old, rotten docks that have certainly seen better days. Look out for sharks!"
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Bear Trap",
+        "weight": "heavy-weight",
+        "description": "If you think it's too gruesome to use on a person, just think how the bears feel!"
+      },
+      {
+        "name": "An Ordinary Brick",
+        "weight": "medium-weight",
+        "description": "Just a regular, ordinary brick. Nothing special. Just a brick."
+      },
+      {
+        "name": "A Harpoon",
+        "weight": "heavy-weight",
+        "description": "You could kill a fish with this. Or, honestly, you could kill anything with it."
+      }
+    ],
+    "clues": [
+      "The suspect who brought an ordinary brick was a parishioner of Father Mango's.",
+      "Miss Saffron had a bear trap in her purse.",
+      "The suspect whose family's company produced Logico's magnifying glass was on the cliffs.",
+      "The ancient ruins seemed to hypnotize the hazel eyes of the suspect standing beside them.",
+      "By the time Logico got there, the old man's body had been nibbled on by sharks."
+    ],
+    "ground_truth": {
+      "who": "Father Mango",
+      "what": "A Harpoon",
+      "where": "The Docks"
+    }
+  },
+  {
+    "problem_name": "The Art of the Kill",
+    "problem_description": "Detective Logico visited an art museum, which was very confusing to him. No murder was as baffling as some of these paintings. So he was quite relieved when an experimental artist was killed in mysterious circumstances: finally, something he could understand.",
+    "suspects": [
+      {
+        "name": "Captain Slate",
+        "description": "A real-life astronaut. The first woman to travel around the dark side of the moon, and also the first to be suspected of murdering her copilot.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown"
+      },
+      {
+        "name": "Bishop Azure",
+        "description": "A bishop in a local church, she has been known to pray for both her friends and her enemies. Of course, she asks for different things...",
+        "height": "5'4\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown"
+      },
+      {
+        "name": "Blackstone, Esq.",
+        "description": "Incredibly talented at the most important skill for an attorney: getting paid.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "black",
+        "hair_color": "black"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Rooftop Garden",
+        "indoor": false,
+        "description": "A rooftop garden! With pigeons! And you can feed the pigeons! Very cool."
+      },
+      {
+        "name": "The Entry Hall",
+        "indoor": true,
+        "description": "With a plaque on the wall, even the architecture of the entry hall is art."
+      },
+      {
+        "name": "An Art Studio",
+        "indoor": true,
+        "description": "In the back of the museum, it's littered with flyers for art classes."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Glass of Poisoned Wine",
+        "weight": "light-weight",
+        "description": "This is your typical glass of poisoned wine. A mystery classic."
+      },
+      {
+        "name": "An Abstract Statue",
+        "weight": "heavy-weight",
+        "description": "No matter how hard he looked at this, Logico did not understand."
+      },
+      {
+        "name": "A Rare Vase",
+        "weight": "heavy-weight",
+        "description": "Logico thought about how, technically, every vase someone makes by hand is rare, because there is only one of them."
+      }
+    ],
+    "clues": [
+      "Blackstone, Esq., was suspicious of the person who brought an abstract statue.",
+      "Captain Slate brought a glass of poisoned wine.",
+      "An abstract statue was not in the art studio. (Sometimes the students' art seemed abstract, but that was just because it was bad.)",
+      "Either Blackstone, Esq., was standing on top of flyers for art classes, or Captain Slate was in the rooftop garden.",
+      "The body of the experimental artist was found under a plaque on the wall."
+    ],
+    "ground_truth": {
+      "who": "Captain Slate",
+      "what": "A Glass of Poisoned Wine",
+      "where": "The Entry Hall"
+    }
+  },
+  {
+    "problem_name": "The Last Train to Murder",
+    "problem_description": "Once he got back to the mainland, Deductive Logico took a train. Unfortunately, somebody else took the life of the conductor. Now, the train was racing down the tracks, and nobody knew what to do except Logico: he knew he had to crack the case.",
+    "suspects": [
+      {
+        "name": "Vice President Mauve",
+        "description": "A vice president of TekCo Futures. If she asks you to step into her metaverse, politely decline.",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black"
+      },
+      {
+        "name": "Chef Aubergine",
+        "description": "It is said that she once killed her husband, cooked him, and then served him at her restaurant. It's not true, but just the fact that it's said about her tells you something.",
+        "height": "5'2\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Philosopher Bone",
+        "description": "A dashing, dark philosopher who pioneered the ethical theory that he is not responsible for his actions, but he should be paid for them.",
+        "height": "5'11\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "bald"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Locomotive",
+        "indoor": true,
+        "description": "The deafening sound of the steam engine prevents Deductive Logico from thinking."
+      },
+      {
+        "name": "The Caboose",
+        "indoor": true,
+        "description": "The back of the train lets you see where you're leaving, and what you're leaving behind..."
+      },
+      {
+        "name": "The Roof",
+        "indoor": false,
+        "description": "What with the wind and the smoke from the smokestack, it's hard to get your bearings up here."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "An Imported Italian Knife",
+        "weight": "light-weight",
+        "description": "It looks priceless, and that's technically true, because it's worthless."
+      },
+      {
+        "name": "Leather Luggage",
+        "weight": "heavy-weight",
+        "description": "This luggage is hideous. The leather looked way better on the cow."
+      },
+      {
+        "name": "A Rolled-Up Newspaper (With a Crowbar Inside)",
+        "weight": "medium-weight",
+        "description": "You think, that's just a newspaper! But then... wham!"
+      }
+    ],
+    "clues": [
+      "A page from the classifieds was found near the heat of a steam engine.",
+      "Chef Aubergine and the person who brought leather luggage had a history together.",
+      "The tallest suspect never set foot in the caboose.",
+      "Philosopher Bone was seen wandering around outdoors.",
+      "The conductor had been stabbed to death."
+    ],
+    "ground_truth": {
+      "who": "Chef Aubergine",
+      "what": "An Imported Italian Knife",
+      "where": "The Caboose"
+    }
+  },
+  {
+    "problem_name": "Physician, Heal Myself!",
+    "problem_description": "When Deductive Logico came to in a private hospital, his knew his injuries wouldn't hurt half as much as the bill. But his surgeon, Dr. Crimson, offered a trade: if he solved another patient's murder, they'd give him a two percent discount. He immediately agreed.",
+    "suspects": [
+      {
+        "name": "Officer Copper",
+        "description": "The best part of being a policewoman criminal is that you can cut out the middleman and fail to investigate your own crimes.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Dr. Crimson",
+        "description": "She's the smartest doctor she's ever met, according to her, and she's probably right. Yeah, she smokes, but if she gets cancer, she'll find a cure.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "red"
+      },
+      {
+        "name": "Sister Lapis",
+        "description": "A nun who travels the world, doing God's work on His dime. Her habit is cashmere, and her habit is spending.",
+        "height": "5'2\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "light brown"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Parking Lot",
+        "indoor": false,
+        "description": "An enormous parking lot with uniformed valets parking luxury sedans and other vehicles."
+      },
+      {
+        "name": "The Roof",
+        "indoor": false,
+        "description": "Lots and other industrial equipment cover the roof, providing a number of excellent hiding spots."
+      },
+      {
+        "name": "The Gift Shop",
+        "indoor": true,
+        "description": "This hospital is so nice you can buy jewelry at the gift shop. But don't worry: there's a discount rack, too."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Vial of Acid",
+        "weight": "light-weight",
+        "description": "According to the label, you should not take a sip of this, no matter how tempting it seems."
+      },
+      {
+        "name": "A Heavy Microscope",
+        "weight": "heavy-weight",
+        "description": "The slides are so tiny, but the microscope's so heavy!"
+      },
+      {
+        "name": "A Surgical Scalpel",
+        "weight": "light-weight",
+        "description": "Somehow, it being smaller makes it seem more dangerous."
+      }
+    ],
+    "clues": [
+      "A vial of acid was certainly not on the roof. (They had acid-detecting sensors there.)",
+      "The suspect who was in the gift shop had light brown eyes.",
+      "Officer Copper had a weapon with a label on it reading DO NOT DRINK.",
+      "Surprisingly, Dr. Crimson did not bring her surgical scalpel (or any surgical scalpel, for that matter).",
+      "The patient's body was found beneath a luxury sedan."
+    ],
+    "ground_truth": {
+      "who": "Officer Copper",
+      "what": "A Vial of Acid",
+      "where": "The Parking Lot"
+    }
+  },
+  {
+    "problem_name": "Murder in the Alley",
+    "problem_description": "While Deductive Logico was walking home, he was stopped in a dark alley by a dark figure who said that Dame Obsidian was guilty: she'd framed a semi-innocent magician (see Case 1: Murder in Hollywood). Before the dark figure could say more, he was murdered.",
+    "suspects": [
+      {
+        "name": "General Coffee",
+        "description": "An espresso connoisseur who once sent his men to die in the jungle to harvest a single bean.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "bald"
+      },
+      {
+        "name": "Cosmonaut Bluski",
+        "description": "An ex-Soviet spaceman whose blood flows red. Sure, that's normal, but for him it's patriotic.",
+        "height": "6'2\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black"
+      },
+      {
+        "name": "Midnight III",
+        "description": "He argues the studio should focus on murder mysteries again to regain their former glory.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Metal Fence",
+        "indoor": false,
+        "description": "Your typical chain-link fence. What more do you want?"
+      },
+      {
+        "name": "The Dumpster",
+        "indoor": false,
+        "description": "It does not smell good. No, it does not. It smells awful, actually."
+      },
+      {
+        "name": "The Distracting Graffiti",
+        "indoor": false,
+        "description": "The dragon-ril really ruins the noir vibes."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "Piano Wire",
+        "weight": "light-weight",
+        "description": "Somewhere out there, there's a piano missing a wire, and it's about to ruin a concert."
+      },
+      {
+        "name": "A Crowbar",
+        "weight": "medium-weight",
+        "description": "Honestly, they're used more often for crime than anything else."
+      },
+      {
+        "name": "A Poisonous Dart",
+        "weight": "light-weight",
+        "description": "One stick of this dart and you're dead."
+      }
+    ],
+    "clues": [
+      "Midnight III had that familiar chain-link pattern pressed into his face.",
+      "Cosmonaut Bluski always packed for outer space: he had a light-weight weapon.",
+      "The Detective Club sent Logico a message written in Detective Code: TVMVIZO XLUUVV WRW MLG SZEV GSV XILDYZI. (See Exhibit A.)",
+      "Cosmonaut Bluski did not bring piano wire: he was tone-deaf.",
+      "Either a crowbar or a poisonous dart was by the distracting graffiti.",
+      "There was an awful smell around the body\u2014even for a body!"
+    ],
+    "ground_truth": {
+      "who": "General Coffee",
+      "what": "Piano Wire",
+      "where": "The Dumpster"
+    }
+  },
+  {
+    "problem_name": "A Quaint Little Village Slaying",
+    "problem_description": "Deductive Logico traveled to Dame Obsidian's quaint little village, and immediately, Logico learned a new word: \"vicar.\" He didn't know what it meant, but he knew how to use it in a sentence, like, \"The vicar has been murdered, and I'm going to find whodunit.\"",
+    "suspects": [
+      {
+        "name": "Dame Obsidian",
+        "description": "One of her most famous books is about a mystery writer who frames an innocent magician. Suspicious!",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "black"
+      },
+      {
+        "name": "Deacon Verdigris",
+        "description": "A deacon in the church. She handles the parishioners' donations and, sometimes, their secrets.",
+        "height": "5'3\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "gray"
+      },
+      {
+        "name": "Earl Grey",
+        "description": "He comes from a long line of Earl Greys. Yes, of the tea. No, he doesn't sign autographs. But he'll give you a free bag if you ask.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "white"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Manor House",
+        "indoor": true,
+        "description": "The dame's. It's filled with giant portraits of many generations of dead rich white guys."
+      },
+      {
+        "name": "The Chapel",
+        "indoor": true,
+        "description": "A place of vows and secrets."
+      },
+      {
+        "name": "The Ancient Ruins",
+        "indoor": false,
+        "description": "These same standing stones again! Each of them has a strange labyrinth carved on its side."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Bottle of Cyanide",
+        "weight": "light-weight",
+        "description": "It's almond-scented poison, but it can also get rid of headaches (like your husband)."
+      },
+      {
+        "name": "A Pair of Gardening Shears",
+        "weight": "medium-weight",
+        "description": "Gardening is a great hobby. But honestly, it's easier to get good tomatoes by killing for them."
+      },
+      {
+        "name": "Yarn",
+        "weight": "light-weight",
+        "description": "Sometimes, when you realize you've missed a stitch, you could just strangle somebody."
+      }
+    ],
+    "clues": [
+      "Logico smelled almonds beneath a stained-glass window.",
+      "Dame Obsidian was not in her manor house. Or any manor house, for that matter.",
+      "Yes, he owned a tea empire, but Earl Grey never gardened, and he wouldn't be caught dead holding a pair of shears.",
+      "Deacon Verdigris was visiting the ancient ruins to research an article he was writing about the local pagan practices prior to the arrival of the church.",
+      "The vicar was strangled\u2014most embarrassingly with yarn."
+    ],
+    "ground_truth": {
+      "who": "Earl Grey",
+      "what": "Yarn",
+      "where": "The Manor House"
+    }
+  },
+  {
+    "problem_name": "The Butler Did It (Die)",
+    "problem_description": "Immediately after the last one, there was another murder in Dame Obsidian's house! That made her look even guiltier, Logico thought. Especially since it was her butler who was murdered. What kind of person kills somebody else's butler?",
+    "suspects": [
+      {
+        "name": "Dame Obsidian",
+        "description": "As additional background: a week after Dame Obsidian's second husband disappeared, she paved over her garden. The papers had a field day with that. But her sales doubled.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "black"
+      },
+      {
+        "name": "Sir Rulean",
+        "description": "A sophisticated gentleman who was just recently knighted, if you believe the shoddy paperwork he carries with him.",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "red"
+      },
+      {
+        "name": "Miss Saffron",
+        "description": "Gorgeous and stunning, but maybe not all there in the brains department. Or maybe that's what she wants you to think. Or maybe she wants you to think that's what she wants you to think.",
+        "height": "5'2\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Spooky Attic",
+        "indoor": true,
+        "description": "Nothing but cobwebs, family heirlooms, and secrets."
+      },
+      {
+        "name": "The Master Bedroom",
+        "indoor": true,
+        "description": "The bed is so big that the bedroom had to be built around it."
+      },
+      {
+        "name": "The Grounds",
+        "indoor": false,
+        "description": "A meticulously maintained, solid green two-inch monoculture."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Magnifying Glass",
+        "weight": "medium-weight",
+        "description": "You could use this to find a clue, read the fine print, or start a small fire."
+      },
+      {
+        "name": "An Antique Clock",
+        "weight": "heavy-weight",
+        "description": "Tick, tock, tick, tock. Technically, time is killing us all slowly."
+      },
+      {
+        "name": "An Axe",
+        "weight": "medium-weight",
+        "description": "This axe could chop a tree down. Or a person down!"
+      }
+    ],
+    "clues": [
+      "Either Miss Saffron brought an axe or an axe was in the master bedroom.",
+      "Sir Rulean had been hiding from the person who brought an axe.",
+      "An antique clock was certainly not on the grounds: it was an inside clock.",
+      "Miss Saffron was seen using a weapon to read the fine print in the ads of a gossip magazine.",
+      "Blood was splattered on a family heirloom."
+    ],
+    "ground_truth": {
+      "who": "Sir Rulean",
+      "what": "An Antique Clock",
+      "where": "The Spooky Attic"
+    }
+  },
+  {
+    "problem_name": "Hedge Your Bets, The Constable Cried",
+    "problem_description": "While Logico was wondering if it were possible Dame Obsidian was actually innocent, he heard a scream from her hedge maze. He ran into it, got lost, figured it out, and then found Dame Obsidian, who he was now certain was innocent, on account of she was dead.",
+    "suspects": [
+      {
+        "name": "Constable Copper",
+        "description": "The identical twin of Officer Copper. When their parents divorced, she moved across the ocean. But they have so much in common. Same height, same job, same propensity to violence.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Lord Lavender",
+        "description": "A politically conservative MP in the House of Lords, as well as the musical theater composer behind such hits as Dogs and Mr. Moses Megastar.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "green",
+        "hair_color": "gray"
+      },
+      {
+        "name": "Miss Saffron",
+        "description": "Gorgeous and stunning, but maybe not all there in the brains department. Or maybe that's what she wants you to think. Or maybe she wants you to think that's what she wants you to think.",
+        "height": "5'2\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Fountain",
+        "indoor": false,
+        "description": "A fountain at the center of the maze, if you can find it."
+      },
+      {
+        "name": "The Lookout Tower",
+        "indoor": true,
+        "description": "From above the garden, you can see everything. Plus, there's a map on the wall that reveals (some of) the maze's secrets."
+      },
+      {
+        "name": "The Ancient Ruins",
+        "indoor": false,
+        "description": "These same old ruins again! They were here long before the rest of the maze."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Pair of Gardening Shears",
+        "weight": "medium-weight",
+        "description": "They're getting a little rusty, and they might leave screws behind."
+      },
+      {
+        "name": "A Flowerpot",
+        "weight": "medium-weight",
+        "description": "If you use this to murder, please re-pot the flowers first."
+      },
+      {
+        "name": "Poisoned Tea",
+        "weight": "light-weight",
+        "description": "Enjoy a nice sip of tea, followed by a long, long nap."
+      }
+    ],
+    "clues": [
+      "Poisoned tea was certainly not in the ancient ruins, nor was it in the fountain.",
+      "The tallest suspect and the person who brought a pair of gardening shears had a history together.",
+      "A flowerpot was not in the ancient ruins. Or was it? (It wasn't.)",
+      "Miss Saffron was addicted to a product made by a friend, Earl Grey, and she added just a little poison.",
+      "Dame Obsidian's body was found beside a blood-splattered map."
+    ],
+    "ground_truth": {
+      "who": "Miss Saffron",
+      "what": "Poisoned Tea",
+      "where": "The Lookout Tower"
+    }
+  },
+  {
+    "problem_name": "Eat, Drink, and Be Merry, For a Jerk Just Died",
+    "problem_description": "Because of a mistake he made with time zones (the hardest problem in all of deductive analysis), Logico missed his flight home. So he went to the village pub, where everyone was celebrating the death of a loud-mouthed jerk. They all wanted to know whodunit (so they could buy him drinks), and Logico was happy to oblige.",
+    "suspects": [
+      {
+        "name": "Brother Brownstone",
+        "description": "A monk who has dedicated his life to the church, specifically to making money for it.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown"
+      },
+      {
+        "name": "Comrade Champagne",
+        "description": "A communist and a rich one. Comrade Champagne likes nothing more than to travel the world, sharing the message of communism with his fellow vacationers.",
+        "height": "5'11\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Grandmaster Rose",
+        "description": "A chess grand master who is always plotting his next move. Like how to bump off his next opponent! (1. e4)",
+        "height": "5'7\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Center Bar",
+        "indoor": true,
+        "description": "They're giving out free drinks to celebrate the jerk being dead."
+      },
+      {
+        "name": "The Corner Booth",
+        "indoor": true,
+        "description": "Shrouded in shadow, you sit at this booth if you don't want to be seen."
+      },
+      {
+        "name": "The Cramped Bathroom",
+        "indoor": true,
+        "description": "So small it seems like it was designed for a discount airplane."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Corkscrew",
+        "weight": "light-weight",
+        "description": "Once Logico started looking, he saw weapons everywhere."
+      },
+      {
+        "name": "A Bottle of Wine",
+        "weight": "medium-weight",
+        "description": "Watch out for stains, because the red doesn't come out."
+      },
+      {
+        "name": "A Crystal Ball",
+        "weight": "heavy-weight",
+        "description": "If you look into it, it will tell you your future, so long as your future is a crystal ball."
+      }
+    ],
+    "clues": [
+      "A red stain was found in a teeny, tiny space.",
+      "The chess player was suspicious of the person who brought a bottle of wine.",
+      "A corkscrew was certainly not in the center bar.",
+      "The suspect with the corkscrew had blond hair.",
+      "They were giving out free drinks right over the jerk's still-warm body!"
+    ],
+    "ground_truth": {
+      "who": "Grandmaster Rose",
+      "what": "A Crystal Ball",
+      "where": "The Center Bar"
+    }
+  },
+  {
+    "problem_name": "The Case of the Coffee Shop Killer",
+    "problem_description": "Once Deductive Logico was back home, he went to his favorite coffee shop in order to ponder what had happened to Dame Obsidian. While he was lost in thought, a barista lost her life. He couldn't save her, but he could solve her murder.",
+    "suspects": [
+      {
+        "name": "General Coffee",
+        "description": "An espresso connoisseur who likes his coffee like he likes his war: always.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "bald"
+      },
+      {
+        "name": "Coach Raspberry",
+        "description": "One of the best coaches this side of the Mississippi, regardless of which side you happen to be on. Some people say he has a gambling problem, but he just says he loves danger.",
+        "height": "6'0\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Bookie-Winner Gainsboro",
+        "description": "He won the Bookington Award for his novel, which he will tell you within two minutes of meeting you. The book is six thousand pages long, and it's about dirt.",
+        "height": "6'0\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "light brown"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Courtyard",
+        "indoor": false,
+        "description": "Sun-dappled tables and chairs sit beneath a magnificent oak, perfect for conversation... or murder."
+      },
+      {
+        "name": "The Bean Room",
+        "indoor": true,
+        "description": "Full of bags and bags of beans. The smell is so strong and delicious that Logico wants to eat the beans."
+      },
+      {
+        "name": "The Counter",
+        "indoor": true,
+        "description": "There is a little bell that alerts the baristas you are here so they can start ignoring you."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "An Ordinary Brick",
+        "weight": "heavy-weight",
+        "description": "Just a regular, ordinary brick. Nothing special. Just a brick."
+      },
+      {
+        "name": "A Metal Straw",
+        "weight": "heavy-weight",
+        "description": "Better for the planet than a plastic straw, but more deadly!"
+      },
+      {
+        "name": "A Poisoned Cup of Coffee",
+        "weight": "medium-weight",
+        "description": "It's poisoned with ricin, which is made from castor beans. So technically this is a two-bean soup."
+      }
+    ],
+    "clues": [
+      "Bookie-Winner Gainsboro had never been in the courtyard, and he never wanted to go, if you asked him.",
+      "Coach Raspberry used to run plays with the person who brought a poisoned cup of coffee.",
+      "Logico found a regular brick chip buried beneath bags of beans.",
+      "The person who was at the counter was the former owner of Deductive Logico's coffee cup. (See Exhibit A.)",
+      "A metal straw was used to commit the murder."
+    ],
+    "ground_truth": {
+      "who": "Coach Raspberry",
+      "what": "A Metal Straw",
+      "where": "The Courtyard"
+    }
+  },
+  {
+    "problem_name": "The Mysterious Mystery Bookshop Mystery",
+    "problem_description": "Detective Logico decided to investigate the mystery of Dame Obsidian by investigating the mysteries of Dame Obsidian, so he went to a local mystery bookshop. But the first mystery he found was the death of the bookshop proprietor.",
+    "suspects": [
+      {
+        "name": "Captain Slate",
+        "description": "A real-life astronaut. The first woman to travel around the dark side of the moon, and also the first to be suspected of murdering her copilot.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown"
+      },
+      {
+        "name": "Comrade Champagne",
+        "description": "A communist and a rich one. Comrade Champagne likes nothing more than to travel the world, sharing the message of communism with his fellow vacationers.",
+        "height": "5'11\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Director Dusty",
+        "description": "A true filmmaker. The only thing he cares about is getting his movie made. No matter what.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "bald"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Discount Rack",
+        "indoor": true,
+        "description": "You can find a lot of great books here, and soon, a half-solved copy of Murdle."
+      },
+      {
+        "name": "The Front Counter",
+        "indoor": true,
+        "description": "Where you can actually buy the books, or any of the little trinkets they have for sale."
+      },
+      {
+        "name": "The Rare Books Room",
+        "indoor": true,
+        "description": "A single Dame Obsidian first edition costs more than Logico's father made in his lifetime."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Tote Bag",
+        "weight": "medium-weight",
+        "description": "Bibliophile mafiosos use these canvas bags for hits. You can also carry books in them."
+      },
+      {
+        "name": "A Bone Folder",
+        "weight": "light-weight",
+        "description": "Yeah, it's made from an animal bone, but just because you've killed before doesn't mean you'll kill again."
+      },
+      {
+        "name": "A Paperback",
+        "weight": "medium-weight",
+        "description": "Too light to hit someone over the head, but the ink is so cheap it's toxic."
+      }
+    ],
+    "clues": [
+      "A tote bag was not found in the discount rack.",
+      "A smudge of toxic ink was found by the front counter.",
+      "An anti-shoplifting mirror caught the reflection of the eyes of the person in the rare books room: they were dark brown.",
+      "There weren't any film books in the discount rack, so Director Dusty wasn't there.",
+      "A chip of animal bone was found inside the body of the proprietor."
+    ],
+    "ground_truth": {
+      "who": "Comrade Champagne",
+      "what": "A Bone Folder",
+      "where": "The Discount Rack"
+    }
+  },
+  {
+    "problem_name": "The Killing of a Cowboy",
+    "problem_description": "Dame Obsidian had written mysteries in many different places and periods, and Logico was determined to read them all. The first was a Western, filled with red herrings, black hats, and a twist worthy of a lasso. A rancher had been killed, and it looked like the suspects were based on real people.",
+    "suspects": [
+      {
+        "name": "Cowboy Raspberry",
+        "description": "One of the best cowboys this side of the Mississippi, regardless of which side you happen to be on. Some people say he has a rustlin' problem, but he just says he loves danger.",
+        "height": "6'0\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Justice Pine",
+        "description": "Master of the rural courthouse and possessed of a firm belief in her own form of frontier justice.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black"
+      },
+      {
+        "name": "Corporal Coffee",
+        "description": "Back in those days, if you liked coffee, you liked it black. And the corporal liked coffee.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "brown",
+        "hair_color": "bald"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Saloon",
+        "indoor": true,
+        "description": "The worst saloon that anybody who ever visited had ever visited."
+      },
+      {
+        "name": "The Watering Hole",
+        "indoor": false,
+        "description": "You can get the cleanest water in the West here. It's dark brown."
+      },
+      {
+        "name": "The \"Hotel\"",
+        "indoor": true,
+        "description": "A \"hotel\" that provides certain \"amenities\" including \"charging\" by the \"hour.\""
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Stabbin' Knife",
+        "weight": "medium-weight",
+        "description": "Just the kinda knife that's perfect for stabbin'."
+      },
+      {
+        "name": "A Cactus",
+        "weight": "medium-weight",
+        "description": "Watch out for the needles\u2014and also for someone hitting you with it."
+      },
+      {
+        "name": "Tainted Moonshine",
+        "weight": "medium-weight",
+        "description": "This'll kill you, that's for sure. Even the smell is dangerous."
+      }
+    ],
+    "clues": [
+      "Some needles were found soaking in dark brown water.",
+      "Justice Pine was suspicious of the person who brought a stabbin' knife. (Reasonable.)",
+      "Corporal Coffee had never been in the \"hotel.\"",
+      "Whoever had the cactus had blue eyes.",
+      "Tainted moonshine was used to murder the rancher."
+    ],
+    "ground_truth": {
+      "who": "Justice Pine",
+      "what": "Tainted Moonshine",
+      "where": "The \"Hotel\""
+    }
+  },
+  {
+    "problem_name": "A Very Proper Murder",
+    "problem_description": "Next, Logico read a book set in Victorian London\u2014the capital of the whodunit! It was obviously based on heavy research, but the dame played all the hits: bloody letters, a shoe print in the snow, and the murder of the richest man in town, thousandaire Lord Lavender.",
+    "suspects": [
+      {
+        "name": "Baron Maroon",
+        "description": "An incredibly haughty man who holds a grudge. Nobody wants to offend the baron. At least, nobody who's still alive...",
+        "height": "6'2\"",
+        "handedness": "right-handed",
+        "eye_color": "hazel",
+        "hair_color": "red"
+      },
+      {
+        "name": "Earl Grey",
+        "description": "He comes from a shorter (but still long) line of Earl Greys. And this Earl Grey does sign autographs, but he charges for the tea bags.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "white"
+      },
+      {
+        "name": "Viscount Eminence",
+        "description": "The oldest man you have ever seen. It is said that he outlived all of his sons and was born before his father.",
+        "height": "5'2\"",
+        "handedness": "left-handed",
+        "eye_color": "gray",
+        "hair_color": "dark brown"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Investigation Institute",
+        "indoor": true,
+        "description": "A recently founded organization that investigates spiritualism and other related phenomena."
+      },
+      {
+        "name": "A Potentially Haunted Mansion",
+        "indoor": true,
+        "description": "People keep seeing ghosts here, especially around the furnace in the basement."
+      },
+      {
+        "name": "A Coffee House",
+        "indoor": true,
+        "description": "Where you can drink coffee and discuss the latest ghastly happenings."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Knife",
+        "weight": "medium-weight",
+        "description": "Not a famous knife. Just a regular one. Maybe it'll be famous soon, though!"
+      },
+      {
+        "name": "The Plague",
+        "weight": "light-weight",
+        "description": "Well, not the plague, but one of them that's been going around."
+      },
+      {
+        "name": "A Jeweled Scepter",
+        "weight": "heavy-weight",
+        "description": "Part of the crown jewels, and like most of them, it was stolen from another country."
+      }
+    ],
+    "clues": [
+      "A knife was found in the headquarters of a recently founded organization.",
+      "Viscount Eminence hated ghosts, so he had not been anywhere near the potentially haunted mansion.",
+      "Baron Maroon's love affair with the person who brought the plague was the biggest subplot.",
+      "Fingerprints on the jeweled scepter proved it was held by a left-handed suspect.",
+      "Lord Lavender's body was found next to a shattered cup of coffee."
+    ],
+    "ground_truth": {
+      "who": "Viscount Eminence",
+      "what": "A Jeweled Scepter",
+      "where": "A Coffee House"
+    }
+  },
+  {
+    "problem_name": "The Perplexing Problem of the Parrot",
+    "problem_description": "Arrr! The next Obsidian novel was set in the world of piracy, and it was full of thrills, chills, and multicolored beards. Logico was enthralled by the twist in the first act, when Blackbeard's parrot was murdered. Oh man, Logico thought, whoever crossed Blackbeard is in trouble!",
+    "suspects": [
+      {
+        "name": "Blackbeard",
+        "description": "Famous, feared, respected for the beard.",
+        "height": "7'0\"",
+        "handedness": "right-handed",
+        "eye_color": "black",
+        "hair_color": "black"
+      },
+      {
+        "name": "Bluebeard",
+        "description": "Actually a French wife-murderer, and not a pirate at all.",
+        "height": "6'6\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blue"
+      },
+      {
+        "name": "Nobeard",
+        "description": "His name used to be Redbeard, but then he shaved. A part-time pirate.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "green",
+        "hair_color": "red"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Great Whirlpool",
+        "indoor": false,
+        "description": "Apparently there's a big hole in the ocean and all the water's draining out."
+      },
+      {
+        "name": "The Pirate Cove",
+        "indoor": false,
+        "description": "Where all the pirates go to drink and plan where to bury their treasure. (Maybe by those ancient ruins...)"
+      },
+      {
+        "name": "The Pirate Ship",
+        "indoor": false,
+        "description": "Yo ho ho, a pirate's life for me\u2014and death."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Cannon",
+        "weight": "heavy-weight",
+        "description": "Usually used to kill more than one person (or parrot), but exceptions can be made."
+      },
+      {
+        "name": "A Scimitar",
+        "weight": "medium-weight",
+        "description": "Technically, it's just a bent sword, but if you call it a scimitar, it sounds cool."
+      },
+      {
+        "name": "A Fake Treasure Map",
+        "weight": "light-weight",
+        "description": "This map leads someone straight into a booby-trapped pit."
+      }
+    ],
+    "clues": [
+      "Either Bluebeard brought a scimitar or a fake treasure map was in the pirate ship.",
+      "The second tallest suspect was seen in the place where a pirate lives and dies.",
+      "The fake treasure map was spinning around in giant circles out in the ocean, dissolving in the saltwater.",
+      "The shortest suspect was suspicious of the person with the cannon.",
+      "The parrot was found floating in the waters of the pirate cove."
+    ],
+    "ground_truth": {
+      "who": "Blackbeard",
+      "what": "A Cannon",
+      "where": "The Pirate Cove"
+    }
+  },
+  {
+    "problem_name": "Fifteen Percent of Murder",
+    "problem_description": "Deductive Logico went to Dame Obsidian's literary agency to look for a body. He found one, but it wasn't Dame Obsidian's. It was the body of a powerful agent, dead in his office.",
+    "suspects": [
+      {
+        "name": "Editor Ivory",
+        "description": "The greatest romance editor of all time. She invented the enemies-to-lovers genre, and she was the first person to put a naked man on the cover of a book.",
+        "height": "5'6\"",
+        "handedness": "left-handed",
+        "eye_color": "light brown",
+        "hair_color": "gray"
+      },
+      {
+        "name": "Assistant Applegreen",
+        "description": "Her father is a principal, and she is making him proud. But you know what she's not making? Enough money.",
+        "height": "5'3\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Agent Ink",
+        "description": "An agent with a heart of gold, but a mind for gold, too. If you like living, don't cross her.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Balcony",
+        "indoor": false,
+        "description": "Standing on the balcony, you can look out over the city you run."
+      },
+      {
+        "name": "The Best Office",
+        "indoor": true,
+        "description": "The best-earning agent of the month gets this office. The worst is fired."
+      },
+      {
+        "name": "The Unsolicited Submissions Room",
+        "indoor": true,
+        "description": "A room that doubles as an incinerator."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "An Antique Typewriter",
+        "weight": "heavy-weight",
+        "description": "You can write your themes subtly, or you can hit them over the head with it."
+      },
+      {
+        "name": "A Giant Stack of Books",
+        "weight": "heavy-weight",
+        "description": "You can shove this over and crush someone beneath it. But it's hard to carry around."
+      },
+      {
+        "name": "A Ream of Paper",
+        "weight": "medium-weight",
+        "description": "You could use these blank pages to give someone a thousand paper cuts or one paper bash."
+      }
+    ],
+    "clues": [
+      "Editor Ivory and the person who brought a giant stack of books had known each other for years.",
+      "Assistant Applegreen wasn't allowed to go out on the balcony.",
+      "Logico received a clue from the Detective Club, written in their signature code: ZTVMG RMP SZW Z NVWRFN-DVRTSG DVZKLM. (See Exhibit A.)",
+      "Whoever was in the unsolicited submissions room had to be right-handed, because otherwise you get burned.",
+      "The agent who died in his office had been the best-earning agent that month."
+    ],
+    "ground_truth": {
+      "who": "Assistant Applegreen",
+      "what": "A Giant Stack of Books",
+      "where": "The Best Office"
+    }
+  },
+  {
+    "problem_name": "The Case of the Contract & The Captain",
+    "problem_description": "On the yacht of legendary book publisher Chairman Chalk, Logico signed a contract for a book series and got to work solving the murder of a sailor, which he got to add to the book. Or, at least, he would, as soon as he cracked it.",
+    "suspects": [
+      {
+        "name": "Bookie-Winner Gainsboro",
+        "description": "He won the Bookington Award for his novel, which he will tell you within two minutes of meeting you. The book is six thousand pages long, and it's about dirt.",
+        "height": "6'0\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "light brown"
+      },
+      {
+        "name": "Chairman Chalk",
+        "description": "He figured out the publishing business years ago and never looked back. He called ebooks a \"fad\" and still owns a rotary phone. He is worth a billion dollars.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "white"
+      },
+      {
+        "name": "Agent Ink",
+        "description": "An agent with a heart of gold, but a mind for gold, too. If you like living, don't cross her.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Deck",
+        "indoor": false,
+        "description": "Look out over the ocean, but not too far or someone might push you."
+      },
+      {
+        "name": "The Engine Room",
+        "indoor": true,
+        "description": "This is a green yacht: it's powered by a nuclear reactor. When the uranium rods are spent, just toss them into the ocean."
+      },
+      {
+        "name": "The Dining Hall",
+        "indoor": true,
+        "description": "They've hired an award-winning chef for cheap because he's banned from working on land."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "An Antique Anchor",
+        "weight": "heavy-weight",
+        "description": "It's covered in moss and the chain is rusty: it looks awesome."
+      },
+      {
+        "name": "A Golden Pen",
+        "weight": "light-weight",
+        "description": "For signing contracts and stabbing competitors. Even the ink is gold."
+      },
+      {
+        "name": "A Baby Shark",
+        "weight": "medium-weight",
+        "description": "Just throw and go: toss it at your enemies and watch those baby teeth go."
+      }
+    ],
+    "clues": [
+      "The second tallest suspect had never been in the engine room.",
+      "Someone suffering from obvious seasickness wrote out this scrambled clue: WEEOHRV ASW NO HTE CDEK WSA TEFL HEDNAD.",
+      "Bookie-Winner Gainsboro was jealous of the person with the golden pen. Why didn't I bring a golden pen? he wondered.",
+      "The yacht had a strict no anchors in the dining hall policy, and nobody would have violated it, even to commit a murder.",
+      "Chairman Chalk didn't bring an antique anchor.",
+      "A tiny, sharp tooth was biting into the sailor's body."
+    ],
+    "ground_truth": {
+      "who": "Bookie-Winner Gainsboro",
+      "what": "A Baby Shark",
+      "where": "The Deck"
+    }
+  },
+  {
+    "problem_name": "Throw the (Bookie-Winning) Book at Them!",
+    "problem_description": "Last year, at the 138th annual Bookington Awards, Deductive Logico was nominated for one of the most prestigious awards: Best Debut Murder Mystery Puzzle Book Based on a True Story. Unfortunately, right after the winner was announced, the president of the Bookington Society was killed. But whodunit? And who won the Bookie?",
+    "suspects": [
+      {
+        "name": "Philosopher Bone",
+        "description": "A dashing, dark philosopher who pioneered the ethical theory that he is not responsible for his actions, but he should be paid for them.",
+        "height": "5'1\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "bald"
+      },
+      {
+        "name": "Deductive Logico",
+        "description": "He was finally there for the actual murder, which means he's a suspect.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black"
+      },
+      {
+        "name": "Silverton the Legend",
+        "description": "An acclaimed actor of the Golden Age, now in his golden years.",
+        "height": "6'4\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "silver"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Stage",
+        "indoor": true,
+        "description": "Where you accept your award at the lectern to the deafening applause of dozens of clapping hands."
+      },
+      {
+        "name": "A Nominee Table",
+        "indoor": true,
+        "description": "Where the nominees are seated together (for the sake of drama)."
+      },
+      {
+        "name": "Backstage",
+        "indoor": true,
+        "description": "Interns and assistants struggle with the ropes, levers, and control boards."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Bookie",
+        "weight": "medium-weight",
+        "description": "The diminutive nickname of the most prestigious award in publishing. The fake gold is flaking off."
+      },
+      {
+        "name": "A Heavy Book",
+        "weight": "heavy-weight",
+        "description": "Gainsboro's six-thousand-page dirt book."
+      },
+      {
+        "name": "A Fountain Pen",
+        "weight": "light-weight",
+        "description": "With this, you can sign checks or stab necks. Unfortunately, it leaks ink."
+      }
+    ],
+    "clues": [
+      "Philosopher Bone hated the person who won the Bookie.",
+      "A frantic fan gave Deductive Logico a piece of paper she had scrawled a scrambled clue on: NTVIROLSE ETH NGDELE ASW CIPUSISSUO OF HET PENSRO HWO HBTROGU A VHYEA KOBO.",
+      "Whoever sat at the nominee table had a medium-weight weapon.",
+      "Either Silverton the Legend brought a heavy book, or Silverton the Legend was behind a lectern.",
+      "The victim's body was found slumped over a control board."
+    ],
+    "ground_truth": {
+      "who": "Philosopher Bone",
+      "what": "A Heavy Book",
+      "where": "Backstage"
+    }
+  },
+  {
+    "problem_name": "Death on the Book Tour",
+    "problem_description": "Deductive Logico's publisher asked him to go on a book tour to promote Murdle, but they had to cancel one of the stops because a bookstore owner had been murdered by one of their other authors. But due to ethics in publishing, they couldn't say which stop was canceled. He had to figure it out himself.",
+    "suspects": [
+      {
+        "name": "Chancellor Tuscany",
+        "description": "As the head of Deduction College, she has deduced the best ways to get away with murder. Only in theory, of course!",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "gray"
+      },
+      {
+        "name": "Secretary Celadon",
+        "description": "The secretary of defense, and someone who is personally responsible for a number of war crimes, some of which are now named after her.",
+        "height": "5'6\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "light brown"
+      },
+      {
+        "name": "Vice President Mauve",
+        "description": "A vice president of TekCo Futures. If she asks you to step into her metaverse, firmly refuse.",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Hollywood",
+        "indoor": false,
+        "description": "Tinseltown, the City of Angels, La La Land, the Dream Factory."
+      },
+      {
+        "name": "Tektopia",
+        "indoor": false,
+        "description": "He built a fully automated city in the desert. His goal is to disrupt food. He will succeed."
+      },
+      {
+        "name": "The Republic of Drakonia",
+        "indoor": false,
+        "description": "Previously the Holy Republic of Drakonia, now the Free Republic of Drakonia."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Laptop",
+        "weight": "medium-weight",
+        "description": "The machine you work on. It's also connected to every distraction ever made."
+      },
+      {
+        "name": "A Poisoned Candle",
+        "weight": "medium-weight",
+        "description": "If you light this candle, everyone in the room will die. But it has a nice lavender scent."
+      },
+      {
+        "name": "A Sextant",
+        "weight": "medium-weight",
+        "description": "Get your head out of the gutter and start thinking like a sailor."
+      }
+    ],
+    "clues": [
+      "Everyone in the Dream Factory has a laptop.",
+      "No sextant was in the Republic of Drakonia\u2014that's right, not one in the whole country.",
+      "Secretary Celadon refused to visit Hollywood until their movies treated the military better.",
+      "The sextant was held by someone whose last name began with one of the letters in Deductive Logico's Detective Club member number. (See Exhibit A.)",
+      "The dead body smelled like lavender."
+    ],
+    "ground_truth": {
+      "who": "Secretary Celadon",
+      "what": "A Poisoned Candle",
+      "where": "The Republic of Drakonia"
+    }
+  },
+  {
+    "problem_name": "Dead Tired",
+    "problem_description": "Once the book tour was over, Deductive Logico stumbled back to his office. It was small, but it seemed bigger than it was because of how orderly he kept it. Unfortunately for Logico, four things were disrupting his organizational system: the three people waiting on him, and the dead body between them.",
+    "suspects": [
+      {
+        "name": "Cosmonaut Bluski",
+        "description": "An ex-Soviet spaceman whose blood flows red. Sure, that's normal, but for him it's patriotic.",
+        "height": "6'2\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black"
+      },
+      {
+        "name": "Dr. Crimson",
+        "description": "She's the smartest doctor she's ever met, according to her, and she's probably right. Yeah, she skydives, but if something goes wrong, she'll calculate just how to fall.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "red"
+      },
+      {
+        "name": "General Coffee",
+        "description": "An espresso connoisseur who once made a pot of coffee so strong that it killed a man.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "bald"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Main Office",
+        "indoor": true,
+        "description": "A desk, shelves of logic books, and a window with a view of a brick wall."
+      },
+      {
+        "name": "The Closet",
+        "indoor": true,
+        "description": "Where jackets are carefully sorted from A to Z."
+      },
+      {
+        "name": "The Waiting Room",
+        "indoor": true,
+        "description": "Logico doesn't have a receptionist so there's just a bell and a sign that says PLEASE WAIT."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Deduction College Diploma",
+        "weight": "heavy-weight",
+        "description": "With its heavy oak frame, you could really do some damage. And they say a logic degree is useless."
+      },
+      {
+        "name": "Leather Gloves",
+        "weight": "light-weight",
+        "description": "Beware someone who wears leather gloves. They've already killed a cow: who's next?"
+      },
+      {
+        "name": "A Magnifying Glass",
+        "weight": "medium-weight",
+        "description": "You could use this to find a clue, read the fine print, or start a small fire."
+      }
+    ],
+    "clues": [
+      "Cosmonaut Bluski hated the person who brought a magnifying glass.",
+      "A magnifying glass was discovered near a window view of a brick wall.",
+      "Dr. Crimson was seen behind alphabetically ordered jackets.",
+      "Leather gloves were certainly not in the waiting room.",
+      "A logic degree was used to commit the murder."
+    ],
+    "ground_truth": {
+      "who": "Cosmonaut Bluski",
+      "what": "A Deduction College Diploma",
+      "where": "The Waiting Room"
+    }
+  },
+  {
+    "problem_name": "Oil Kill You for This",
+    "problem_description": "Deductive Logico followed the old pirate map: it led him to an oil field at the edge of an ocean. When he arrived at the X, he saw Dame Obsidian was already there, as were two other people, or three, if you counted the body.",
+    "suspects": [
+      {
+        "name": "Chairman Chalk",
+        "description": "He figured out the publishing business years ago and never looked back. He called ebooks a \"fad\" and still owns a rotary phone. He is worth a billion dollars.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "white"
+      },
+      {
+        "name": "Midnight III",
+        "description": "Maybe the only person capable of returning Midnight Movies to its former glory.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown"
+      },
+      {
+        "name": "Dame Obsidian",
+        "description": "Back from the dead! But Logico remembered when an interviewer asked her how she got all of her ideas for all of her fictional perfect murders, and she chuckled for two full minutes.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "black"
+      }
+    ],
+    "locations": [
+      {
+        "name": "An Oil Derrick",
+        "indoor": false,
+        "description": "They're digging another well right now with this massive derrick."
+      },
+      {
+        "name": "The Offices",
+        "indoor": true,
+        "description": "Such a low temperature that it uses most of the energy the field produces."
+      },
+      {
+        "name": "The Ancient Ruins",
+        "indoor": false,
+        "description": "You can see them from the edge of the fields, silhouetted in the light of the setting sun."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Crowbar",
+        "weight": "medium-weight",
+        "description": "Honestly, at this point, they're used more often for crime than anything else."
+      },
+      {
+        "name": "A Piece of Rebar",
+        "weight": "medium-weight",
+        "description": "A long piece of metal. If this isn't a weapon, nothing is. Often used with powdered cement."
+      },
+      {
+        "name": "An Oil Drum",
+        "weight": "heavy-weight",
+        "description": "Really more of a giant can than a drum: you've never seen a band feature one of these."
+      }
+    ],
+    "clues": [
+      "Nobody ever put an oil drum anywhere near the ancient ruins. It was a superstition.",
+      "Either Chairman Chalk brought an oil drum, or a crowbar was in an oil derrick.",
+      "A trusted confidant gave Deductive Logico a piece of paper with a message written in what he called the Next Letter Code: SGD RGN-QSDRS RTRODBS VZR MNS AX SGD ZMBHDMS QTHMR.",
+      "Neither Midnight III nor Dame Obsidian had ever been in the offices.",
+      "Some powdered cement was found on the victim."
+    ],
+    "ground_truth": {
+      "who": "Dame Obsidian",
+      "what": "A Piece of Rebar",
+      "where": "An Oil Derrick"
+    }
+  },
+  {
+    "problem_name": "They Bill You for Dying",
+    "problem_description": "Dame Obsidian contracted the most expensive law firm in the world\u2014Blackstone & Blackstone\u2014and one of them (Blackstone) required Logico to come to his office to be deposed. Unfortunately, when he got there, Blackstone was indisposed (AKA dead).",
+    "suspects": [
+      {
+        "name": "Dame Obsidian",
+        "description": "Dame Obsidian had an army of attorneys. That's where she got the idea for her book The Army of Attorneys I Have.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "black"
+      },
+      {
+        "name": "Vice President Mauve",
+        "description": "A vice president of TekCo Futures. If she asks you to step into her metaverse, walk away quickly.",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black"
+      },
+      {
+        "name": "Blackstone, Esq.",
+        "description": "The other one. Incredibly talented at the most important skill for an attorney: getting paid.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "black",
+        "hair_color": "black"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Lobby",
+        "indoor": true,
+        "description": "It has an enormous fountain, a marble desk, and a receptionist ready to call the police."
+      },
+      {
+        "name": "An Associate's Office",
+        "indoor": true,
+        "description": "Tiny, cramped, cluttered, possibly a closet. Occupied by someone who works for too little."
+      },
+      {
+        "name": "A Partner's Office",
+        "indoor": true,
+        "description": "Featuring pictures of the partner with every living US president, even the really bad ones."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Marble Bust",
+        "weight": "heavy-weight",
+        "description": "It's a bust of a famous lawyer, but don't look him up\u2014you won't like what you find."
+      },
+      {
+        "name": "Confusing Contracts",
+        "weight": "light-weight",
+        "description": "Legalese so impenetrable it could give you an aneurysm."
+      },
+      {
+        "name": "Poisoned Inkwell",
+        "weight": "light-weight",
+        "description": "How was he poisoned? Well."
+      }
+    ],
+    "clues": [
+      "Lawyers often use the Next Letter Code to make notes to themselves. Logico found one of them: SGD RTRODBS HM SGD ZRRNBHZSD'R NEEHBD GZC FQDDM DXDR.",
+      "The suspect with a metaverse had never been in the partner's office.",
+      "The tallest suspect had a crush on the person who brought a poisoned inkwell.",
+      "Whoever had the confusing contracts was left-handed.",
+      "A bust of a... controversial figure was found beside the victim."
+    ],
+    "ground_truth": {
+      "who": "Blackstone, Esq.",
+      "what": "A Marble Bust",
+      "where": "A Partner's Office"
+    }
+  },
+  {
+    "problem_name": "The Courthouse Killing",
+    "problem_description": "It was finally the day of Dame Obsidian's trial, and Logico wore his finest raincoat to the courthouse. He hoped to see justice done. But instead of justice, he witnessed a murder. Was the death of this clerk connected to Dame Obsidian? Or just another everyday killing?",
+    "suspects": [
+      {
+        "name": "Coach Raspberry",
+        "description": "One of the best coaches this side of the Mississippi, regardless of which side you're on.",
+        "height": "6'0\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Officer Copper",
+        "description": "Ever since she murdered that guy, Officer Copper has been on administrative leave, which is when they leave the administrative work to her.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Father Mango",
+        "description": "He has taken a vow of poverty, but he drives a BMW. He's taken a vow of obedience, but he has a staff of twenty-five. He's taken a vow of chastity, too, which is why he's on vacation.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "bald"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Actual Courtroom",
+        "indoor": true,
+        "description": "Here is where Dame Obsidian's trial is going to be."
+      },
+      {
+        "name": "The Parking Lot",
+        "indoor": false,
+        "description": "More cop cars than Logico has seen since he got stuck behind that police parade."
+      },
+      {
+        "name": "The Judge's Chambers",
+        "indoor": true,
+        "description": "A nice desk, a good view out the window, and a closet filled with black robes."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Notary Stamp",
+        "weight": "medium-weight",
+        "description": "Stamp a classic notary stamp on anything from papers to foreheads."
+      },
+      {
+        "name": "The Scales of Justice",
+        "weight": "heavy-weight",
+        "description": "Justice may be blind, but only because someone knocked her out with these scales."
+      },
+      {
+        "name": "A Huge Pile of Paperwork",
+        "weight": "heavy-weight",
+        "description": "A riddle: one piece of paper is too light to kill. But a big enough stack can. So, which single page turns it into a weapon?"
+      }
+    ],
+    "clues": [
+      "Someone with a shaky hand gave Logico a message: HET SUTSPEC IN EHT UCALTA ROOOTCUMR WAS HRIGT NDDAHE.",
+      "The scales of justice were certainly not in the parking lot: that's where the cars go.",
+      "Since Officer Copper committed murder, they had her doing notary work.",
+      "Father Mango brought a huge pile of paperwork.",
+      "The body was found in the judge's chambers."
+    ],
+    "ground_truth": {
+      "who": "Coach Raspberry",
+      "what": "The Scales of Justice",
+      "where": "The Judge's Chambers"
+    }
+  },
+  {
+    "problem_name": "Will the Foreman Please Die?",
+    "problem_description": "Finally, it was time for the trial of the century, and Dame Obsidian put on a wonderful performance. But just when the jury was about to deliberate, the foreman was killed. Obviously, everyone thought Dame Obsidian did it. Did she?",
+    "suspects": [
+      {
+        "name": "Judge Pine",
+        "description": "Master of the courtroom and possessed of a firm belief in justice, as decided by her alone.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black"
+      },
+      {
+        "name": "Officer Copper",
+        "description": "The best part of being a policewoman criminal is that you can cut out the middleman and fail to investigate your own crimes.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Dame Obsidian",
+        "description": "Dame Obsidian looked very dignified all throughout the trial, and her book sales skyrocketed.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "black"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Gallery",
+        "indoor": true,
+        "description": "Where all the family members sit beside the true-crime podcast enthusiasts."
+      },
+      {
+        "name": "The Judge's Bench",
+        "indoor": true,
+        "description": "You know the judge is in charge because she has the highest seat."
+      },
+      {
+        "name": "The Jury Box",
+        "indoor": true,
+        "description": "In a sense, the trial was a show performed for an audience of twelve."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Baton",
+        "weight": "medium-weight",
+        "description": "A great tool for brutalizing innocent people."
+      },
+      {
+        "name": "A Gavel",
+        "weight": "medium-weight",
+        "description": "Let's be frank: there's a reason they give the judge a big hammer. (Intimidation.)"
+      },
+      {
+        "name": "A Flag",
+        "weight": "heavy-weight",
+        "description": "Flags have a long and respectable history of being used for violence."
+      }
+    ],
+    "clues": [
+      "A gavel was nowhere near the true-crime enthusiasts.",
+      "Deductive Logico received a message from the Detective Club written in Detective Code: QFWTV KRMV DZH HRGGRMT LM SVI YVMXS. (See Exhibit A.)",
+      "Dame Obsidian had snuck in a baton \"for self-defense,\" a dubious reason.",
+      "Either Officer Copper brought a gavel, or Judge Pine was in the gallery.",
+      "Like many times before, a flag was used to commit this murder."
+    ],
+    "ground_truth": {
+      "who": "Judge Pine",
+      "what": "A Flag",
+      "where": "The Judge's Bench"
+    }
+  },
+  {
+    "problem_name": "The Death of Justice",
+    "problem_description": "Almost immediately after Dame Obsidian had been incarcerated, Logico got a call from the luxurious white-collar jail to which she had been sentenced, and he learned that she had been murdered herself. Was that justice? Was it fate? All he knew was it was a mystery.",
+    "suspects": [
+      {
+        "name": "Secretary Celadon",
+        "description": "The secretary of defense, and someone who is personally responsible for a number of international incidents, some of which are now named after her.",
+        "height": "5'6\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "light brown"
+      },
+      {
+        "name": "The Amazing Aureolin",
+        "description": "She blames Dame Obsidian for her incarceration, which makes sense, since Dame Obsidian framed her.",
+        "height": "5'6\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Miss Saffron",
+        "description": "Miss Saffron also blames Dame Obsidian, though it's a little less sympathetic coming from her because she was actually guilty.",
+        "height": "5'2\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Spa",
+        "indoor": false,
+        "description": "Built with money from the PTA (Prisoner Treats Association), although tax dollars do pay for maintenance."
+      },
+      {
+        "name": "The Parking Lot",
+        "indoor": false,
+        "description": "Prisoners can pay to park their luxury vehicles here for the duration of their stay."
+      },
+      {
+        "name": "A Private Suite",
+        "indoor": true,
+        "description": "If you have enough money, you can upgrade to a private suite with a big-screen TV, hot tub, and open bar."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Quarter-Million-Dollar Lawyer",
+        "weight": "heavy-weight",
+        "description": "The most dangerous weapon of all. (And the most expensive.)"
+      },
+      {
+        "name": "A Rope Made of Designer Clothes",
+        "weight": "medium-weight",
+        "description": "When you need a rope but all you have are designer clothes."
+      },
+      {
+        "name": "A Pair of Golden Handcuffs",
+        "weight": "heavy-weight",
+        "description": "This is taking the metaphor too far, all right?"
+      }
+    ],
+    "clues": [
+      "Somebody passed Logico a slip of paper, on which a jumbled message was written: EW LLA SWA TEH ALWREY ROODISN.",
+      "Secretary Celadon had a pair of custom-made golden handcuffs.",
+      "The Detective Club sent Logico a card in Detective Code that read: GSV HSLIGVHG HFHKVXG DZH IVOZCRMT RM GSV HKZ WFIRMT GSV NFIWVI. (See Exhibit A.)",
+      "The Amazing Aureolin could not afford the private suite on her magician's salary.",
+      "Dame Obsidian was found with a rope of designer clothes around her neck."
+    ],
+    "ground_truth": {
+      "who": "The Amazing Aureolin",
+      "what": "A Rope Made of Designer Clothes",
+      "where": "The Parking Lot"
+    }
+  },
+  {
+    "problem_name": "The Murder of a Mailman QQ",
+    "problem_description": "Deductive Logico went to check his PO box, but instead of finding a royalty check for Murdle, he found that a mailman had been killed, and the whole place was closed. Neither rain nor shine, thought Logico, but they close at the first sign of murder...",
+    "suspects": [
+      {
+        "name": "Dr. Crimson",
+        "description": "She's the smartest doctor she's ever met, according to her, and she's probably right. Yeah, her diet is horrible, but if she has a heart attack, she'll operate on herself.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "red"
+      },
+      {
+        "name": "Mayor Honey",
+        "description": "He knows where the bodies are buried, and he makes sure they always vote for him.",
+        "height": "6'0\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "light brown"
+      },
+      {
+        "name": "General Coffee",
+        "description": "An espresso connoisseur who prefers the smell of coffee to napalm in the morning.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "bald"
+      }
+    ],
+    "locations": [
+      {
+        "name": "A Mail Truck",
+        "indoor": false,
+        "description": "Practically indestructible, so it's great for joyrides, so long as you're not the one paying for gas."
+      },
+      {
+        "name": "The Long Line",
+        "indoor": false,
+        "description": "People waiting to mail their letters."
+      },
+      {
+        "name": "The Sorting Room",
+        "indoor": true,
+        "description": "Where the postal workers sort the junk mail, bills, and catalogs using a great machine."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Letter Opener",
+        "weight": "light-weight",
+        "description": "A sharp knife used by people who won't just rip their letters open."
+      },
+      {
+        "name": "A Stamp Stamp",
+        "weight": "medium-weight",
+        "description": "A stamp for stamping over stamps."
+      },
+      {
+        "name": "A Heavy Package",
+        "weight": "heavy-weight",
+        "description": "With a nice red ribbon that'll conceal blood stains."
+      }
+    ],
+    "clues": [
+      "Letter openers were not allowed in the sorting room, ever since \"the Incident,\" and that rule was not broken today.",
+      "The suspect with the heavy package was self-conscious about their baldness and would prefer it not be mentioned in clues."
+    ],
+    "statements": [
+      {
+        "suspect": "Dr. Crimson",
+        "statement": "I brought a stamp stamp."
+      },
+      {
+        "suspect": "Mayor Honey",
+        "statement": "Dr. Crimson was not in a mail truck."
+      },
+      {
+        "suspect": "General Coffee",
+        "statement": "A letter opener was in a mail truck."
+      }
+    ],
+    "ground_truth": {
+      "who": "General Coffee",
+      "what": "A Heavy Package",
+      "where": "A Mail Truck"
+    }
+  },
+  {
+    "problem_name": "A Mysterious Murder in the Mysterious Woods",
+    "problem_description": "Driving through the mysterious woods gave Detective Logico the chills, but maybe that was because his AC was on full blast. Pretty soon, he had to pull over, partially to solve the murder of a hitchhiker, and partially because his car died.",
+    "suspects": [
+      {
+        "name": "Coach Raspberry",
+        "description": "One of the best coaches this side of the Mississippi, regardless of which side you're on.",
+        "height": "6'0\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Officer Copper",
+        "description": "The best part of being a policewoman criminal is that you can cut out the middleman and fail to investigate your own crimes.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Grandmaster Rose",
+        "description": "A chess grand master who is always plotting his next move. Like how to bump off his next opponent! (1 ... e5)",
+        "height": "5'7\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Skull Rock",
+        "indoor": false,
+        "description": "A rock that looks like a skull. Is it natural, or did someone carve it?"
+      },
+      {
+        "name": "The Ancient Ruins",
+        "indoor": false,
+        "description": "Wherever the somebody is getting murdered nearby."
+      },
+      {
+        "name": "The Only Road",
+        "indoor": false,
+        "description": "A twisting, winding, half-paved road through the woods."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Shovel",
+        "weight": "medium-weight",
+        "description": "A multi-use tool: kill someone and bury them with the same shovel!"
+      },
+      {
+        "name": "A Ritual Dagger",
+        "weight": "medium-weight",
+        "description": "It's made out of some ancient metal that Logico can't identify."
+      },
+      {
+        "name": "A Poisonous Spider",
+        "weight": "light-weight",
+        "description": "Its unusual webbing shows it's not native to these woods."
+      }
+    ],
+    "clues": [
+      "Logico caught a glimpse of the suspect with the shovel, but all he could see was that his eyes weren't blue.",
+      "A poisonous spider was not on the only road."
+    ],
+    "statements": [
+      {
+        "suspect": "Grandmaster Rose",
+        "statement": "You must study the moves of the pieces. For example, Officer Copper was at the skull rock!"
+      },
+      {
+        "suspect": "Coach Raspberry",
+        "statement": "Well, by golly, a shovel was at the ancient ruins."
+      },
+      {
+        "suspect": "Officer Copper",
+        "statement": "My statement? I brought a poisonous spider."
+      }
+    ],
+    "ground_truth": {
+      "who": "Coach Raspberry",
+      "what": "A Ritual Dagger",
+      "where": "The Ancient Ruins"
+    }
+  },
+  {
+    "problem_name": "Oh No, Not in the Chateau! QQ",
+    "problem_description": "\"Hello!\" Logico called. \"I'm here to meet with the president!\" Nobody answered, and he looked around. It seemed like the chateau was designed by Escher, too. Stairways and hallways twisted around each other, and every available surface was covered in books. Perhaps the least unexpected sight was the dead body.",
+    "suspects": [
+      {
+        "name": "Sociologist Umber",
+        "description": "As a representative from the hard sciences, she is always asking people to question their priors and if they've read Weber.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Philologist Flint",
+        "description": "You can learn a lot about a word from its etymology, like where it came from, and what it used to mean.",
+        "height": "5'2\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "blond"
+      },
+      {
+        "name": "Numerologist Night",
+        "description": "A mathematical and esoteric prodigy. Not only do they know the value of X, they know the meaning of X.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "dark brown"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Front Driveway",
+        "indoor": false,
+        "description": "Huge stone statues overlook the chateau."
+      },
+      {
+        "name": "The Arcane Attic",
+        "indoor": true,
+        "description": "Rumored to be haunted, guaranteed to contain a bunch of old junk."
+      },
+      {
+        "name": "The Ballroom",
+        "indoor": true,
+        "description": "For grand parties and also basketball games."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Cursed Dagger",
+        "weight": "medium-weight",
+        "description": "A dying duchess cursed this dagger when she used it to end her own life."
+      },
+      {
+        "name": "A Selenite Wand",
+        "weight": "medium-weight",
+        "description": "For casting spells and bashing skulls."
+      },
+      {
+        "name": "An Exclusive Pin",
+        "weight": "light-weight",
+        "description": "If this is pinned to someone's lapel, they're a member of a secret society."
+      }
+    ],
+    "clues": [
+      "An Aquarius was standing beside a basketball goal.",
+      "Numerologist Night calculated that the selenite wand corresponded to an inauspicious number, so they wouldn't touch it."
+    ],
+    "statements": [
+      {
+        "suspect": "Sociologist Umber",
+        "statement": "All I can say is I brought a cursed dagger."
+      },
+      {
+        "suspect": "Philologist Flint",
+        "statement": "If you consider the origin of the words, you could say: I was wearing an exclusive pin."
+      },
+      {
+        "suspect": "Numerologist Night",
+        "statement": "Based on the numbers, an exclusive pin was in the arcane attic."
+      }
+    ],
+    "ground_truth": {
+      "who": "Philologist Flint",
+      "what": "A Selenite Wand",
+      "where": "The Ballroom"
+    }
+  },
+  {
+    "problem_name": "Investigation at the Investigation Institute",
+    "problem_description": "Arriving at the Investigation Institute grounds, Deductive Logico was shocked by their budget. Their grounds had a hedge maze, an observatory, even a miniature golf course! This place could have hired half the detectives in the world. Why him? And who killed the groundskeeper?",
+    "suspects": [
+      {
+        "name": "Cryptozoologist Cloud",
+        "description": "He knows every sighting of Bigfoot, Yeti, Sasquatch, and also what the difference is.",
+        "height": "5'7\"",
+        "handedness": "right-handed",
+        "eye_color": "gray",
+        "hair_color": "white"
+      },
+      {
+        "name": "Herbalist Onyx",
+        "description": "In her greenhouse, she's grown every kind of plant required in the culinary, magick, and poisoning arts.",
+        "height": "5'0\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black"
+      },
+      {
+        "name": "Chef Aubergine",
+        "description": "It is said that she once killed her husband, cooked him, and then served him at her restaurant. It's not true, but just the fact that it's said about her tells you something.",
+        "height": "5'2\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond"
+      }
+    ],
+    "locations": [
+      {
+        "name": "An Impossible Hedge Maze",
+        "indoor": false,
+        "description": "This was designed by a master gardener, so good luck getting out."
+      },
+      {
+        "name": "The Observatory",
+        "indoor": true,
+        "description": "For studying the stars, or having a romantic evening, or committing a murder."
+      },
+      {
+        "name": "The Miniature Golf Course",
+        "indoor": false,
+        "description": "Eighteen holes, featuring windmills, caves, and loop-de-loops. The works!"
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Quasi-Perpetual Motion Machine",
+        "weight": "heavy-weight",
+        "description": "It doesn't run forever. More like two or three minutes."
+      },
+      {
+        "name": "A Dowsing Rod",
+        "weight": "medium-weight",
+        "description": "You can find water, oil, and suckers with this."
+      },
+      {
+        "name": "Hyper-Allergenic Oil",
+        "weight": "light-weight",
+        "description": "You read that right. Everyone is deadly allergic to this."
+      }
+    ],
+    "clues": [
+      "The second tallest suspect brought hyperallergenic oil.",
+      "It turns out that a Libra was at the seventeenth hole when the murder was committed."
+    ],
+    "statements": [
+      {
+        "suspect": "Cryptozoologist Cloud",
+        "statement": "A dowsing rod was not in a hedge maze."
+      },
+      {
+        "suspect": "Herbalist Onyx",
+        "statement": "A quasi-perpetual motion machine was not in the observatory."
+      },
+      {
+        "suspect": "Chef Aubergine",
+        "statement": "Herbalist Onyx brought a quasi-perpetual motion machine."
+      }
+    ],
+    "ground_truth": {
+      "who": "Chef Aubergine",
+      "what": "Hyper-Allergenic Oil",
+      "where": "The Miniature Golf Course"
+    }
+  },
+  {
+    "problem_name": "The Case of the Definitely Dead President",
+    "problem_description": "Deductive Logico went to the president's office and said, \"I'm here to meet with the president.\" Unfortunately, they said, \"The president's dead.\" But nobody had left the room. So instead of meeting with the president, he worked to solve his murder.",
+    "suspects": [
+      {
+        "name": "Numerologist Night",
+        "description": "A mathematical and esoteric prodigy. Not only do they know the value of Z, they know the meaning of Z.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "dark brown"
+      },
+      {
+        "name": "Herbalist Onyx",
+        "description": "In her greenhouse, she's grown every kind of plant required in the culinary, magick, and poisoning arts.",
+        "height": "5'0\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black"
+      },
+      {
+        "name": "High Alchemist Raven",
+        "description": "There's an old joke that all alchemists are high alchemists. Raven hates it.",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Book Ladder",
+        "indoor": true,
+        "description": "Climb up and grab a book, or just slide around the room yelling, \"Wahoo!\""
+      },
+      {
+        "name": "The Couch",
+        "indoor": true,
+        "description": "A faux-leather place to recline at the end of the day."
+      },
+      {
+        "name": "The Desk",
+        "indoor": true,
+        "description": "Topped with lots of important paperwork and a computer from the eighties."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Hypnotic Pocket Watch",
+        "weight": "light-weight",
+        "description": "If you look deeply into this watch, you can tell the time."
+      },
+      {
+        "name": "A Deck of Marot Cards",
+        "weight": "light-weight",
+        "description": "You can use these murder-themed tarot cards to tell your fortune."
+      },
+      {
+        "name": "A Pseudo-Scientific Apparatus",
+        "weight": "heavy-weight",
+        "description": "It measures quantic currents to evaluate your inner blaxons."
+      }
+    ],
+    "clues": [
+      "The suspect with the pseudo-scientific apparatus was born on September 7. (See Exhibit B.)",
+      "A careful search revealed a fortune-telling card wedged between two faux-leather seat cushions."
+    ],
+    "statements": [
+      {
+        "suspect": "Numerologist Night",
+        "statement": "High Alchemist Raven was behind his desk."
+      },
+      {
+        "suspect": "Herbalist Onyx",
+        "statement": "Numerologist Night was on the book ladder."
+      },
+      {
+        "suspect": "High Alchemist Raven",
+        "statement": "Alchemically speaking, a pseudo-scientific apparatus was on the book ladder."
+      }
+    ],
+    "ground_truth": {
+      "who": "Herbalist Onyx",
+      "what": "A Pseudo-Scientific Apparatus",
+      "where": "The Book Ladder"
+    }
+  },
+  {
+    "problem_name": "The Case of the Lab with Legal Issues",
+    "problem_description": "Next, the Investigation Institute sent Detective Logico to a literal mad scientist's laboratory. To clarify, the scientist wasn't crazy: he was furious. His assistant had been killed, and his research had stalled.",
+    "suspects": [
+      {
+        "name": "Vice President Mauve",
+        "description": "A vice president of TekCo Futures. If she asks you to step into her metaverse, get out now!",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Taurus"
+      },
+      {
+        "name": "Principal Applegreen",
+        "description": "A strict principal about everything except getting away with murder. His hands are always covered in chalk.",
+        "height": "5'11\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Libra"
+      },
+      {
+        "name": "Captain Slate",
+        "description": "A real-life astronaut. The first woman to travel around the dark side of the moon, and also the first to be suspected of murdering her copilot.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Aquarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Rooftop",
+        "indoor": false,
+        "description": "A giant lightning rod is connected to millions of loose wires."
+      },
+      {
+        "name": "The Giant Lever",
+        "indoor": true,
+        "description": "All mad scientist lab you can flip from \"OFF\" to \"ON.\""
+      },
+      {
+        "name": "The Operating Table",
+        "indoor": true,
+        "description": "Leather straps could restrain a person here, or a monster."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Brain in a Jar",
+        "weight": "heavy-weight",
+        "description": "The worst part is, it's oozing everywhere."
+      },
+      {
+        "name": "A Giant Magnet",
+        "weight": "medium-weight",
+        "description": "Keep it away from any fillings. It generates a powerful electromagnetic field."
+      },
+      {
+        "name": "A Soup Ladle",
+        "weight": "light-weight",
+        "description": "Even a mad scientist loves soup. Particularly tomato bisque."
+      }
+    ],
+    "clues": [
+      "The shortest suspect was seen hanging around beneath a sign that says \"OFF.\"",
+      "Vice President Mauve never got near the operating table."
+    ],
+    "statements": [
+      {
+        "suspect": "Vice President Mauve",
+        "statement": "Captain Slate brought a giant magnet."
+      },
+      {
+        "suspect": "Principal Applegreen",
+        "statement": "A brain in a jar was not on the rooftop."
+      },
+      {
+        "suspect": "Captain Slate",
+        "statement": "It's as clear as the moon: Principal Applegreen brought a brain in a jar."
+      }
+    ],
+    "ground_truth": {
+      "who": "Vice President Mauve",
+      "what": "A Giant Magnet",
+      "where": "The Rooftop"
+    }
+  },
+  {
+    "problem_name": "The New Moon Murder",
+    "problem_description": "On his first case with the Investigation Institute, they sent Deductive Logico to the darkest woods he'd never seen. From the shadows, he watched a witches' sabbath, thinking he was totally hidden. So he was shocked when three witches stopped the ceremony, walked over to him, and asked him to solve the murder of their sister witch.",
+    "suspects": [
+      {
+        "name": "Lady Violet",
+        "description": "The heiress of the Violet Isles, the largest extra-judicial territory in the world.",
+        "height": "5'0\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Vice President Mauve",
+        "description": "A vice president of TekCo Futures. If she asks you to step into her metaverse, run.",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Taurus"
+      },
+      {
+        "name": "The Duchess of Vermillion",
+        "description": "A tall, old woman with tall, old secrets. If she is the murderer, it certainly wouldn't be the first time.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "gray",
+        "hair_color": "white",
+        "zodiac": "Pisces"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Central Fire",
+        "indoor": false,
+        "description": "Scry the pyre fire, friar. Say that three times fast."
+      },
+      {
+        "name": "The Ancient Ruins",
+        "indoor": false,
+        "description": "ll recognizably those same ruins."
+      },
+      {
+        "name": "The Thick Forest",
+        "indoor": false,
+        "description": "The woods are lovely, dark, and deep, but an owl finds it all a hoot."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Cauldron",
+        "weight": "heavy-weight",
+        "description": "If you can pick it up, you could hit someone with it. Or you can just give them a sip."
+      },
+      {
+        "name": "A Log",
+        "weight": "heavy-weight",
+        "description": "A big, heavy oak log. Somebody killed the tree so that the tree could kill somebody."
+      },
+      {
+        "name": "A Broom",
+        "weight": "medium-weight",
+        "description": "People say that witches fly on these, but Logico's only swept with them."
+      }
+    ],
+    "clues": [
+      "A Virgo was standing beneath an owl, probably organizing something, because that's how they are.",
+      "Surprisingly, a cauldron was not in the central fire."
+    ],
+    "statements": [
+      {
+        "suspect": "Lady Violet",
+        "statement": "Don't believe the commoners: the Duchess of Vermillion brought a broom."
+      },
+      {
+        "suspect": "Vice President Mauve",
+        "statement": "Well, I didn't bring a broom."
+      },
+      {
+        "suspect": "The Duchess of Vermillion",
+        "statement": "And I didn't bring a log."
+      }
+    ],
+    "ground_truth": {
+      "who": "Lady Violet",
+      "what": "A Broom",
+      "where": "The Thick Forest"
+    }
+  },
+  {
+    "problem_name": "A Recent Death in an Ancient Temple",
+    "problem_description": "The Investigation Institute had been funding the excavation of an ancient temple, but while they were working on the project, one of the archeologists was killed\u2014was it by ancient magick? They insisted Inspector Irratino accompany Logico, to make sure that magick got a fair shake.",
+    "suspects": [
+      {
+        "name": "Inspector Irratino",
+        "description": "An esoteric detective. While Logico believes only what he can prove, Irratino believes only what he can't.",
+        "height": "6'2\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "dark brown",
+        "zodiac": "Aquarius"
+      },
+      {
+        "name": "Bishop Azure",
+        "description": "A bishop in a local church, Azure has been known to pray for both her friends and her enemies. Of course, she asks for different things . . .",
+        "height": "5'4\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown",
+        "zodiac": "Gemini"
+      },
+      {
+        "name": "Chancellor Tuscany",
+        "description": "As the head of Deduction College, she has deduced the best way to get the most money from alumni. (Blackmail.)",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "gray",
+        "zodiac": "Libra"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Grand Entrance",
+        "indoor": false,
+        "description": "Thanks to the ravarumbling entrance."
+      },
+      {
+        "name": "The Sacred Chamber",
+        "indoor": true,
+        "description": "Who knows what happened in here behind these heavy iron doors?"
+      },
+      {
+        "name": "The High Altar",
+        "indoor": true,
+        "description": "A massive stone altar draped in rotting fabric."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Crystal Skull",
+        "weight": "medium-weight",
+        "description": "Made entirely of crystal. Maybe an ancient alien skull or maybe just a fun art project."
+      },
+      {
+        "name": "A Skeleton Arm",
+        "weight": "medium-weight",
+        "description": "Cause the death of a person with the bones of a person who's dead."
+      },
+      {
+        "name": "A Ritual Dagger",
+        "weight": "medium-weight",
+        "description": "It's made out of some ancient metal that Logico can't identify."
+      }
+    ],
+    "clues": [
+      "Chancellor Tuscany did not trust the person who had the crystal skull.",
+      "Logico discovered a splintered piece of bone outdoors, using the principle of rationality. (He tripped over it.)"
+    ],
+    "statements": [
+      {
+        "suspect": "Inspector Irratino",
+        "statement": "A ritual dagger was at the high altar."
+      },
+      {
+        "suspect": "Bishop Azure",
+        "statement": "I brought a ritual dagger."
+      },
+      {
+        "suspect": "Chancellor Tuscany",
+        "statement": "Bishop Azure was not in the sacred chamber."
+      }
+    ],
+    "ground_truth": {
+      "who": "Bishop Azure",
+      "what": "A Skeleton Arm",
+      "where": "The Grand Entrance"
+    }
+  },
+  {
+    "problem_name": "The Body in the Graveyard",
+    "problem_description": "Next, Inspector Irratino wanted to go to a graveyard. So he used astrology to determine which graveyard they should visit, a method Deductive Logico detested. When they got to the graveyard, the caretaker had just been killed. Inspector Irratino elbowed Deductive Logico. \"See!\"",
+    "suspects": [
+      {
+        "name": "Sir Rulean",
+        "description": "A sophisticated gentleman who was just recently knighted, if you believe the shoddy paperwork he carries with him.",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "red",
+        "zodiac": "Leo"
+      },
+      {
+        "name": "Viscount Eminence",
+        "description": "The oldest man you have ever seen. It is said that he was old when the old were young.",
+        "height": "5'2\"",
+        "handedness": "left-handed",
+        "eye_color": "black",
+        "hair_color": "black",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Brother Brownstone",
+        "description": "A monk who has dedicated his life to the church, specifically to making money for it.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Capricorn"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Columbarium",
+        "indoor": true,
+        "description": "A vault or wall where ashes are stored. (Now you've learned a new word.)"
+      },
+      {
+        "name": "The Huge Mausoleum",
+        "indoor": true,
+        "description": "Midnight family are all buried in this pyramid-shaped tomb."
+      },
+      {
+        "name": "The Gift Shop",
+        "indoor": true,
+        "description": "You can buy little knickknack gravestones or a plushie of their mascot, Mr. Skull."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Skeleton Arm",
+        "weight": "medium-weight",
+        "description": "Cause the death of a person with the bones of a person who's dead."
+      },
+      {
+        "name": "A Vial of A Deadly Poison",
+        "weight": "light-weight",
+        "description": "Don't worry. It's safely contained by\u2014hey, wait, where's the cork?!"
+      },
+      {
+        "name": "A String of Prayer Beads",
+        "weight": "medium-weight",
+        "description": "Ivory prayer beads covered with tiny engraved symbols."
+      }
+    ],
+    "clues": [
+      "Deductive Logico's forensics team discovered a drop of poison in a giant pyramid.",
+      "Inspector Irratino found a finger bone in the columbarium. A telltale sign!"
+    ],
+    "statements": [
+      {
+        "suspect": "Sir Rulean",
+        "statement": "I brought a string of prayer beads."
+      },
+      {
+        "suspect": "Viscount Eminence",
+        "statement": "Yes, well, I brought a skeleton arm."
+      },
+      {
+        "suspect": "Brother Brownstone",
+        "statement": "On the honor of my order, I was not in the gift shop."
+      }
+    ],
+    "ground_truth": {
+      "who": "Viscount Eminence",
+      "what": "A Vial of A Deadly Poison",
+      "where": "The Huge Mausoleum"
+    }
+  },
+  {
+    "problem_name": "Murder at the Cult: A True-Crime Documentary",
+    "problem_description": "Inspector Irratino and Detective Logico took the train upstate to a commune that Irratino had read about in a zine. When they got there, they discovered it was a leaderless society, but only because their supreme leader had just been murdered.",
+    "suspects": [
+      {
+        "name": "Assistant Applegreen",
+        "description": "She dropped out of the publishing game and moved to this commune. Her father is currently not proud.",
+        "height": "5'3\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Philologist Flint",
+        "description": "You can learn a lot about a word from its etymology, like where it came from, and have you heard this before?",
+        "height": "5'2\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "blond",
+        "zodiac": "Aquarius"
+      },
+      {
+        "name": "Numerologist Night",
+        "description": "A mathematical and esoteric prodigy. Not only do they know the value of E, they know the meaning of E.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "dark brown",
+        "zodiac": "Pisces"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Barracks",
+        "indoor": true,
+        "description": "Where everyone sleeps except their leader. (Their leader never sleeps.)"
+      },
+      {
+        "name": "The Library",
+        "indoor": true,
+        "description": "More books than you've ever seen. (But all by one guy.)"
+      },
+      {
+        "name": "The Ancient Ruins",
+        "indoor": true,
+        "description": "They seem to hypnotize you. You get woozy around them."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Selenite Wand",
+        "weight": "medium-weight",
+        "description": "For casting spells and bashing skulls."
+      },
+      {
+        "name": "A Soup Ladle",
+        "weight": "light-weight",
+        "description": "For serving soup at the commune."
+      },
+      {
+        "name": "A Pseudo-Scientific Apparatus",
+        "weight": "heavy-weight",
+        "description": "Wow, your inner blaxons are really off the chart!"
+      }
+    ],
+    "clues": [
+      "The tallest suspect could not have fit in the library: it had low ceilings.",
+      "Whoever was in the barracks had green eyes."
+    ],
+    "statements": [
+      {
+        "suspect": "Assistant Applegreen",
+        "statement": "I did not bring a selenite wand."
+      },
+      {
+        "suspect": "Philologist Flint",
+        "statement": "A pseudo-scientific apparatus was not by the ancient ruins."
+      },
+      {
+        "suspect": "Numerologist Night",
+        "statement": "Based on the numbers, I brought a selenite wand."
+      }
+    ],
+    "ground_truth": {
+      "who": "Numerologist Night",
+      "what": "A Soup Ladle",
+      "where": "The Ancient Ruins"
+    }
+  },
+  {
+    "problem_name": "A Cruise to Die For",
+    "problem_description": "Deductive Logico was excited they were taking a cruise, but it turned out it was on a cargo ship in the Bermuda Triangle. When the first mate died, Irratino was ecstatic. Finally, proof of the paranormal!",
+    "suspects": [
+      {
+        "name": "Mx. Tangerine",
+        "description": "Proving that non-binary people can be murderers, too, they are an artist, poet, and suspect.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Admiral Navy",
+        "description": "The firstborn son of an Admiral Navy who himself was the firstborn son of an Admiral Navy.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "light brown",
+        "zodiac": "Cancer"
+      },
+      {
+        "name": "Captain Slate",
+        "description": "A real-life astronaut. The first woman to travel around the dark side of the moon, and also the first to be suspected of murdering her copilot.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Aquarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Captain's Quarters",
+        "indoor": true,
+        "description": "Covered in posters of the captain's favorite waves."
+      },
+      {
+        "name": "The Cargo Hold",
+        "indoor": true,
+        "description": "Millions of pounds of cargo, mostly cheap electronics and fast fashion."
+      },
+      {
+        "name": "The Deck",
+        "indoor": false,
+        "description": "You might get murdered by the sharks, too."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "Poisoned Rum",
+        "weight": "medium-weight",
+        "description": "Yo ho ho and a bottle of arsenic."
+      },
+      {
+        "name": "A Sailor's Rope",
+        "weight": "medium-weight",
+        "description": "Fraying into little white fibers."
+      },
+      {
+        "name": "A Flare",
+        "weight": "light-weight",
+        "description": "You could shoot a flare into the sky or into somebody's head."
+      }
+    ],
+    "clues": [
+      "Much to his embarrassment, Admiral Navy had to call for help when he went overboard.",
+      "The other person just as tall as Mx. Tangerine was seen playing with a flare."
+    ],
+    "statements": [
+      {
+        "suspect": "Mx. Tangerine",
+        "statement": "I was not in the cargo hold."
+      },
+      {
+        "suspect": "Admiral Navy",
+        "statement": "A sailor's rope was in the captain's quarters."
+      },
+      {
+        "suspect": "Captain Slate",
+        "statement": "What do you want me to say? I was in the captain's quarters."
+      }
+    ],
+    "ground_truth": {
+      "who": "Captain Slate",
+      "what": "A Flare",
+      "where": "The Cargo Hold"
+    }
+  },
+  {
+    "problem_name": "Logico Goes Home",
+    "problem_description": "Deductive Logico got a call from his aunt: an uncle had died, and they had to figure out how to cover all of the funeral expenses. Also, someone had to solve his murder. So, for the first time in years, Deductive Logico went home. Thankfully, Irratino came with him, too.",
+    "suspects": [
+      {
+        "name": "Father Mango",
+        "description": "He has taken a vow of poverty, but he drives a BMW. He's taken a vow of obedience, but he has a staff of twenty-five. He's taken a vow of chastity, too, which is why he's on vacation.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "bald",
+        "zodiac": "Taurus"
+      },
+      {
+        "name": "Mayor Honey",
+        "description": "This is not the same mayor from Logico's first case: this is his totally innocent identical twin.",
+        "height": "6'0\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "light brown",
+        "zodiac": "Scorpio"
+      },
+      {
+        "name": "Officer Copper",
+        "description": "The best part of being a policewoman criminal is that you can cut out the middleman and fail to investigate your own crimes.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Aries"
+      }
+    ],
+    "locations": [
+      {
+        "name": "A Chain Restaurant",
+        "indoor": true,
+        "description": "This opened up when the family dir mortgage. They have a fried onion."
+      },
+      {
+        "name": "A Secondhand Shop",
+        "indoor": true,
+        "description": "Most of the stuff in here looks third-hand, even the moths."
+      },
+      {
+        "name": "A Used Car Lot",
+        "indoor": false,
+        "description": "The salesman tells you the cars will not explode, and that they're sold as is."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "An Old Sword",
+        "weight": "heavy-weight",
+        "description": "This was used by the bad guys in some old war. It's all rusted."
+      },
+      {
+        "name": "An Axe",
+        "weight": "medium-weight",
+        "description": "A murder-mystery classic for a reason."
+      },
+      {
+        "name": "A Magnifying Glass",
+        "weight": "medium-weight",
+        "description": "You could use this to find a clue or to read really small print."
+      }
+    ],
+    "clues": [
+      "The suspect with the magnifying glass was seen examining their bald head with it.",
+      "Officer Copper never set foot in a chain restaurant: they didn't give her discounts."
+    ],
+    "statements": [
+      {
+        "suspect": "Father Mango",
+        "statement": "Mayor Honey did not bring an axe."
+      },
+      {
+        "suspect": "Mayor Honey",
+        "statement": "An old sword was in a chain restaurant."
+      },
+      {
+        "suspect": "Officer Copper",
+        "statement": "An old sword was not in a used car lot."
+      }
+    ],
+    "ground_truth": {
+      "who": "Mayor Honey",
+      "what": "An Old Sword",
+      "where": "A Secondhand Shop"
+    }
+  },
+  {
+    "problem_name": "Irratino Returns to His Estate",
+    "problem_description": "While they were in Deductive Logico's hometown, Irratino had received a fax from his own. He needed to come right away\u2014one of his (many) uncles had died. He had been murdered, and they needed to figure out whodunit to settle the will.",
+    "suspects": [
+      {
+        "name": "Brother Brownstone",
+        "description": "A monk who has dedicated his life to the church, specifically to making money for it.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Capricorn"
+      },
+      {
+        "name": "The Duke of Vermillion",
+        "description": "Like his wife, he is full of secrets. Even some secrets from his wife.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "gray",
+        "hair_color": "white",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Astrologer Azure",
+        "description": "A stargazer, full of wonder and questions about the exact time and place of your birth.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "hazel",
+        "hair_color": "light brown",
+        "zodiac": "Cancer"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Grounds",
+        "indoor": false,
+        "description": "The grass is long, thick, and well-kempt, like Irratino's hair."
+      },
+      {
+        "name": "The Fifty-Car Garage",
+        "indoor": true,
+        "description": "Irratino's great-grandfather stored his show ponies here. Now they can only afford classic cars."
+      },
+      {
+        "name": "The Enormous Bedroom",
+        "indoor": true,
+        "description": "This bedroom is bigger than Logico's apartment building."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Ouija Board",
+        "weight": "light-weight",
+        "description": "The most powerful magick artifact you can buy at the toy store."
+      },
+      {
+        "name": "A Crystal Dagger",
+        "weight": "medium-weight",
+        "description": "It might have some kind of ritual purpose, but it might just look great on your mantle."
+      },
+      {
+        "name": "A Heavy Codebook",
+        "weight": "heavy-weight",
+        "description": "Filled with key-words and ciphers, you can use it to crack codes or skulls."
+      }
+    ],
+    "clues": [
+      "The suspect in the fifty-car garage did not have the crystal dagger.",
+      "A Capricorn had a ouija board. (Capricorns are like that.)"
+    ],
+    "statements": [
+      {
+        "suspect": "Brother Brownstone",
+        "statement": "In the name of God, the Duke of Vermillion brought a heavy codebook."
+      },
+      {
+        "suspect": "The Duke of Vermillion",
+        "statement": "Astrologer Azure was not in the grounds."
+      },
+      {
+        "suspect": "Astrologer Azure",
+        "statement": "Look at the stars! They say a heavy codebook was in the grounds."
+      }
+    ],
+    "ground_truth": {
+      "who": "Astrologer Azure",
+      "what": "A Crystal Dagger",
+      "where": "The Enormous Bedroom"
+    }
+  },
+  {
+    "problem_name": "The Case of the Haunted Hotel",
+    "problem_description": "Deductive Logico and Inspector Irratino tried to check in to a hotel they had heard was haunted. But when they got there, it was a perfectly lovely hotel, albeit a bit old-fashioned. There was only one problem: the housekeeper had been murdered.",
+    "suspects": [
+      {
+        "name": "Lord Lavender",
+        "description": "A politically conservative MP in the House of Lords, as well as the musical theatre composer behind such hits as Good Stepsisters and Sunrise Ave.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "green",
+        "hair_color": "blond",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Miss Saffron",
+        "description": "Gorgeous and stunning, but maybe not all there in the brains department. Or maybe that's what she wants you to think. Or maybe she wants you to think that's what she wants you to think.",
+        "height": "5'2\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond",
+        "zodiac": "Libra"
+      },
+      {
+        "name": "Lady Violet",
+        "description": "The heiress of the Violet Isles, the largest extrajudicial territory in the world.",
+        "height": "5'0\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Virgo"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Grand Entrance",
+        "indoor": true,
+        "description": "There's a guest book with many people checking in."
+      },
+      {
+        "name": "The Boiler Room",
+        "indoor": true,
+        "description": "Supposedly the most haunted room. Definitely the room with the highest CO levels."
+      },
+      {
+        "name": "The Ballroom",
+        "indoor": true,
+        "description": "Tons of beautiful couples, dancing to classical jazz."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Poisoned Muffin",
+        "weight": "light-weight",
+        "description": "Not only poisoned, but rock hard. So you could use it two ways."
+      },
+      {
+        "name": "A Laundry Bag Filled With Knives",
+        "weight": "heavy-weight",
+        "description": "Sometimes you gotta clean your knives."
+      },
+      {
+        "name": "A Golden Pen",
+        "weight": "medium-weight",
+        "description": "A solid gold pen (including the ink). It costs more than a house."
+      }
+    ],
+    "clues": [
+      "The suspect with the laundry bag filled with knives was born on October 13. (See Exhibit B.)",
+      "The tallest suspect was seen uttering some kind of incantation in the boiler room."
+    ],
+    "statements": [
+      {
+        "suspect": "Lord Lavender",
+        "statement": "Lady Violet was not in the grand entrance."
+      },
+      {
+        "suspect": "Miss Saffron",
+        "statement": "I'm not sure if this means anything, but a poisoned muffin was in the ballroom."
+      },
+      {
+        "suspect": "Lady Violet",
+        "statement": "As a lady, I'll say this: a golden pen was in the grand entrance."
+      }
+    ],
+    "ground_truth": {
+      "who": "Lady Violet",
+      "what": "A Poisoned Muffin",
+      "where": "The Ballroom"
+    }
+  },
+  {
+    "problem_name": "The Big-Money Big-Bank Murder",
+    "problem_description": "\"Follow the money!\" Inspector Irratino said as he led Detective Logico to the biggest bank he'd ever seen. \"Wherever there's money, there's murder.\" The teller's body attested to the truth of that.",
+    "suspects": [
+      {
+        "name": "The Duke of Vermillion",
+        "description": "He's learning that his wife has secrets, too, because his money is missing.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "gray",
+        "hair_color": "white",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Signor Emerald",
+        "description": "An Italian jeweler of great renown, Signor Emerald has traveled the world in search of rare, precious stones, which are always falling out of his pockets.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "light brown",
+        "hair_color": "black",
+        "zodiac": "Sagittarius"
+      },
+      {
+        "name": "Viscount Eminence",
+        "description": "The oldest man you have ever seen. It is said that he remembers what everyone else has forgotten.",
+        "height": "5'2\"",
+        "handedness": "left-handed",
+        "eye_color": "black",
+        "hair_color": "black",
+        "zodiac": "Pisces"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Clock Room",
+        "indoor": true,
+        "description": "Cogs and gears and brass that operate the outdoor clock. Explore at your own risk!"
+      },
+      {
+        "name": "The Back Room",
+        "indoor": true,
+        "description": "Where they count the money and the money looks funny. Franklin has a mustache."
+      },
+      {
+        "name": "The Vault",
+        "indoor": true,
+        "description": "Safe-deposit boxes full of cash money, gold, and secrets."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Laptop",
+        "weight": "medium-weight",
+        "description": "The machine you work on. It's connected to every distraction ever made."
+      },
+      {
+        "name": "A Globe",
+        "weight": "heavy-weight",
+        "description": "For plotting world domination or storing drinks."
+      },
+      {
+        "name": "Leather Gloves",
+        "weight": "light-weight",
+        "description": "Beware someone who wears leather gloves. They've already killed a cow: who's next?!"
+      }
+    ],
+    "clues": [
+      "A cowhide glove was discovered in the vault.",
+      "A Sagittarius was in the clock room."
+    ],
+    "statements": [
+      {
+        "suspect": "The Duke of Vermillion",
+        "statement": "I was in the back room."
+      },
+      {
+        "suspect": "Signor Emerald",
+        "statement": "I promise you this: a globe was in the back room."
+      },
+      {
+        "suspect": "Viscount Eminence",
+        "statement": "Outrageous! I did not bring a globe!"
+      }
+    ],
+    "ground_truth": {
+      "who": "Signor Emerald",
+      "what": "A Globe",
+      "where": "The Clock Room"
+    }
+  },
+  {
+    "problem_name": "The Psychic Who Didn't Foresee His Death",
+    "problem_description": "\"The Institute has seen some promising data out of the PRL,\" Irratino said, using an acronym Logico didn't recognize. \"If they can prove this psychic is real, we're going to give them one million dollars.\" Unfortunately, all they could prove was that their psychic was dead.",
+    "suspects": [
+      {
+        "name": "The Amazing Aureolin",
+        "description": "Currently in a prisoners-in-the-arts program where they allow incarcerated magicians to evaluate self-proclaimed psychics.",
+        "height": "5'6\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "blond",
+        "zodiac": "Aries"
+      },
+      {
+        "name": "Dr. Crimson",
+        "description": "She's the smartest doctor she's ever met, according to her, and she's probably right. Yeah, she flies single-engine planes, but if she crashes, she'll set her own bones.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "red",
+        "zodiac": "Aquarius"
+      },
+      {
+        "name": "The Duchess of Vermillion",
+        "description": "A tall, old woman with tall, old secrets. Like how much money she's given the PRL.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "gray",
+        "hair_color": "white",
+        "zodiac": "Pisces"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Grounds",
+        "indoor": false,
+        "description": "Fills."
+      },
+      {
+        "name": "The Roof",
+        "indoor": false,
+        "description": "Where they've done successful experiments with astral projection and failed ones with actual levitation."
+      },
+      {
+        "name": "The Isolation Chamber",
+        "indoor": true,
+        "description": "A water tank in a dark room. In it, you can regress in time or just be really bored."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Quasi-Perpetual Motion Machine",
+        "weight": "heavy-weight",
+        "description": "It doesn't run forever. This one's record is two hours."
+      },
+      {
+        "name": "A Dowsing Rod",
+        "weight": "medium-weight",
+        "description": "You can find water, oil, and suckers with this."
+      },
+      {
+        "name": "A Crystal Ball",
+        "weight": "heavy-weight",
+        "description": "If you look into it, it will tell you your future, so long as your future is a crystal ball."
+      }
+    ],
+    "clues": [
+      "A quasi-perpetual motion machine was discovered inside a freshly dug hole.",
+      "The suspect with the dowsing rod was born on February 1. (See Exhibit B.)"
+    ],
+    "statements": [
+      {
+        "suspect": "The Amazing Aureolin",
+        "statement": "Magician's code: I did not bring a crystal ball."
+      },
+      {
+        "suspect": "Dr. Crimson",
+        "statement": "Trust me: the Amazing Aureolin was standing on the roof."
+      },
+      {
+        "suspect": "The Duchess of Vermillion",
+        "statement": "I was relaxing in the isolation chamber."
+      }
+    ],
+    "ground_truth": {
+      "who": "Dr. Crimson",
+      "what": "A Dowsing Rod",
+      "where": "The Roof"
+    }
+  },
+  {
+    "problem_name": "The Return of the Coffee Shop Killer",
+    "problem_description": "Detective Logico told Inspector Irratino that he knew of a place where there were numerous occult phenomena, and he took him to a coffee shop. But the moment they got there, they found the barista was dead.",
+    "suspects": [
+      {
+        "name": "Sister Lapis",
+        "description": "A nun who travels the world, doing God's work on His dime. Her habit is cashmere, and her habit is spending.",
+        "height": "5'2\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "light brown",
+        "zodiac": "Cancer"
+      },
+      {
+        "name": "Grandmaster Rose",
+        "description": "A chess grand master who is always plotting his next move. Like what kind of latte to get. (2.0h5)",
+        "height": "5'7\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Scorpio"
+      },
+      {
+        "name": "General Coffee",
+        "description": "An espresso connoisseur who has murdered several people but is still allowed to visit this coffee shop because of how well he tips. (A lesson!)",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "bald",
+        "zodiac": "Sagittarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Parking Lot",
+        "indoor": false,
+        "description": "There's no drive-thru, because this is a fancy coffee shop. People have to get out of their cars to get their coffee."
+      },
+      {
+        "name": "The Bathroom",
+        "indoor": true,
+        "description": "It's a coffee shop. So obviously, it's going to have a bathroom. This one is always out of paper towels."
+      },
+      {
+        "name": "The Courtyard",
+        "indoor": false,
+        "description": "Sun-dappled tables and chairs sit beneath a magnificent oak. A great place for conversation\u2026 or murder."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Butter Knife",
+        "weight": "light-weight",
+        "description": "An embarrassing way to be killed, honestly."
+      },
+      {
+        "name": "A Metal Straw",
+        "weight": "light-weight",
+        "description": "Better for the planet than a plastic straw, but more deadly!"
+      },
+      {
+        "name": "A Boiling Pot",
+        "weight": "heavy-weight",
+        "description": "Hot and heavy! For murderers, that's called a double feature."
+      }
+    ],
+    "clues": [
+      "The suspect who tips well was sitting in the courtyard.",
+      "The tallest suspect was suspicious of the person who had the butter knife."
+    ],
+    "statements": [
+      {
+        "suspect": "Sister Lapis",
+        "statement": "Grandmaster Rose was not in the parking lot."
+      },
+      {
+        "suspect": "Grandmaster Rose",
+        "statement": "A metal straw was in the bathroom."
+      },
+      {
+        "suspect": "General Coffee",
+        "statement": "Hmm\u2026 a butter knife was in the courtyard."
+      }
+    ],
+    "ground_truth": {
+      "who": "General Coffee",
+      "what": "A Boiling Pot",
+      "where": "The Courtyard"
+    }
+  },
+  {
+    "problem_name": "The Heinous Crime of Penguicide",
+    "problem_description": "Detective Logico found Inspector Irratino weeping, and he asked him what was wrong. \"An endangered penguin was killed!\" bawled the inspector. Logico grabbed his shoulder and said, \"We're going to solve his murder.\"",
+    "suspects": [
+      {
+        "name": "Chancellor Tuscany",
+        "description": "As the head of Deduction College, she is respected for her power, her knowledge, and the fact that she's never been caught.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "gray",
+        "zodiac": "Libra"
+      },
+      {
+        "name": "The Duchess of Vermillion",
+        "description": "A tall, old woman with tall, old secrets. How many times am I going to tell you this?",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "gray",
+        "hair_color": "white",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Mx. Tangerine",
+        "description": "Proving that non-binary people can be murderers, too: they are a scientist, skier, and suspect.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond",
+        "zodiac": "Pisces"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Ping-Pong Room",
+        "indoor": true,
+        "description": "For letting off steam, or (perhaps more aptly) for breaking the ice. There are snacks!"
+      },
+      {
+        "name": "The Frozen Wastelands",
+        "indoor": false,
+        "description": "A vast, unforgiving wildernetime."
+      },
+      {
+        "name": "The Barracks",
+        "indoor": true,
+        "description": "Where everybody sleeps under incredibly cozy blankets."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "Poisoned Hot Chocolate",
+        "weight": "light-weight",
+        "description": "Drink up, and it's the last warm yummy you'll ever have."
+      },
+      {
+        "name": "An Ice Axe",
+        "weight": "medium-weight",
+        "description": "For climbing and killing and anything else where you need to make a small hole."
+      },
+      {
+        "name": "An Icicle Dagger",
+        "weight": "light-weight",
+        "description": "The perfect weapon. You stab someone and only leave a puddle behind."
+      }
+    ],
+    "clues": [
+      "The suspect in the frozen wastelands had white hair.",
+      "The scientist/skier/suspect did not bring an icicle dagger."
+    ],
+    "statements": [
+      {
+        "suspect": "Chancellor Tuscany",
+        "statement": "As the holder of seven PhDs, let me just say: I was in the ping-pong room."
+      },
+      {
+        "suspect": "The Duchess of Vermillion",
+        "statement": "Do you want to know what I think? Chancellor Tuscany brought poisoned hot chocolate."
+      },
+      {
+        "suspect": "Mx. Tangerine",
+        "statement": "If I had to say something, an ice axe was in the barracks."
+      }
+    ],
+    "ground_truth": {
+      "who": "The Duchess of Vermillion",
+      "what": "Poisoned Hot Chocolate",
+      "where": "The Frozen Wastelands"
+    }
+  },
+  {
+    "problem_name": "Murder on the Stage",
+    "problem_description": "Detective Logico and Inspector Irratino saw a play in a theater in the woods, and Logico was surprised to discover it was an interactive, immersive whodunit, until he was informed that it was actually a crime scene. The director had been killed.",
+    "suspects": [
+      {
+        "name": "Earl Grey",
+        "description": "He comes from a long line of Earl Greys. Yes, of the tea. No, he doesn't sign autographs. But he'll give you a free bag if you ask.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "white",
+        "zodiac": "Capricorn"
+      },
+      {
+        "name": "Sister Lapis",
+        "description": "A nun who travels the world, doing God's work on His dime. Her habit is cashmere, and her habit is spending.",
+        "height": "5'2\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "light brown",
+        "zodiac": "Cancer"
+      },
+      {
+        "name": "Judge Pine",
+        "description": "Master of the courtroom and possessed of a firm belief in justice, as decided by her alone.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Taurus"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Stage",
+        "indoor": false,
+        "description": "Made from wood from the surrounding trees, now in plank form."
+      },
+      {
+        "name": "The Front Tree",
+        "indoor": false,
+        "description": "Like the front desk, so you know where to check in."
+      },
+      {
+        "name": "The Backstage Woods",
+        "indoor": false,
+        "description": "Dark and spooky and perfect for surprise entrances."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Toxic Program",
+        "weight": "light-weight",
+        "description": "Not only are the bios toxic, but the ink is, too."
+      },
+      {
+        "name": "Poisoned Popcorn",
+        "weight": "medium-weight",
+        "description": "Freshly popped and freshly poisoned, too. Almond flavored!"
+      },
+      {
+        "name": "A Stage Sword",
+        "weight": "medium-weight",
+        "description": "It's dulled a little for the safety of the performers. But not enough\u2026"
+      }
+    ],
+    "clues": [
+      "Earl Grey was terrified of the dark, so he would never go in the backstage woods.",
+      "A Taurus had the weapon that was poorly dulled."
+    ],
+    "statements": [
+      {
+        "suspect": "Earl Grey",
+        "statement": "Take my word as the honorable Earl of Grey: poisoned popcorn was by the front tree."
+      },
+      {
+        "suspect": "Sister Lapis",
+        "statement": "A toxic program was on the stage."
+      },
+      {
+        "suspect": "Judge Pine",
+        "statement": "All I know is that Sister Lapis was on the stage."
+      }
+    ],
+    "ground_truth": {
+      "who": "Judge Pine",
+      "what": "A Stage Sword",
+      "where": "The Backstage Woods"
+    }
+  },
+  {
+    "problem_name": "Fade in to a Murder Mystery",
+    "problem_description": "After Deductive Logico requested no more live theater, Inspector Irratino took him to see a murder-mystery movie at a supposedly haunted drive-in theater. But as far as Logico could tell, it was a perfectly normal drive-in theater. There had to be something spooky about it. Maybe it was the fact that the ticket taker had been killed.",
+    "suspects": [
+      {
+        "name": "Editor Ivory",
+        "description": "The greatest romance editor of all time. She invented the enemies-to-lovers genre, and she was the first person to put a naked man on the cover of a book.",
+        "height": "5'6\"",
+        "handedness": "left-handed",
+        "eye_color": "light brown",
+        "hair_color": "gray",
+        "zodiac": "Scorpio"
+      },
+      {
+        "name": "Superfan Smoky",
+        "description": "He knows the shooting locations of every Midnight mystery, but not how to make friends.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Silverton the Legend",
+        "description": "An acclaimed actor of the Golden Age, now in his golden years.",
+        "height": "6'4\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "silver",
+        "zodiac": "Leo"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Screen",
+        "indoor": false,
+        "description": "If you don't like the movie, turn on your lights."
+      },
+      {
+        "name": "The Concession Stand",
+        "indoor": false,
+        "description": "You can get all the regular stuff: soda, cabbage, a raw egg. Whatever!"
+      },
+      {
+        "name": "The Box Office",
+        "indoor": false,
+        "description": "It's a drive-thru. They charge per car, so a lot of clowns come."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Spare Tire",
+        "weight": "heavy-weight",
+        "description": "Where the rubber meets your head!"
+      },
+      {
+        "name": "A Shovel",
+        "weight": "medium-weight",
+        "description": "A multi-use tool: kill someone and bury them with the same shovel!"
+      },
+      {
+        "name": "Poisoned Popcorn",
+        "weight": "medium-weight",
+        "description": "Freshly popped and freshly poisoned, too. Almond flavored!"
+      }
+    ],
+    "clues": [
+      "A heavy-weight weapon was left at the drive-thru.",
+      "Superfan Smoky used to stalk the person who brought poisoned popcorn."
+    ],
+    "statements": [
+      {
+        "suspect": "Editor Ivory",
+        "statement": "Well, Silverton the Legend brought a shovel."
+      },
+      {
+        "suspect": "Superfan Smoky",
+        "statement": "Oh, wow! Editor Ivory was in the concession stand."
+      },
+      {
+        "suspect": "Silverton the Legend",
+        "statement": "Let me tell you how it is: I was by the screen."
+      }
+    ],
+    "ground_truth": {
+      "who": "Editor Ivory",
+      "what": "A Shovel",
+      "where": "The Concession Stand"
+    }
+  },
+  {
+    "problem_name": "A Cruise to Die For 2",
+    "problem_description": "Inspector Irratino had the Institute's (new) numerologist run the numbers, and she found it was cheaper to take an all-expenses-paid cruise than it was to keep flying everywhere. And so, finally, Irratino took Deductive Logico on that cruise. Their favorite memory was when they solved the murder of the first mate.",
+    "suspects": [
+      {
+        "name": "Admiral Navy",
+        "description": "The firstborn son of an Admiral Navy who himself was the firstborn son of an Admiral Navy.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "light brown",
+        "zodiac": "Cancer"
+      },
+      {
+        "name": "Vice President Mauve",
+        "description": "A vice president of TekCo Futures. If she asks you to step into her metaverse \u2014 my God! Get out now!",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Taurus"
+      },
+      {
+        "name": "Principal Applegreen",
+        "description": "His daughter quit her high-paying job in publishing and moved to a commune, so you could say he's taking this cruise to relax.",
+        "height": "5'11\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Libra"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Deck",
+        "indoor": false,
+        "description": "You can play cribbage up here, but nobody seems to know what cribbage is, exactly."
+      },
+      {
+        "name": "The Dining Hall",
+        "indoor": true,
+        "description": "Probably the best dining hall anywhere in the entire boat."
+      },
+      {
+        "name": "The Captain's Quarters",
+        "indoor": true,
+        "description": "The captain keeps his door locked shut so that nobody else sees how much space he has."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Toxic Blowfish",
+        "weight": "light-weight",
+        "description": "Prepared carefully, it's safe to eat. Prepared even more carefully, it can kill."
+      },
+      {
+        "name": "A Fishing Spear",
+        "weight": "medium-weight",
+        "description": "Tourists can pay to have the fish pre-attached to the end."
+      },
+      {
+        "name": "The Steering Wheel",
+        "weight": "medium-weight",
+        "description": "The worst part of using this to kill is that now the boat will crash."
+      }
+    ],
+    "clues": [
+      "The Investigation Institute was able to transmit a message to Irratino about the case (See Exhibit B): \u2649 \u2652 \u2653 \u2623 \u2653 \u264f \u263f / \u2648 \u2646 \u2650 \u2653 \ud83d\udf03 \u2652 \u2623",
+      "No toxic blowfishes were permitted in the dining hall."
+    ],
+    "statements": [
+      {
+        "suspect": "Admiral Navy",
+        "statement": "Principal Applegreen was on the deck."
+      },
+      {
+        "suspect": "Vice President Mauve",
+        "statement": "Admiral Navy brought the steering wheel."
+      },
+      {
+        "suspect": "Principal Applegreen",
+        "statement": "The steering wheel was in the captain's quarters."
+      }
+    ],
+    "ground_truth": {
+      "who": "Principal Applegreen",
+      "what": "A Toxic Blowfish",
+      "where": "The Deck"
+    }
+  },
+  {
+    "problem_name": "The Mystery of the Mysterious Island",
+    "problem_description": "The ship had crashed on an island filled with mysteries, like why was the lighthouse not lit, and what was the point of having a lighthouse if you weren't going to light it, and who just screamed, and who killed the captain?",
+    "suspects": [
+      {
+        "name": "Mx. Tangerine",
+        "description": "Proving that non-binary people can be murderers, too: they are a sailor, chef, and suspect.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Baron Maroon",
+        "description": "An incredibly haughty man who holds a grudge. Nobody wants to offend the baron. At least, nobody who's still alive\u2026",
+        "height": "6'2\"",
+        "handedness": "right-handed",
+        "eye_color": "hazel",
+        "hair_color": "red",
+        "zodiac": "Scorpio"
+      },
+      {
+        "name": "Astrologer Azure",
+        "description": "A stargazer, full of wonder and questions about the exact time and place of your birth.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "hazel",
+        "hair_color": "light brown",
+        "zodiac": "Cancer"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Dead Woods",
+        "indoor": false,
+        "description": "All of the trees are dead. But still, something lives in these woods."
+      },
+      {
+        "name": "The Cliffside Lighthouse",
+        "indoor": true,
+        "description": "They discovered why the flame wasn't lit: the keeper was long dead."
+      },
+      {
+        "name": "The Ruined Church",
+        "indoor": true,
+        "description": "The roof has caved in and the church has spoiled."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "An Old Sword",
+        "weight": "heavy-weight",
+        "description": "This was used by the bad guys in some old war. It's all rusted."
+      },
+      {
+        "name": "A Spoiled Toxic Blowfish",
+        "weight": "medium-weight",
+        "description": "It's gone bad now, so even the non-toxic parts are poisonous."
+      },
+      {
+        "name": "A Shovel",
+        "weight": "medium-weight",
+        "description": "A multi-use tool: kill someone and bury them with the same shovel!"
+      }
+    ],
+    "clues": [
+      "The weapon at the cliffside lighthouse was not rusted.",
+      "A trusted informant handed Logico a note written in a shaky hand: A OCSPIRO SAW IN HET AEDD OOWSD."
+    ],
+    "statements": [
+      {
+        "suspect": "Mx. Tangerine",
+        "statement": "Well, if you ask me, Astrologer Azure brought a shovel."
+      },
+      {
+        "suspect": "Baron Maroon",
+        "statement": "A toxic blowfish was in the ruined church."
+      },
+      {
+        "suspect": "Astrologer Azure",
+        "statement": "Look at the stars! They say Mx. Tangerine brought a toxic blowfish."
+      }
+    ],
+    "ground_truth": {
+      "who": "Baron Maroon",
+      "what": "An Old Sword",
+      "where": "The Dead Woods"
+    }
+  },
+  {
+    "problem_name": "The Body in the Moonlit Ruins",
+    "problem_description": "As the night came on the island, Logico and Irratino split up to cover more ground, looking for clues and a way to radio for help. Logico stumbled upon a ruined church, bathed in the moonlight. Then, he stumbled over a dead body. It was the second first mate.",
+    "suspects": [
+      {
+        "name": "Philosopher Bone",
+        "description": "A dashing, dark philosopher who pioneered the ethical theory that he is not responsible for his actions, but he should be paid for them.",
+        "height": "5'1\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "bald",
+        "zodiac": "Taurus"
+      },
+      {
+        "name": "Brother Brownstone",
+        "description": "A monk who has dedicated his life to the church, specifically to making money for it.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Capricorn"
+      },
+      {
+        "name": "Sister Lapis",
+        "description": "A nun who travels the world, doing God's work on His dime. Her habit is cashmere, and her habit is spending.",
+        "height": "5'2\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "light brown",
+        "zodiac": "Cancer"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Flooded Pews",
+        "indoor": true,
+        "description": "The wood of the pews is rotten and warped."
+      },
+      {
+        "name": "The Overgrown Organ",
+        "indoor": true,
+        "description": "Ivy has covered the organ, and bugs skitter out of the pipes."
+      },
+      {
+        "name": "The Cracked Altar",
+        "indoor": true,
+        "description": "A huge crack runs through the middle of the stone altar."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Rock",
+        "weight": "medium-weight",
+        "description": "When you can't find another weapon, a rock is always nearby. This one's chipped."
+      },
+      {
+        "name": "A String of Prayer Beads",
+        "weight": "light-weight",
+        "description": "Ivory prayer beads covered with tiny engraved symbols."
+      },
+      {
+        "name": "A Holy Relic",
+        "weight": "medium-weight",
+        "description": "It's a totem of some long forgotten god with a terrifying visage."
+      }
+    ],
+    "clues": [
+      "Philosopher Bone never set foot in the flooded pews; he wouldn't get his feet wet.",
+      "The suspect at the cracked altar was born on December 25. (See Exhibit B.)"
+    ],
+    "statements": [
+      {
+        "suspect": "Philosopher Bone",
+        "statement": "Sister Lapis did not bring a rock."
+      },
+      {
+        "suspect": "Brother Brownstone",
+        "statement": "A holy relic was not in the overgrown organ."
+      },
+      {
+        "suspect": "Sister Lapis",
+        "statement": "Philosopher Bone brought a rock."
+      }
+    ],
+    "ground_truth": {
+      "who": "Sister Lapis",
+      "what": "A Holy Relic",
+      "where": "The Flooded Pews"
+    }
+  },
+  {
+    "problem_name": "Death in the Dead Woods",
+    "problem_description": "Logico didn't like this island. There was something wrong with it. And there was something wrong about the way they'd been brought here. And there was something wrong with Irratino, who didn't seem to be enjoying any of these mysteries. Logico went on a walk, and he saw someone dart into the dead woods. He followed, but when he caught up to her, she was dead!",
+    "suspects": [
+      {
+        "name": "Chancellor Tuscany",
+        "description": "As the head of Deduction College, she knows every possible way that a person can die. Most in theory.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "gray",
+        "zodiac": "Libra"
+      },
+      {
+        "name": "Sir Rulean",
+        "description": "A sophisticated gentleman who was just recently knighted, if you believe the shoddy paperwork he carries with him.",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "red",
+        "zodiac": "Leo"
+      },
+      {
+        "name": "Earl Grey",
+        "description": "He comes from a long line of Earl Greys. Yes, of the tea. No, he doesn't sign autographs. But he'll give you a free bag if you ask.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "white",
+        "zodiac": "Capricorn"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Ancient Ruins",
+        "indoor": false,
+        "description": "Ancient stone ruins with some sort of ineffable aura."
+      },
+      {
+        "name": "The Gnarled Tree",
+        "indoor": false,
+        "description": "Bent and twisted at impossible angles. It looks like a witch."
+      },
+      {
+        "name": "The Moving Cave",
+        "indoor": true,
+        "description": "Every time you find this cave, it seems to be in a different spot."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Prayer Candle",
+        "weight": "medium-weight",
+        "description": "If you were praying that somebody died, your wish came true."
+      },
+      {
+        "name": "A Trained Monkey",
+        "weight": "heavy-weight",
+        "description": "He's lurking in the woods... He may be watching us right now."
+      },
+      {
+        "name": "A Rock",
+        "weight": "medium-weight",
+        "description": "A regular rock. But weirdly, not from this island. Chipped."
+      }
+    ],
+    "clues": [
+      "You would think the monkey would be up in that gnarled tree: you'd be wrong.",
+      "Someone scrambled to give Logico an important message: UNACSYT DHA HET ROKC."
+    ],
+    "statements": [
+      {
+        "suspect": "Chancellor Tuscany",
+        "statement": "As an academic I can tell you that Sir Rulean brought a prayer candle."
+      },
+      {
+        "suspect": "Sir Rulean",
+        "statement": "A prayer candle was in the ancient ruins."
+      },
+      {
+        "suspect": "Earl Grey",
+        "statement": "I was not in the ancient ruins."
+      }
+    ],
+    "ground_truth": {
+      "who": "Sir Rulean",
+      "what": "A Prayer Candle",
+      "where": "The Gnarled Tree"
+    }
+  },
+  {
+    "problem_name": "The Killing of Irratino",
+    "problem_description": "As Deductive Logico was walking back from the dead woods, he saw that someone had lit the light of the lighthouse! And then, he heard a scream, unmistakably the scream of Inspector Irratino! Logico raced toward the lighthouse, but he was too late. Irratino was unconscious and badly hurt. While the castaways tended to him, Logico worked to crack the case.",
+    "suspects": [
+      {
+        "name": "Baron Maroon",
+        "description": "An incredibly haughty man who holds a grudge. Nobody wants to offend the baron. At least, nobody who's still alive...",
+        "height": "6'2\"",
+        "handedness": "right-handed",
+        "eye_color": "hazel",
+        "hair_color": "red",
+        "zodiac": "Scorpio"
+      },
+      {
+        "name": "Sir Rulean",
+        "description": "A sophisticated gentleman who was just recently knighted, if you believe the shoddy paperwork he carries with him.",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "red",
+        "zodiac": "Leo"
+      },
+      {
+        "name": "Sister Lapis",
+        "description": "A nun who travels the world, doing God's work on his dime. Her habit is cashmere, and her habit is spending.",
+        "height": "5'2\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "light brown",
+        "zodiac": "Cancer"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Light Itself",
+        "indoor": true,
+        "description": "The fire that warns all seafarers: stay away!"
+      },
+      {
+        "name": "A Secluded Cove",
+        "indoor": false,
+        "description": "A sandy cove where the castaways have Irratino on a stretcher. He's still too dazed to speak."
+      },
+      {
+        "name": "The Generator",
+        "indoor": true,
+        "description": "A massive machine that powers the island with coal."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Rock",
+        "weight": "medium-weight",
+        "description": "Used to commit the first-ever murder, and probably the last."
+      },
+      {
+        "name": "A Bottle of Oil",
+        "weight": "light-weight",
+        "description": "Enough oil to keep the fire going or to smash over someone's head."
+      },
+      {
+        "name": "A Sailor's Rope",
+        "weight": "medium-weight",
+        "description": "Obviously whoever tied these people up didn't use sailing knots."
+      }
+    ],
+    "clues": [
+      "Sir Rulean never liked the person who brought a bottle of oil.",
+      "Another message was slipped to Deductive Logico from a representative of the Investigation Institute: \u264f \u264b [3-circle emblem] [3-triangle emblem] \u2653 \u2642 [3-circle emblem] / \u263f \u2652 \u2648 [3-triangle emblem] [3-circle emblem] \u2653 \ud83d\udf03"
+    ],
+    "statements": [
+      {
+        "suspect": "Baron Maroon",
+        "statement": "Sister Lapis was not near the light itself."
+      },
+      {
+        "suspect": "Sir Rulean",
+        "statement": "A bottle of oil was in the generator."
+      },
+      {
+        "suspect": "Sister Lapis",
+        "statement": "A rock was not in the generator."
+      }
+    ],
+    "ground_truth": {
+      "who": "Sir Rulean",
+      "what": "A Rock",
+      "where": "The Light Itself"
+    }
+  },
+  {
+    "problem_name": "The Grave Death at the Graveyard",
+    "problem_description": "Deductive Logico could not believe that Irratino was really dead. But he had seen him die, and he had seen him be buried, and there was really no denying it now. He was dead. And so, it turned out, was the parson who was supposed to speak at his funeral.",
+    "suspects": [
+      {
+        "name": "Astrologer Azure",
+        "description": "A stargazer, full of wonder and questions about the exact time and place of your birth.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "hazel",
+        "hair_color": "light brown",
+        "zodiac": "Cancer"
+      },
+      {
+        "name": "Earl Grey",
+        "description": "He comes from a long line of Earl Greys. Yes, of the tea. No, he doesn't sign autographs. But he'll give you a free bag if you ask.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "white",
+        "zodiac": "Capricorn"
+      },
+      {
+        "name": "Mx. Tangerine",
+        "description": "Proving that non-binary people can be murderers, too, they are a gravedigger, pallbearer, and suspect.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Cryptozoologist Cloud",
+        "description": "He knows every sighting of the Jersey Devil, Mothman, and Boggy Creek Monster, and also what the difference is.",
+        "height": "5'7\"",
+        "handedness": "right-handed",
+        "eye_color": "gray",
+        "hair_color": "white",
+        "zodiac": "Scorpio"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Weird Shack",
+        "indoor": true,
+        "description": "A wooden shack in the corner of the graveyard that you just know contains a secret."
+      },
+      {
+        "name": "The Gift Shop",
+        "indoor": true,
+        "description": "You can buy little knickknack gravestones or a plushie of their mascot, Mr. Skull."
+      },
+      {
+        "name": "The Huge Mausoleum",
+        "indoor": true,
+        "description": "The rich members of a single family get this pyramid-shaped tomb."
+      },
+      {
+        "name": "The Entrance Gate",
+        "indoor": false,
+        "description": "A giant wrought-iron gate with just the right amount of rust for ominous vibes."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Cauldron",
+        "weight": "heavy-weight",
+        "description": "If you can pick it up, you can hit someone with it. Or you can just give them a sip."
+      },
+      {
+        "name": "A Ghost Detector",
+        "weight": "medium-weight",
+        "description": "It's not great at detecting ghosts, but it's pretty good at electrocuting people."
+      },
+      {
+        "name": "A Broom",
+        "weight": "medium-weight",
+        "description": "People say that witches fly on these, but Logico's only swept with them."
+      },
+      {
+        "name": "A Skeleton Arm",
+        "weight": "medium-weight",
+        "description": "Cause the death of a person with the bones of a person who's dead."
+      }
+    ],
+    "clues": [
+      "Astrologer Azure did not bring a broom.",
+      "Earl Grey would not kill to see if he could, nor to hide an affair.",
+      "A ghost detector was discovered wedged between wrought-iron bars.",
+      "Logico found a single broom bristle next to a plush skeleton.",
+      "The person waving around a skeleton arm was trying desperately to hide their affair.",
+      "Mx. Tangerine had always wanted to steal a body. Maybe tonight was the night?",
+      "The person lugging the cauldron around wanted to rob the parson.",
+      "Cryptozoologist Cloud was seen poking around in the weird shack.",
+      "The body was found inside a giant pyramid."
+    ],
+    "motives": [
+      "To rob the victim",
+      "To see if they could",
+      "To hide an affair",
+      "To steal a body"
+    ],
+    "ground_truth": {
+      "who": "Earl Grey",
+      "what": "A Cauldron",
+      "where": "The Huge Mausoleum",
+      "why": "To rob the victim"
+    }
+  },
+  {
+    "problem_name": "A Return to the Institute",
+    "problem_description": "Deductive Logico headed back to the Investigation Institute to find that the grounds were overgrown with weeds. With Irratino gone, nobody was taking care of the place, and it seemed quiet\u2014too quiet. Logico realized that was because the only guard had been murdered.",
+    "suspects": [
+      {
+        "name": "Numerologist Night",
+        "description": "A mathematical and esoteric prodigy. Not only do they know the value of V, they know the meaning of V.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "dark brown",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "High Alchemist Raven",
+        "description": "There's an old joke that all alchemists are high alchemists. Raven hates it.",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Herbalist Onyx",
+        "description": "In her greenhouse, she's grown every kind of plant required in the culinary, magick, and poisoning arts.",
+        "height": "5'0\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Philologist Flint",
+        "description": "You can learn a lot about a word from its etymology, like where it came from, and what it used to mean.",
+        "height": "5'2\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "blond",
+        "zodiac": "Aquarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Grand Chateau",
+        "indoor": true,
+        "description": "The tree growing in the middle has started to wilt and die."
+      },
+      {
+        "name": "The Great Tower",
+        "indoor": true,
+        "description": "A towering tower specifically built to drop things for experimental purposes."
+      },
+      {
+        "name": "The Miniature Golf Course",
+        "indoor": false,
+        "description": "Eighteen holes. Windmills, caves, and loop-de-loops. But no one wants to play."
+      },
+      {
+        "name": "An Impossible Hedge Maze",
+        "indoor": false,
+        "description": "People have to be rescued from the hedge maze all the time."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Dowsing Rod",
+        "weight": "medium-weight",
+        "description": "You can find water, oil, and suckers with this."
+      },
+      {
+        "name": "A Hypnotic Pocket Watch",
+        "weight": "light-weight",
+        "description": "If you look deeply into this watch, you can tell the time."
+      },
+      {
+        "name": "A Quasi-Perpetual Motion Machine",
+        "weight": "heavy-weight",
+        "description": "It doesn't run forever. This one made it a day."
+      },
+      {
+        "name": "A Crystal Ball",
+        "weight": "heavy-weight",
+        "description": "If you look into it, you will see your fortune, so long as your fortune is a crystal ball."
+      }
+    ],
+    "clues": [
+      "The shortest suspect brought a dowsing rod to reach things.",
+      "High Alchemist Raven was seen hanging around high above the grounds.",
+      "The suspect with a quasi-perpetual motion machine deeply desired to fight for love.",
+      "No one with blue eyes was in the grand chateau.",
+      "A fortune-telling tool was found beside a tiny windmill.",
+      "The suspect who would kill because they could was in the grand chateau.",
+      "The Aquarius wanted to inherit a fortune.",
+      "The suspect with a time-telling device did not want to prove they're tough.",
+      "The guard's body was found between twisting hedge rows."
+    ],
+    "motives": [
+      "To prove they're tough",
+      "To inherit a fortune",
+      "To fight for love",
+      "Because they could"
+    ],
+    "ground_truth": {
+      "who": "Philologist Flint",
+      "what": "A Hypnotic Pocket Watch",
+      "where": "An Impossible Hedge Maze",
+      "why": "To inherit a fortune"
+    }
+  },
+  {
+    "problem_name": "The Walk in the Mysterious Woods",
+    "problem_description": "Deductive Logico walked away from the Institute, down the lone and lonely road, until eventually, he wandered off the road and into the woods, where he found the body of a woman wearing strange, cultic robes.",
+    "suspects": [
+      {
+        "name": "Cryptozoologist Cloud",
+        "description": "He knows every sighting of the Barghest, Dobhar-ch\u00fa, Beast of Bodmin Moor, and also what the difference is.",
+        "height": "5'7\"",
+        "handedness": "right-handed",
+        "eye_color": "gray",
+        "hair_color": "white",
+        "zodiac": "Scorpio"
+      },
+      {
+        "name": "Baron Maroon",
+        "description": "An incredibly haughty man who holds a grudge. Nobody wants to offend the baron. At least, nobody who's still alive . . .",
+        "height": "6'2\"",
+        "handedness": "right-handed",
+        "eye_color": "hazel",
+        "hair_color": "red",
+        "zodiac": "Scorpio"
+      },
+      {
+        "name": "Judge Pine",
+        "description": "Master of the courtroom and possessed of a firm belief in justice, as decided by her alone.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Taurus"
+      },
+      {
+        "name": "Sociologist Umber",
+        "description": "As a representative from the hard sciences, she is always asking people to question their priors and if they've read Durkheim.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Sagittarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Gnarled Tree",
+        "indoor": false,
+        "description": "Bent and twisted at impossible angles. It reminds Logico of Irratino's logic."
+      },
+      {
+        "name": "The Moving Cave",
+        "indoor": true,
+        "description": "Every time you find this cave, it seems to be in a different spot."
+      },
+      {
+        "name": "The Ancient Ruins",
+        "indoor": false,
+        "description": "Your legs seem unsteady around them, like they're sinking into the ground."
+      },
+      {
+        "name": "The Little Hill",
+        "indoor": false,
+        "description": "A nice little hill for sitting on and having picnics at. Or mourning your partner."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Heavy Candle",
+        "weight": "heavy-weight",
+        "description": "It's heavy, yet it lightens the room."
+      },
+      {
+        "name": "An Old Sword",
+        "weight": "heavy-weight",
+        "description": "This was used by the bad guys in an old war. It's all rusted."
+      },
+      {
+        "name": "A Log",
+        "weight": "heavy-weight",
+        "description": "A big, heavy oak log. Somebody killed the tree so that the tree could kill somebody."
+      },
+      {
+        "name": "An Axe",
+        "weight": "medium-weight",
+        "description": "This axe could chop a tree down. If only it could cut out bad memories."
+      }
+    ],
+    "clues": [
+      "Logico found a red hair wrapped around the log.",
+      "The person carrying a heavy candle wanted to steal a prized book.",
+      "Whoever wanted to get revenge was a Scorpio. (Typical.)",
+      "Whoever wanted to scare a bear away would've had to have been right-handed.",
+      "The suspect who had a motive to kill for the revolution was seen plotting indoors.",
+      "Analysts discovered traces of a weapon made (at least in part) of metal on the clothing of Sociologist Umber.",
+      "It seemed like somebody was going to chop down a strange and twisted tree, because an axe was leaning against it.",
+      "Someone at a great picnic spot would obviously need to scare a bear away.",
+      "The second shortest suspect had never been on the little hill.",
+      "A rusted blade was found beside the cultist."
+    ],
+    "motives": [
+      "To scare a bear away",
+      "To steal a prized book",
+      "For the revolution",
+      "To get revenge"
+    ],
+    "ground_truth": {
+      "who": "Sociologist Umber",
+      "what": "An Old Sword",
+      "where": "The Moving Cave",
+      "why": "For the revolution"
+    }
+  },
+  {
+    "problem_name": "And Then There Was Another One Again",
+    "problem_description": "Deductive Logico returned to the secluded island to investigate the ancient ruins that were there. But when he got there, the new caretaker had been murdered. This did not seem like a safe job.",
+    "suspects": [
+      {
+        "name": "Vice President Mauve",
+        "description": "A vice president of TekCo Futures. If she asks you to step into her metaverse, scream at the top of your lungs.",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Taurus"
+      },
+      {
+        "name": "Admiral Navy",
+        "description": "Also, his grandfather was the firstborn son of an Admiral Navy, and his grandfather was, too!",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "light brown",
+        "zodiac": "Cancer"
+      },
+      {
+        "name": "Agent Ink",
+        "description": "An agent with a heart of gold, but a mind for gold, too. She knows how to make a killing.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Grandmaster Rose",
+        "description": "A chess grand master who is always plotting his next move. Like how to stop being a suspect in a murder mystery. (2... Ke7??)",
+        "height": "5'7\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Scorpio"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Docks",
+        "indoor": false,
+        "description": "Old, rotten docks that have certainly seen better days. Look out for sharks!"
+      },
+      {
+        "name": "The Haunted Grove",
+        "indoor": false,
+        "description": "A grove of trees on the corner of the island. Visitors have reported hearing voices whispering."
+      },
+      {
+        "name": "The Ancient Ruins",
+        "indoor": false,
+        "description": "New hypothesis: it's ancient installation art."
+      },
+      {
+        "name": "The Cliffs",
+        "indoor": false,
+        "description": "It's a long drop, but on the bright side, the jagged rocks would break your fall."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "An Ordinary Brick",
+        "weight": "medium-weight",
+        "description": "Just a regular, ordinary brick. Nothing special. Just a brick."
+      },
+      {
+        "name": "An Axe",
+        "weight": "medium-weight",
+        "description": "This axe could chop a tree down. Or a person down!"
+      },
+      {
+        "name": "An Oar",
+        "weight": "heavy-weight",
+        "description": "You could use this to paddle a boat, but be careful of splinters."
+      },
+      {
+        "name": "A Bear Trap",
+        "weight": "heavy-weight",
+        "description": "If you think it's too gruesome for a person, then think how the bears feel!"
+      }
+    ],
+    "clues": [
+      "The person with a bear trap did not want to steal a treasure map.",
+      "The suspect who wanted to impress a lady had a weapon made at least partially of metal.",
+      "Only a person who would kill out of madness would use an ordinary brick.",
+      "Vice President Mauve was seen studying what might be installation art.",
+      "A Virgo had the oar. Virgos love oar-der.",
+      "The tallest suspect had a weapon made (at least in part) with wood.",
+      "The person who wanted to impress a lady was on the cliffs.",
+      "The second tallest suspect had a weapon made (at least in part) with metal.",
+      "Whoever was in the haunted grove was left-handed.",
+      "An axe was used to kill the caretaker."
+    ],
+    "motives": [
+      "To avenge their father",
+      "To steal a treasure map",
+      "To impress a lady",
+      "Out of madness"
+    ],
+    "ground_truth": {
+      "who": "Admiral Navy",
+      "what": "An Axe",
+      "where": "The Cliffs",
+      "why": "To impress a lady"
+    }
+  },
+  {
+    "problem_name": "Unusual Webbing, Unnatural Crimes",
+    "problem_description": "Camping alone in a national park, Deductive Logico dreamt about ancient ruins and a park ranger being murdered. When he woke up, he saw the dream had come true.",
+    "suspects": [
+      {
+        "name": "Mayor Honey",
+        "description": "He's on a retreat in the woods to reevaluate his political prospects in the wake of the latest scandal (murder).",
+        "height": "6'0\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "brown",
+        "zodiac": "Scorpio"
+      },
+      {
+        "name": "Principal Applegreen",
+        "description": "A strict principal about everything except getting away with murder. His hands are always covered in chalk.",
+        "height": "5'11\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Libra"
+      },
+      {
+        "name": "Coach Raspberry",
+        "description": "One of the best coaches this side of the Mississippi, regardless of which side you're on.",
+        "height": "6'0\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Aries"
+      },
+      {
+        "name": "Chancellor Tuscany",
+        "description": "As the head of Deduction College, she has deduced the best way to play the game of academic power politics: reward your allies, punish your enemies, and don't be afraid to kill.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "gray",
+        "zodiac": "Cancer"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Ancient Ruins",
+        "indoor": false,
+        "description": "Maybe they are some kind of marker to tell aliens locations of interest?"
+      },
+      {
+        "name": "The Hot Springs Spa",
+        "indoor": true,
+        "description": "People travel from hundreds of miles to take pictures of themselves in these hot springs."
+      },
+      {
+        "name": "The Party Lake",
+        "indoor": false,
+        "description": "People have been known to drown in this lake, so people have been known to hide bodies in its ice-cold waters, too."
+      },
+      {
+        "name": "The Entrance Gate",
+        "indoor": false,
+        "description": "A huge gate that advertises a place where you can disconnect from the modern world, for a price."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Poisonous Spider",
+        "weight": "light-weight",
+        "description": "Definitely not an accident: its unusual webbing shows that this spider is not native to these woods.",
+        "material": "a live animal"
+      },
+      {
+        "name": "A Pair of Gardening Shears",
+        "weight": "medium-weight",
+        "description": "Rusty, heavy, and dangerous. You could trim a hedge or years off someone's life.",
+        "material": "metal",
+        "handedness": "right-handed"
+      },
+      {
+        "name": "A Bow and Arrow",
+        "weight": "medium-weight",
+        "description": "Look at this thing: what a beauty! Look at the feathers on the arrows as they fly toward your head.",
+        "material": "ceramic, linen, & feathers"
+      },
+      {
+        "name": "A Climbing Axe",
+        "weight": "heavy-weight",
+        "description": "You could climb up a cliff and behold the beauty of the natural landscape. Or kill someone.",
+        "material": "metal & wood"
+      }
+    ],
+    "clues": [
+      "Logico had seen poisoned spiders used before, but only ever as part of a real estate scam.",
+      "Principal Applegreen was not at the entrance gate.",
+      "The shortest suspect had a climbing axe.",
+      "Traces of a weapon made of a live animal were found in the ancient ruins.",
+      "The suspect who wanted to see if they could had a weapon made at least partially of ceramic.",
+      "Coach Raspberry was seen swimming in ice-cold water.",
+      "The gardening shears were right-handed.",
+      "The suspect who wanted to escape blackmail was seen outdoors."
+    ],
+    "motives": [
+      "To rob the victim",
+      "As part of a real estate scam",
+      "To see if they could",
+      "To escape blackmail"
+    ],
+    "ground_truth": {
+      "who": "Mayor Honey",
+      "what": "A Poisonous Spider",
+      "where": "The Ancient Ruins",
+      "why": "As part of a real estate scam"
+    }
+  },
+  {
+    "problem_name": "The Ruins of a Village",
+    "problem_description": "Deductive Logico returned to the quaint little village where he had first followed Dame Obsidian. Now, half the houses were for sale. The other half were empty. A mysterious figure was running around the town, and nobody knew where the shopkeep was. Then Logico found a murder weapon, and he knew what had happened to the shopkeep.",
+    "suspects": [
+      {
+        "name": "Mister Shadow",
+        "description": "A silhouette in shadow. He moves like the wind and he looks like the night.",
+        "height": "[redacted]",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "[redacted]",
+        "zodiac": "Aquarius"
+      },
+      {
+        "name": "Father Mango",
+        "description": "He has taken a vow of poverty, but he drives a BMW. He's taken a vow of obedience, but he has a staff of twenty-five. He's taken a vow of chastity, too, which is why he's on vacation.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "bald",
+        "zodiac": "Taurus"
+      },
+      {
+        "name": "Lord Lavender",
+        "description": "A politically conservative MP in the House of Lords, as well as the musical theater composer behind such hits as The Shadow of the Orchestra: Everything Dies.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "green",
+        "hair_color": "copper",
+        "zodiac": "Leo"
+      },
+      {
+        "name": "Officer Copper",
+        "description": "The best part of being a policewoman criminal is that you can cut out the middleman and fail to investigate your own crimes.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Aries"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The New Development",
+        "indoor": false,
+        "description": "This new development will either revitalize the community or ruin it, depending on who you ask."
+      },
+      {
+        "name": "The Ancient Ruins",
+        "indoor": false,
+        "description": "Is it possible they were some kind of beacon?"
+      },
+      {
+        "name": "The Chapel",
+        "indoor": true,
+        "description": "A tiny church with stained-glass windows and secrets."
+      },
+      {
+        "name": "The Quaint Garden",
+        "indoor": false,
+        "description": "A quaint little garden for growing herbs and flowers. But there might have been some new mounds of dirt lately, of a suspicious size and shape."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "Yarn",
+        "weight": "light-weight",
+        "description": "Sometimes, when you realize you've missed a stitch, you could just strangle somebody.",
+        "material": "wool"
+      },
+      {
+        "name": "An Antique Flintlock",
+        "weight": "medium-weight",
+        "description": "It takes only twenty-five minutes to load this.",
+        "material": "wood & metal"
+      },
+      {
+        "name": "A Knitting Needle",
+        "weight": "light-weight",
+        "description": "You could knit a sweater or a garrote.",
+        "material": "metal"
+      },
+      {
+        "name": "A Bottle of Cyanide",
+        "weight": "light-weight",
+        "description": "Almond-scented poison in a quaint little bottle.",
+        "material": "glass & chemicals"
+      }
+    ],
+    "clues": [
+      "Whoever had yarn was right-handed.",
+      "Lord Lavender had not been in the quaint garden.",
+      "Whoever wanted to steal an idea had green eyes.",
+      "Father Mango was seen hanging around beneath a stained-glass window.",
+      "The person who wanted to steal a body was in the ancient ruins.",
+      "Whoever was in the new development had a medium-weight weapon.",
+      "Whoever might kill as part of a real estate scam was an Aquarius.",
+      "If you are going to scare a bear away, you are going to need a weapon made of metal.",
+      "Logico found a knitting needle that was covered in blood."
+    ],
+    "motives": [
+      "To steal an idea",
+      "As part of a real estate scam",
+      "To steal a body",
+      "To scare a bear away"
+    ],
+    "ground_truth": {
+      "who": "Father Mango",
+      "what": "A Knitting Needle",
+      "where": "The Chapel",
+      "why": "To scare a bear away"
+    }
+  }
+]

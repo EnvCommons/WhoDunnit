@@ -1,0 +1,3215 @@
+[
+  {
+    "problem_name": "Hooray for Hollywood!",
+    "problem_description": "When Logico arrived in Hollywood, he struggled to get his bearings. And once he had his bearings, he struggled to solve a murder: a Hollywood historian had been made history.",
+    "suspects": [
+      {
+        "name": "Executive Producer Steel",
+        "description": "The richest, smartest, and meanest producer in Hollywood. For now.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "gray",
+        "hair_color": "white",
+        "zodiac": "Aries"
+      },
+      {
+        "name": "Hack Blaxton",
+        "description": "He's one of the best paid writers in Hollywood, and one of the worst.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "bald",
+        "zodiac": "Sagittarius"
+      },
+      {
+        "name": "Superfan Smoky",
+        "description": "He knows the shooting locations of every Midnight mystery, but not how to make friends.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "black",
+        "hair_color": "dark brown",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Background Marengo",
+        "description": "You'll never remember her, which is why she's a good extra, and a great murderer.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown",
+        "zodiac": "Gemini"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Midnight Movie Studios",
+        "indoor": true,
+        "description": "Once the biggest studio in Hollywood. They're producing Murder: The Movie, which might actually be cursed."
+      },
+      {
+        "name": "The Great Park",
+        "indoor": false,
+        "description": "Actually named after a murderer (look it up), so we'll just call it the Great Park."
+      },
+      {
+        "name": "The Argyle Talent Agency",
+        "indoor": true,
+        "description": "The most powerful institution in Hollywood history that doesn't control the water supply."
+      },
+      {
+        "name": "The Magic Palace",
+        "indoor": true,
+        "description": "A magicians-only nightclub. To Logico, this place is famous mostly for its murders."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Botox Needle",
+        "weight": "light-weight",
+        "material": "plastic & toxins",
+        "description": "Botox is a poison, which means it could be used as a weapon."
+      },
+      {
+        "name": "A Film Strip",
+        "weight": "light-weight",
+        "material": "plastic",
+        "description": "Ironically, this film strip depicts a man being strangled."
+      },
+      {
+        "name": "A Golf Club",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "Studio executives work hard, too. Look at all the business golf they do."
+      },
+      {
+        "name": "An Award",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "An incredibly prestigious Hollywood award."
+      }
+    ],
+    "motives": [
+      "To prove they're tough",
+      "To get their movie made",
+      "To help sell a script",
+      "To break into the industry"
+    ],
+    "clues": [
+      "Superfan Smoky wanted to break into the industry.",
+      "Background Marengo wanted to get her movie made. (Good luck!)",
+      "The suspect who wanted to prove they're tough was outdoors.",
+      "Forensics found a drop of Botox in the most powerful non-water-related institution in town.",
+      "Executive Producer Steel would never ever want to help sell a script.",
+      "Hack Blaxton had a grudge against the person who had the golf club.",
+      "The award was held by someone who was right-handed.",
+      "Logico was handed a scrambled message by one of the historian's fellow academics: RWOHVEE WAS NI HTE AIGMC ACLAPE ADH A MIMDEU HIEWGT AWNPOE."
+    ],
+    "statements": [
+      {
+        "suspect": "Executive Producer Steel",
+        "statement": "Superfan Smoky did not bring a golf club."
+      },
+      {
+        "suspect": "Hack Blaxton",
+        "statement": "Picture it: Background Marengo was in the Argyle Talent Agency."
+      },
+      {
+        "suspect": "Superfan Smoky",
+        "statement": "Oh, wow! A film strip was at the Midnight Movie Studios."
+      },
+      {
+        "suspect": "Background Marengo",
+        "statement": "Ooh! A golf club was in the Great Park."
+      }
+    ],
+    "ground_truth": {
+      "who": "Hack Blaxton",
+      "what": "An Award",
+      "where": "The Magic Palace",
+      "why": "To help sell a script"
+    }
+  },
+  {
+    "problem_name": "Logico Goes to a Hollywood Party",
+    "problem_description": "Logico's first meeting was not at a production house in Hollywood, but at a producer's house in the Hollywood Hills. The producer was not a good host, but it wasn't his fault: he was dead.",
+    "suspects": [
+      {
+        "name": "Midnight III",
+        "description": "The heir to Midnight Movies-with plans to turn it into the number one studio in the world again. Right now, his dad only lets him select the award nominees.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Libra"
+      },
+      {
+        "name": "Agent Argyle",
+        "description": "Unlike Agent Ink, Argyle does not have a heart of gold, or a heart at all.",
+        "height": "6'4\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Executive Producer Steel",
+        "description": "The richest, smartest, and meanest producer in Hollywood. For now.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "gray",
+        "hair_color": "white",
+        "zodiac": "Aries"
+      },
+      {
+        "name": "Uncle Midnight",
+        "description": "When his dad died, he bought a desert mansion with a pool and retired. He was seventeen.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "dark brown",
+        "zodiac": "Sagittarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Basement Bar",
+        "indoor": true,
+        "description": "A Wurlitzer jukebox, a pinball machine, and a whole bunch of cardboard boxes."
+      },
+      {
+        "name": "The Rooftop Balcony",
+        "indoor": false,
+        "description": "You can look out over the Hollywood Hills and feel so smug and powerful."
+      },
+      {
+        "name": "The Great Hall",
+        "indoor": true,
+        "description": "An enormous spiral staircase winds around a huge statue of the producer himself."
+      },
+      {
+        "name": "The Courtyard Pool",
+        "indoor": false,
+        "description": "A perfect pool to stand around while drinking and name-dropping."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Rare Vase",
+        "weight": "heavy-weight",
+        "material": "ceramic",
+        "description": "Ceramic art from an ancient Hollywood era\u2014the 1930s."
+      },
+      {
+        "name": "Piano Wire",
+        "weight": "light-weight",
+        "material": "metal",
+        "description": "Somewhere out there, there's a piano missing a wire, and it's about to ruin a concert."
+      },
+      {
+        "name": "An Antique Typewriter",
+        "weight": "heavy-weight",
+        "material": "metal",
+        "description": "From the 1970s, which, in Hollywood, is the early modern era."
+      },
+      {
+        "name": "A Giant Screenplay",
+        "weight": "heavy-weight",
+        "material": "paper",
+        "description": "It sets up a franchise, so it's got an extra fifty pages of tedious exposition."
+      }
+    ],
+    "motives": [
+      "To finish their movie",
+      "To liven up a party",
+      "To close a business deal",
+      "For cold hard cash"
+    ],
+    "clues": [
+      "The person who wanted to close a business deal was on the rooftop balcony.",
+      "A member of the Ancient Song of Pitch was in the basement bar with a giant screenplay, and they wanted to liven up the party, as well.",
+      "Someone who had had a bit too much to drink gave Logico a scrambled note: EHT SEORNP WHTI A AERR VSEA ADWNET OT SFHNII HTRIE VOMEI.",
+      "Only a Sagittarius could join the Ancient Song of Pitch.",
+      "A dark brown hair was found on a weapon from the early modern era.",
+      "Whoever was in the courtyard pool was left-handed."
+    ],
+    "statements": [
+      {
+        "suspect": "Midnight III",
+        "statement": "Let me jump in: Agent Argyle brought an antique typewriter."
+      },
+      {
+        "suspect": "Agent Argyle",
+        "statement": "Here is the deal: an antique typewriter was on the rooftop balcony."
+      },
+      {
+        "suspect": "Executive Producer Steel",
+        "statement": "Look, a rare vase was in the great hall."
+      },
+      {
+        "suspect": "Uncle Midnight",
+        "statement": "Hey now, Midnight III was in the courtyard pool."
+      }
+    ],
+    "ground_truth": {
+      "who": "Executive Producer Steel",
+      "what": "Piano Wire",
+      "where": "The Great Hall",
+      "why": "To close a business deal"
+    }
+  },
+  {
+    "problem_name": "Plenty of Kills in the Sea",
+    "problem_description": "Logico's next meeting took place at a beachfront sushi restaurant built atop a pier. Something smelled fishy, and in addition to that, something was suspicious. Soon, he discovered what it was: the sushi chef had been killed.",
+    "suspects": [
+      {
+        "name": "Boss Charcoal",
+        "description": "A mob boss from the good ol' days when being a mob boss from the good ol' days meant something.",
+        "height": "5'11\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Taurus"
+      },
+      {
+        "name": "Secretary Celadon",
+        "description": "The secretary of defense, and someone who is personally responsible for a number of climate disasters, some of which are now named after her.",
+        "height": "5'6\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "light brown",
+        "zodiac": "Leo"
+      },
+      {
+        "name": "Grandmaster Rose",
+        "description": "A chess grand master who is always plotting his next move. Like how to cheat in his next game.",
+        "height": "5'7\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Scorpio"
+      },
+      {
+        "name": "Silverton the Legend",
+        "description": "An acclaimed actor of the Golden Age, now retired from the spotlight.",
+        "height": "5'10\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "silver",
+        "zodiac": "Leo"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Bar",
+        "indoor": true,
+        "description": "The cheapest cocktail costs $150 and is served in a thimble."
+      },
+      {
+        "name": "The Valet Stand",
+        "indoor": false,
+        "description": "Leave your classic car with a guy you won't even tip."
+      },
+      {
+        "name": "The Corner Booth",
+        "indoor": true,
+        "description": "Always reserved for a celebrity who came one time three years ago."
+      },
+      {
+        "name": "A Table by the Dumpster",
+        "indoor": false,
+        "description": "Where they put the has-beens and the walk-ins."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "An Award",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "The same prestigious award again."
+      },
+      {
+        "name": "A Red Herring",
+        "weight": "medium-weight",
+        "material": "fish",
+        "description": "If you hold it by the tail, you can get some real momentum behind it."
+      },
+      {
+        "name": "A Fancy Plate",
+        "weight": "medium-weight",
+        "material": "ceramic",
+        "description": "This plate is worth more than your head."
+      },
+      {
+        "name": "Chopsticks",
+        "weight": "light-weight",
+        "material": "wood",
+        "description": "Two weapons for the price of one."
+      }
+    ],
+    "motives": [
+      "To create a diversion",
+      "Out of frustration",
+      "To inherit a fortune",
+      "To prove they're tough"
+    ],
+    "clues": [
+      "The bartender gave Logico a scrambled note: EHT UPCSSTE AT TEH ARB HDA IRVESL AHRI.",
+      "An award was found where they put the has-beens.",
+      "As a mob boss, Boss Charcoal always wanted to prove he was tough.",
+      "The suspect at the valet stand had dark brown hair.",
+      "A scrambled government report was handed to Logico: REESCRYTA ENDOLAC DDI OTN WANT TO LILK OUT FO TTOSUNRFIAR.",
+      "The Taurus brought a red herring. So typical of a Taurus.",
+      "The person with a weapon worth more than your head wanted to inherit a fortune."
+    ],
+    "statements": [
+      {
+        "suspect": "Boss Charcoal",
+        "statement": "Look here: chopsticks were at the valet stand."
+      },
+      {
+        "suspect": "Secretary Celadon",
+        "statement": "I was not in the corner booth."
+      },
+      {
+        "suspect": "Grandmaster Rose",
+        "statement": "Don't neglect your theory: Secretary Celadon brought an award."
+      },
+      {
+        "suspect": "Silverton the Legend",
+        "statement": "Boss Charcoal did not bring a fancy plate."
+      }
+    ],
+    "ground_truth": {
+      "who": "Boss Charcoal",
+      "what": "A Red Herring",
+      "where": "The Corner Booth",
+      "why": "To prove they're tough"
+    }
+  },
+  {
+    "problem_name": "Murder at the Movies",
+    "problem_description": "Deductive Logico hadn't heard from the producers of Murdle: The Movie in a couple of days, so he went to watch a mystery at a movie theater near his hotel. When he couldn't find his seat, he went to find the usher. And when he couldn't find the usher, he found that he was dead.",
+    "suspects": [
+      {
+        "name": "Pearl, American Guild of Editors",
+        "description": "The editor of some of the best and highest-grossing movies ever made, though never both at once.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Aquarius"
+      },
+      {
+        "name": "Hack Blaxton",
+        "description": "He's one of the best paid writers in Hollywood, and one of the worst.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "bald",
+        "zodiac": "Sagittarius"
+      },
+      {
+        "name": "Superfan Smoky",
+        "description": "He knows the shooting locations of every Midnight mystery, but not how to make friends.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "black",
+        "hair_color": "dark brown",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Director Dusty",
+        "description": "A true filmmaker. He cares about the art of cinema, even (or especially) above human life.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "bald",
+        "zodiac": "Pisces"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Projection Booth",
+        "indoor": true,
+        "description": "A classic place to murder someone, for obvious reasons, especially if you've already seen the movie and know when the loud parts are."
+      },
+      {
+        "name": "The Box Office",
+        "indoor": true,
+        "description": "Tickets are expensive, but not as expensive as popcorn, which is not as expensive as drinks."
+      },
+      {
+        "name": "The Lobby",
+        "indoor": true,
+        "description": "Back in the day, there was a giant chandelier. But it kept falling and crushing people in mysterious ways. Now there are just framed posters."
+      },
+      {
+        "name": "The Theater",
+        "indoor": true,
+        "description": "For legal reasons, we can't say that it's an IMAX. But also, we can't say that it's not an IMAX."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Ritual Dagger",
+        "weight": "medium-weight",
+        "material": "bone",
+        "description": "It's made out of bone. Hopefully not human!"
+      },
+      {
+        "name": "An Award",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "Does everybody have one of these things?"
+      },
+      {
+        "name": "A Stale Candy Bar",
+        "weight": "light-weight",
+        "material": "chocolate",
+        "description": "Hard as a crowbar, it's been here since Lawrence of Arabia."
+      },
+      {
+        "name": "Poisoned Popcorn",
+        "weight": "medium-weight",
+        "material": "corn & oil",
+        "description": "Freshly popped and freshly poisoned, too. Almond flavored and scented!"
+      }
+    ],
+    "motives": [
+      "To see if they could",
+      "To get a better seat",
+      "To steal an idea",
+      "Out of frustration"
+    ],
+    "clues": [
+      "Whoever was carrying the stale candy bar was left-handed.",
+      "The projectionist gave Logico a scrambled clue: AHKC XBATNOL IDD NTO WNAT OT ETG A TBTERE TSAE.",
+      "The smell of almonds was overwhelming in the box office.",
+      "The person with an award wanted to steal an idea.",
+      "Pearl, AGE, was seen slipping a ritual dagger into her purse.",
+      "Deep down, Superfan Smoky wanted to see if he could kill.",
+      "A piece of chocolate was found on the floor of the theater."
+    ],
+    "statements": [
+      {
+        "suspect": "Pearl, American Guild of Editors",
+        "statement": "I seem to have noticed that Hack Blaxton brought poisoned popcorn."
+      },
+      {
+        "suspect": "Hack Blaxton",
+        "statement": "Imagine this: Director Dusty brought an award."
+      },
+      {
+        "suspect": "Superfan Smoky",
+        "statement": "Director Dusty did not bring poisoned popcorn."
+      },
+      {
+        "suspect": "Director Dusty",
+        "statement": "I'm very busy, but a ritual dagger was in the projection booth."
+      }
+    ],
+    "ground_truth": {
+      "who": "Director Dusty",
+      "what": "An Award",
+      "where": "The Projection Booth",
+      "why": "To steal an idea"
+    }
+  },
+  {
+    "problem_name": "The Cost of the Rent is the Real Killer",
+    "problem_description": "Once it was clear Logico would be in Tinseltown for a while, he got himself a room in a nice Hollywood apartment building. He quickly learned that he had only gotten a good deal because the former tenant had been murdered.",
+    "suspects": [
+      {
+        "name": "Uncle Midnight",
+        "description": "When his dad died, he bought a desert mansion with a pool and retired. He was seventeen.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "dark brown",
+        "zodiac": "Sagittarius"
+      },
+      {
+        "name": "Boss Charcoal",
+        "description": "A mob boss from the good ol' days when being a mob boss from the good ol' days meant something.",
+        "height": "5'11\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Taurus"
+      },
+      {
+        "name": "Dr. Crimson",
+        "description": "She's the smartest doctor she's ever met, according to her, and she's probably right. Yeah, she smokes, but if she gets cancer, she'll find a cure.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "red",
+        "zodiac": "Aquarius"
+      },
+      {
+        "name": "Executive Producer Steel",
+        "description": "The richest, smartest, and meanest producer in Hollywood. For now.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "gray",
+        "hair_color": "white",
+        "zodiac": "Aries"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Rooftop Gardens",
+        "indoor": false,
+        "description": "Beautiful rooftop gardens tended by workers who could never afford to live here."
+      },
+      {
+        "name": "The Boiler Room",
+        "indoor": true,
+        "description": "Many famous celebrities have been weirded out by the ominous vibes in here."
+      },
+      {
+        "name": "The Tiniest Room",
+        "indoor": true,
+        "description": "Once a closet, now it costs more every month than your dad saw in his entire life."
+      },
+      {
+        "name": "The Penthouse",
+        "indoor": true,
+        "description": "The highest floor if you don't count the rooftop gardens, so the penthouse owners don't."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Stranglin' Scarf",
+        "weight": "light-weight",
+        "material": "cotton",
+        "description": "In sunny Hollywood, the only use for a scarf is stranglin'."
+      },
+      {
+        "name": "An Antique Typewriter",
+        "weight": "heavy-weight",
+        "material": "metal",
+        "description": "From the 1950s, which, in Hollywood, is the late classical era."
+      },
+      {
+        "name": "A Golden Bird",
+        "weight": "heavy-weight",
+        "material": "gold",
+        "description": "This flamingo statue is worth a fortune."
+      },
+      {
+        "name": "A Ghost Detector",
+        "weight": "medium-weight",
+        "material": "metal & tech",
+        "description": "It's not great at detecting ghosts, but it's pretty good at electrocuting people."
+      }
+    ],
+    "motives": [
+      "To see if they could",
+      "As practice",
+      "To join a cult",
+      "Out of jealousy"
+    ],
+    "clues": [
+      "The person with an antique typewriter wanted to kill to see if they could.",
+      "A scrambled message was scrawled on the bathroom wall: XEEUE-VICT RCORPDUE ELEST ADH A LDOGNE BDRI.",
+      "Whoever would kill out of jealousy was left-handed.",
+      "On a doctor's salary, Dr. Crimson could only afford the tiniest room, which is where she was.",
+      "The person who wanted to kill as practice was not in the boiler room.",
+      "Forensics found traces of a cotton weapon in the penthouse.",
+      "A witness saw Boss Charcoal enjoying the flowers in the beautiful garden."
+    ],
+    "statements": [
+      {
+        "suspect": "Uncle Midnight",
+        "statement": "Hey now, my only motivation to kill would be as practice."
+      },
+      {
+        "suspect": "Boss Charcoal",
+        "statement": "Executive Producer Steel did not bring an antique typewriter."
+      },
+      {
+        "suspect": "Dr. Crimson",
+        "statement": "An antique typewriter was not in the tiniest room."
+      },
+      {
+        "suspect": "Executive Producer Steel",
+        "statement": "Boss Charcoal was not in the tiniest room."
+      }
+    ],
+    "ground_truth": {
+      "who": "Uncle Midnight",
+      "what": "A Stranglin' Scarf",
+      "where": "The Penthouse",
+      "why": "Out of jealousy"
+    }
+  },
+  {
+    "problem_name": "The Murder at MysteryCon",
+    "problem_description": "\"LO-GI-CO! LO-GI-CO!\" the crowd chanted. But the actor playing Deductive Logico wouldn't come out. Finally, the real Logico came out, and announced that the actor had been murdered. The crowd went wild.",
+    "suspects": [
+      {
+        "name": "Silverton the Legend",
+        "description": "An acclaimed actor of the Golden Age, now in his golden years.",
+        "height": "6'4\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "silver",
+        "zodiac": "Leo"
+      },
+      {
+        "name": "President Midnight",
+        "description": "The CEO of Midnight Movies. He cares about art and business, but definitely not in that order.",
+        "height": "6'2\"",
+        "handedness": "right-handed",
+        "eye_color": "black",
+        "hair_color": "black",
+        "zodiac": "Capricorn"
+      },
+      {
+        "name": "Director Dusty",
+        "description": "A true filmmaker. He wants to make a masterpiece. To do that, he might have to make a murder.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "bald",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Judge Pine",
+        "description": "(Former) master of the courtroom and possessed of a firm belief in justice, as decided by her and her alone.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Taurus"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Parking Lot",
+        "indoor": false,
+        "description": "One unfortunate attendee is trying to solve a locked car mystery, but he's not."
+      },
+      {
+        "name": "The Convention Floor",
+        "indoor": true,
+        "description": "Where all the indie mystery writers are selling their wares to people in detective cosplay."
+      },
+      {
+        "name": "The Exhibit Hall",
+        "indoor": true,
+        "description": "Where Murdle: The Movie is being announced by Midnight Movies, much to the chagrin of the indies."
+      },
+      {
+        "name": "The Food Court",
+        "indoor": true,
+        "description": "Where you can order the best in mystery-themed food, like a clueberry muffin."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Magnifying Glass",
+        "weight": "medium-weight",
+        "material": "metal & glass",
+        "description": "You could use this to find a clue or as part of a costume."
+      },
+      {
+        "name": "A Crowbar",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "Honestly, they're used more often for crime than anything else."
+      },
+      {
+        "name": "An Exploding Pipe",
+        "weight": "light-weight",
+        "material": "a pipe & a bomb",
+        "description": "Smoking kills, especially when you use a pipe bomb."
+      },
+      {
+        "name": "A Movie-Edition Hardback",
+        "weight": "medium-weight",
+        "material": "paper",
+        "description": "They reissued Murdle in hardback with a movie-related tie-in cover. It's awful."
+      }
+    ],
+    "motives": [
+      "To promote a movie",
+      "To get good footage",
+      "For cold hard cash",
+      "To steal a part"
+    ],
+    "clues": [
+      "The person who wanted to steal a part was by a locked car.",
+      "The Crude Order of Light do not admit people with blue eyes.",
+      "Whoever was in the exhibit hall was left-handed.",
+      "Director Dusty had a motive to kill for cold hard cash.",
+      "All of the suspects were members of either the Crude Order of Light or the Ancient Song of Pitch.",
+      "Magnifying glasses were banned from the convention floor for being too clich\u00e9.",
+      "The only present member of the Ancient Song of Pitch brought a crowbar.",
+      "Judge Pine just wanted to promote a movie.",
+      "Whoever wanted to get good footage had a medium-weight weapon."
+    ],
+    "statements": [
+      {
+        "suspect": "Silverton the Legend",
+        "statement": "Let me tell you how it is: a magnifying glass was in the exhibit hall."
+      },
+      {
+        "suspect": "President Midnight",
+        "statement": "As president, I can tell you Silverton the Legend was in the parking lot."
+      },
+      {
+        "suspect": "Director Dusty",
+        "statement": "I'm very busy, but Judge Pine brought an exploding pipe."
+      },
+      {
+        "suspect": "Judge Pine",
+        "statement": "The facts are clear: a crowbar was in the parking lot."
+      }
+    ],
+    "ground_truth": {
+      "who": "Silverton the Legend",
+      "what": "A Crowbar",
+      "where": "The Parking Lot",
+      "why": "To steal a part"
+    }
+  },
+  {
+    "problem_name": "Murder in the Park",
+    "problem_description": "To decompress after the murder at MysteryCon, Deductive Logico decided to have a fun day in the Great Park, but it was hard to enjoy the beautiful hills, panoramic views, and grand historic significance when you had a murder to solve: a tourist had been killed.",
+    "suspects": [
+      {
+        "name": "Mx. Tangerine",
+        "description": "Proving that non-binary people can be murderers, too: they are a hiker, birdwatcher, and suspect.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Pearl, American Guild of Editors",
+        "description": "The editor of some of the best and highest-grossing movies ever made, though never both at once.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Aquarius"
+      },
+      {
+        "name": "Lord Lavender",
+        "description": "A politically conservative MP in the House of Lords, as well as the musical theater composer behind such hits as Humming Down the Hill and The Man in Beige.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "green",
+        "hair_color": "gray",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Chancellor Tuscany",
+        "description": "As the head of Deduction College, she has deduced that sometimes the weather is so perfect you just have to go to the park.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "gray",
+        "zodiac": "Libra"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Greek Theater",
+        "indoor": false,
+        "description": "A huge outdoor theater, perfect for watching the orchestra or a touring Scandinavian Viking band."
+      },
+      {
+        "name": "The Old Zoo",
+        "indoor": false,
+        "description": "Where animals used to be kept in cramped, squalid spaces, no better than a struggling actor's apartment today."
+      },
+      {
+        "name": "The Famous Caves",
+        "indoor": false,
+        "description": "A famous actor was named after a street that was named after these caves."
+      },
+      {
+        "name": "The Hollywood Sign",
+        "indoor": false,
+        "description": "Like all pieces of true Hollywood history, it had its start as a real estate scam."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Fire Extinguisher",
+        "weight": "heavy-weight",
+        "material": "metal & chemicals",
+        "description": "You can put out a fire or somebody's lights."
+      },
+      {
+        "name": "A Log",
+        "weight": "heavy-weight",
+        "material": "wood",
+        "description": "A big, heavy oak log. Somebody killed the tree so that the tree could kill somebody."
+      },
+      {
+        "name": "An Antique Helmet",
+        "weight": "heavy-weight",
+        "material": "metal",
+        "description": "It's rusty and it looks awesome."
+      },
+      {
+        "name": "A Rock",
+        "weight": "medium-weight",
+        "material": "rock",
+        "description": "When you can't find another weapon, a rock is always nearby. It has a distinctive chip in it."
+      }
+    ],
+    "motives": [
+      "To destroy a rival's career",
+      "To escape blackmail",
+      "To steal a ruby",
+      "Because they could"
+    ],
+    "clues": [
+      "Whoever wanted to escape blackmail had gray hair\u2014maybe from the blackmail.",
+      "An interestingly distinctive chip was discovered next to a giant H.",
+      "The Path of the Ancient Dead only admitted Libras.",
+      "In a rare public appearance, Pearl, AGE, was seen on stage at a theater.",
+      "Logico was given a scrambled note by a park ranger: XM ERTNE-AGIN WAS NESE TWHI A FRIE IGSITEUENXRH.",
+      "A member of the Path of the Ancient Dead was at a place the size of a struggling actor's apartment.",
+      "The person with an antique helmet wanted to destroy a rival's career."
+    ],
+    "statements": [
+      {
+        "suspect": "Mx. Tangerine",
+        "statement": "Whoever had the log wanted to escape blackmail."
+      },
+      {
+        "suspect": "Pearl, American Guild of Editors",
+        "statement": "A Pisces was not in the old zoo."
+      },
+      {
+        "suspect": "Lord Lavender",
+        "statement": "Whoever would kill because they could was at the Hollywood sign."
+      },
+      {
+        "suspect": "Chancellor Tuscany",
+        "statement": "As an academic, I can assert Mx. Tangerine was at the Hollywood sign."
+      }
+    ],
+    "ground_truth": {
+      "who": "Chancellor Tuscany",
+      "what": "A Log",
+      "where": "The Old Zoo",
+      "why": "To escape blackmail"
+    }
+  },
+  {
+    "problem_name": "Parking is Murder",
+    "problem_description": "Finally, Deductive Logico was invited to Midnight Movie Studios, where he could tour the lot and witness the filming of his movie. But first, he had to solve a problem more horrifying than any he had previously faced: parking. (Also, a valet had been murdered.)",
+    "suspects": [
+      {
+        "name": "Lord Lavender",
+        "description": "A politically conservative MP in the House of Lords, as well as the musical theater composer behind such hits as College of Jazz and Pieces of Fear.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "green",
+        "hair_color": "gray",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Signor Emerald",
+        "description": "An Italian jeweler of great renown, Signor Emerald has traveled the world in search of rare, precious stones, which are always falling out of his pockets.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "light brown",
+        "hair_color": "black",
+        "zodiac": "Sagittarius"
+      },
+      {
+        "name": "Officer Copper",
+        "description": "The best part of being a policewoman criminal is that you can cut out the middleman and fail to investigate your own crimes.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Aries"
+      },
+      {
+        "name": "Pearl, American Guild of Editors",
+        "description": "The editor of some of the best and highest-grossing movies ever made, though never both at once.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Aquarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Parking Lot A",
+        "indoor": false,
+        "description": "The good parking lot. Close to the entrance. Where the executives and stars park."
+      },
+      {
+        "name": "The Security Building",
+        "indoor": true,
+        "description": "A more sophisticated security system than most military bases."
+      },
+      {
+        "name": "Parking Lot B",
+        "indoor": false,
+        "description": "The bad parking lot. Far away from the entrance. It costs money to park here."
+      },
+      {
+        "name": "The Fountain",
+        "indoor": false,
+        "description": "A fountain, filled by the water tower, dedicated to the memory of all the extras injured on set."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Giant Screenplay",
+        "weight": "heavy-weight",
+        "material": "paper",
+        "description": "It sets up a franchise, so it's got an extra fifty pages that are incredibly boring."
+      },
+      {
+        "name": "An Award",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "The more Logico sees these, the less he thinks they're worth."
+      },
+      {
+        "name": "A Golf Cart",
+        "weight": "heavy-weight",
+        "material": "metal, plastic & rubber",
+        "description": "Good for peeling out on tiny tires or running somebody over."
+      },
+      {
+        "name": "A Baton",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "A great tool for brutalizing innocent people."
+      }
+    ],
+    "motives": [
+      "To protect a secret",
+      "Because they were in a hurry",
+      "To get a better spot",
+      "To rob a grave"
+    ],
+    "clues": [
+      "Officer Copper was a member of the Order.",
+      "The person who wanted to protect a secret was not in the building directly to the west of the studio tour check-in stand. (See Exhibit D.)",
+      "Deductive Logico deduced that, based on the time of his next meeting, Signor Emerald was definitely in a hurry.",
+      "Only members of the Order were allowed to carry batons on the lot.",
+      "A script page setting up a sequel was discovered next to a commemorative fountain.",
+      "Pearl, AGE, was seen hanging around in the eastern parking lot. (See Exhibit D.)",
+      "Whoever wanted to get a better spot had a medium-weight weapon."
+    ],
+    "statements": [
+      {
+        "suspect": "Lord Lavender",
+        "statement": "Officer Copper was in the security building."
+      },
+      {
+        "suspect": "Signor Emerald",
+        "statement": "Lord Lavender was driving a golf cart."
+      },
+      {
+        "suspect": "Officer Copper",
+        "statement": "Whoever wanted to get a better spot was in parking lot B."
+      },
+      {
+        "suspect": "Pearl, American Guild of Editors",
+        "statement": "I seem to have noticed that Officer Copper wanted to rob a grave."
+      }
+    ],
+    "ground_truth": {
+      "who": "Signor Emerald",
+      "what": "A Golf Cart",
+      "where": "Parking Lot A",
+      "why": "Because they were in a hurry"
+    }
+  },
+  {
+    "problem_name": "The Tour of Death",
+    "problem_description": "Once Logico had found parking, he realized he was hours early, so he decided to take the studio tour to kill time. Unfortunately, time wasn't all that was killed: the tour guide had been murdered. And Logico was on the case.",
+    "suspects": [
+      {
+        "name": "Superfan Smoky",
+        "description": "He knows the shooting locations of every Midnight mystery, but not how to make friends.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "black",
+        "hair_color": "dark brown",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Sister Lapis",
+        "description": "A nun who travels the world, doing God's work on His dime. Her habit is cashmere, but her habit is spending.",
+        "height": "5'2\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "light brown",
+        "zodiac": "Cancer"
+      },
+      {
+        "name": "Officer Copper",
+        "description": "Being a studio guard might not technically make you an officer, but you still get to yell at people.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Aries"
+      },
+      {
+        "name": "Coach Raspberry",
+        "description": "One of the best coaches this side of the Mississippi, regardless of which side you're on.",
+        "height": "6'0\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Aries"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Tower Bar",
+        "indoor": false,
+        "description": "Themed restaurant that serves drinks in glasses in the shape of the tower."
+      },
+      {
+        "name": "The Statue of Midnight I",
+        "indoor": false,
+        "description": "A statue to the founder of Midnight Movies, the great Midnight I."
+      },
+      {
+        "name": "The City Backlot",
+        "indoor": false,
+        "description": "Where they shoot outdoor city scenes. Cleaner than any actual city ever was."
+      },
+      {
+        "name": "The Studio Tour Check-In Stand",
+        "indoor": false,
+        "description": "Where the tourists check in for the studio tour."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Fire Extinguisher",
+        "weight": "heavy-weight",
+        "material": "metal & chemicals",
+        "description": "You can put out a fire or somebody's lights."
+      },
+      {
+        "name": "A Flag",
+        "weight": "light-weight",
+        "material": "polyester",
+        "description": "Flags can be very dangerous in many ways. Like, for example, strangulation."
+      },
+      {
+        "name": "A Golf Cart",
+        "weight": "heavy-weight",
+        "material": "metal, plastic & rubber",
+        "description": "For getting around a studio or running somebody over."
+      },
+      {
+        "name": "A Fake Award",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "Why would you bring a fake one when the real ones are everywhere?"
+      }
+    ],
+    "motives": [
+      "To renegotiate their contract",
+      "To break into the industry",
+      "To hide an affair",
+      "To meet a celebrity"
+    ],
+    "clues": [
+      "Sister Lapis had always wanted to meet a celebrity.",
+      "The person driving a golf cart did not want to break into the industry.",
+      "Officer Copper desperately wanted to hide an affair.",
+      "A fake award was leaning against a monument to the founder of the studio.",
+      "The person who wanted to renegotiate their contract was at the studio tour check-in stand.",
+      "One of the underpaid PAs handed Logico a scrambled note that read: REHVWOE DAH A LFGA WSA EYNLETDIIF IGRTH DDHENA.",
+      "Zoomed-in surveillance footage showed that whoever was in the city backlot had black eyes."
+    ],
+    "statements": [
+      {
+        "suspect": "Superfan Smoky",
+        "statement": "Oh, wow! Officer Copper brought a fake award."
+      },
+      {
+        "suspect": "Sister Lapis",
+        "statement": "A Virgo did not bring a fake award."
+      },
+      {
+        "suspect": "Officer Copper",
+        "statement": "I was not at the studio tour check-in stand."
+      },
+      {
+        "suspect": "Coach Raspberry",
+        "statement": "I did not bring a fake award."
+      }
+    ],
+    "ground_truth": {
+      "who": "Superfan Smoky",
+      "what": "A Fire Extinguisher",
+      "where": "The City Backlot",
+      "why": "To break into the industry"
+    }
+  },
+  {
+    "problem_name": "Quiet on Set... Too Quiet!",
+    "problem_description": "Filming on Murdle: The Movie had begun, and though the studio was buying up land to use as shooting locations, they were actually filming all of the movie on sound stages on the lot. Unfortunately, they had to stop production when the effects supervisor was killed.",
+    "suspects": [
+      {
+        "name": "Boss Charcoal",
+        "description": "A mob boss from the good ol' days when being a mob boss from the good ol' days meant something.",
+        "height": "5'11\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Taurus"
+      },
+      {
+        "name": "President Midnight",
+        "description": "The CEO of Midnight Movies. He cares about making movies and money, but definitely not in that order.",
+        "height": "6'2\"",
+        "handedness": "right-handed",
+        "eye_color": "black",
+        "hair_color": "black",
+        "zodiac": "Capricorn"
+      },
+      {
+        "name": "A-List Abalone",
+        "description": "The most talented and in-demand actress of all time this month.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "hazel",
+        "hair_color": "red",
+        "zodiac": "Libra"
+      },
+      {
+        "name": "Midnight III",
+        "description": "He argues that detectives are the next superheroes, and mysteries the next tentpole.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Libra"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Sound Stage A",
+        "indoor": true,
+        "description": "Inside is a set of the mysterious caves where Logico caught Irratino."
+      },
+      {
+        "name": "Sound Stage B",
+        "indoor": true,
+        "description": "Inside is a set of Logico's office. Although less orderly than he kept it."
+      },
+      {
+        "name": "Sound Stage C",
+        "indoor": true,
+        "description": "Inside is a set of Irratino's childhood home. Although less messy than he kept it."
+      },
+      {
+        "name": "Sound Stage D",
+        "indoor": true,
+        "description": "Filled entirely with green screens."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A \"Prop\" Knife",
+        "weight": "light-weight",
+        "material": "metal & rubber",
+        "description": "Weirdly it's as sharp as a real knife."
+      },
+      {
+        "name": "A Sandbag",
+        "weight": "heavy-weight",
+        "material": "sand & canvas",
+        "description": "You could swing it or drop it. Either way, its job is to be heavy."
+      },
+      {
+        "name": "A C-Stand",
+        "weight": "heavy-weight",
+        "material": "metal",
+        "description": "For holding up lights. Or swinging at skulls."
+      },
+      {
+        "name": "An Electrical Cable",
+        "weight": "medium-weight",
+        "material": "metal & rubber",
+        "description": "Shock, strangle, or even beat! A multipurpose tool."
+      }
+    ],
+    "motives": [
+      "To take over a studio",
+      "To win an award",
+      "To steal a part",
+      "To get out of a bad movie"
+    ],
+    "clues": [
+      "Whoever wanted to get out of a bad movie had a heavy-weight weapon.",
+      "The Cult of the Dark Gleam only admits people with dark brown eyes.",
+      "A member of the Cult of the Dark Gleam was in the northeast sound stage. (See Exhibit D.)",
+      "A-List Abalone was surrounded by green walls.",
+      "Boss Charcoal had a \"prop\" knife.",
+      "A member of the Cult of the Dark Gleam wanted to steal a part.",
+      "President Midnight wanted to win an award.",
+      "The person who wanted to take over a studio was in the northwest sound stage. (See Exhibit D.)"
+    ],
+    "statements": [
+      {
+        "suspect": "Boss Charcoal",
+        "statement": "Look here: a sandbag was in sound stage D."
+      },
+      {
+        "suspect": "President Midnight",
+        "statement": "I was not in sound stage B."
+      },
+      {
+        "suspect": "A-List Abalone",
+        "statement": "Talk to my agent, but privately, Boss Charcoal was in sound stage A."
+      },
+      {
+        "suspect": "Midnight III",
+        "statement": "Let me jump in: whoever had the C-stand wanted to win an award."
+      }
+    ],
+    "ground_truth": {
+      "who": "A-List Abalone",
+      "what": "A Sandbag",
+      "where": "Sound Stage D",
+      "why": "To get out of a bad movie"
+    }
+  },
+  {
+    "problem_name": "Murder on Sound Stage B",
+    "problem_description": "Logico was stunned when he stepped onto the set of his own office and found everything recreated perfectly, including the method actors who seemed to get so into playing their characters that one of them murdered the actor playing the landlord.",
+    "suspects": [
+      {
+        "name": "Cosmonaut Bluski",
+        "description": "Not actually Cosmonaut Bluski, but a method actor who insists on you addressing him as such.",
+        "height": "6'2\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Aries"
+      },
+      {
+        "name": "General Coffee",
+        "description": "Again, this is an actor, playing a part, but he demands you call him \"General\" or he'll quit.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "bald",
+        "zodiac": "Sagittarius"
+      },
+      {
+        "name": "The Amazing Aureolin",
+        "description": "She has been added to a bunch of the scenes from the movie as sort of Logico's sidekick.",
+        "height": "5'6\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "blond",
+        "zodiac": "Aries"
+      },
+      {
+        "name": "Dr. Crimson",
+        "description": "Yeah, she's an actor playing a doctor, but she's also an actual doctor who quit to go into acting.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "red",
+        "zodiac": "Aquarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Closet",
+        "indoor": true,
+        "description": "The clothes are sorted by color, instead of alphabetically!"
+      },
+      {
+        "name": "The Waiting Room",
+        "indoor": true,
+        "description": "There's an almost identical bell to Logico's, and a sign that says WAIT, PLEASE."
+      },
+      {
+        "name": "The Main Office",
+        "indoor": true,
+        "description": "A desk, bookshelves filled with prop books, and a view of the . . . sky? It's supposed to be bricks!"
+      },
+      {
+        "name": "The Balcony",
+        "indoor": false,
+        "description": "Logico's fire escape, but it's in front of a matte painting of the sky, and it is not an exit."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Fire Extinguisher",
+        "weight": "heavy-weight",
+        "material": "metal & chemicals",
+        "description": "You can put out a fire or somebody's lights."
+      },
+      {
+        "name": "A Red Herring",
+        "weight": "medium-weight",
+        "material": "fish",
+        "description": "If you hold it by the tail, you can get some real momentum behind it."
+      },
+      {
+        "name": "A Booby-Trapped Fedora",
+        "weight": "medium-weight",
+        "material": "felt & explosives",
+        "description": "Whatever you do, don't try it on."
+      },
+      {
+        "name": "A Vial of Poison",
+        "weight": "light-weight",
+        "material": "glass & toxins",
+        "description": "Your typical vial of poison. Don't underestimate the classics."
+      }
+    ],
+    "motives": [
+      "To see if they could",
+      "Out of jealousy",
+      "To win an award",
+      "To get more lines"
+    ],
+    "clues": [
+      "The person who wanted to win an award was in the waiting room.",
+      "The bald person wanted to see if they could kill.",
+      "The suspect who wanted to see if they could was not a member of the Way of Unholy Light.",
+      "Every suspect with green eyes was in the Way of Unholy Light.",
+      "Logico was handed a scrambled note by a security guard: SCAUOOTMN ISLBUK DHAA A IEFR HSGIERTIXNUE.",
+      "The clothes in the closet had been handled by a right-handed suspect.",
+      "The actor playing Logico's sidekick wanted to get more lines.",
+      "Anybody with a booby-trapped fedora would kill out of jealousy."
+    ],
+    "statements": [
+      {
+        "suspect": "Cosmonaut Bluski",
+        "statement": "The second shortest suspect was not in the closet."
+      },
+      {
+        "suspect": "General Coffee",
+        "statement": "Ugh . . . whoever wanted to get more lines was in the main office."
+      },
+      {
+        "suspect": "The Amazing Aureolin",
+        "statement": "A red-haired suspect was on the balcony."
+      },
+      {
+        "suspect": "Dr. Crimson",
+        "statement": "As a doctor, trust me: a red herring was in the closet."
+      }
+    ],
+    "ground_truth": {
+      "who": "Dr. Crimson",
+      "what": "A Booby-Trapped Fedora",
+      "where": "The Balcony",
+      "why": "Out of jealousy"
+    }
+  },
+  {
+    "problem_name": "The Water Tower Bar & Kill",
+    "problem_description": "Deductive Logico had worked up an appetite, so he went to grab a bite at the Water Tower Bar & Grill. The food was bad. But there was a murder while he was there, so at least he had something to occupy his time. You see, a bartender had been killed.",
+    "suspects": [
+      {
+        "name": "Background Marengo",
+        "description": "You'll never remember her, which is why she's a good extra, and a great murderer.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown",
+        "zodiac": "Gemini"
+      },
+      {
+        "name": "Midnight III",
+        "description": "Obsessed with scouting locations for Murdle: The Movie, he thinks that is how he'll put Midnight Movies back on top.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Libra"
+      },
+      {
+        "name": "Director Dusty",
+        "description": "A true filmmaker. The only thing he cares about is getting his movie made. No matter what.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "bald",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Agent Argyle",
+        "description": "Unlike Agent Ink, Argyle does not have a heart of gold, or a heart at all.",
+        "height": "6'4\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown",
+        "zodiac": "Virgo"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Bar",
+        "indoor": true,
+        "description": "Where the cocktails are watered down with authentic water-tower water."
+      },
+      {
+        "name": "The Back Porch",
+        "indoor": false,
+        "description": "Featuring a great view of the water tower and any celebrities that might go by."
+      },
+      {
+        "name": "The Grill",
+        "indoor": true,
+        "description": "The steaks are grilled at room temperature to save money."
+      },
+      {
+        "name": "The Bathrooms",
+        "indoor": true,
+        "description": "Featuring the actual water from the water tower."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Fork",
+        "weight": "light-weight",
+        "material": "metal",
+        "description": "A lot more gruesome than a knife, if you think about it."
+      },
+      {
+        "name": "A Bottle of Wine",
+        "weight": "medium-weight",
+        "material": "glass & alcohol",
+        "description": "Watch out for stains, because the red doesn't come out."
+      },
+      {
+        "name": "A DVD Box Set",
+        "weight": "medium-weight",
+        "material": "wood",
+        "description": "This is a luxurious box set meant to be an heirloom."
+      },
+      {
+        "name": "A Fake Rose",
+        "weight": "light-weight",
+        "material": "plastic",
+        "description": "The plastic stem is strong enough to strangle somebody."
+      }
+    ],
+    "motives": [
+      "To get out of a bad movie",
+      "To win an award",
+      "To take over Hollywood",
+      "To break into the industry"
+    ],
+    "clues": [
+      "The metal weapon reflected the light brown eyes of the person who had it.",
+      "The person who wanted to get out of a bad movie was fretting about it in view of the water tower.",
+      "The person with a bottle of wine did not want to break into the industry. They had wine instead!",
+      "Whoever wanted to win an award was right-handed.",
+      "Director Dusty was seen hanging around the bathrooms.",
+      "A fake rose petal was next to a watered-down cocktail. It had a cinematic look to it.",
+      "Midnight III brought a DVD box set. (Was it for research? Or murder?)"
+    ],
+    "statements": [
+      {
+        "suspect": "Background Marengo",
+        "statement": "Ooh! I brought a fork."
+      },
+      {
+        "suspect": "Midnight III",
+        "statement": "Well, a bottle of wine wasn't on the back porch."
+      },
+      {
+        "suspect": "Director Dusty",
+        "statement": "Agent Argyle wasn't on the back porch, either."
+      },
+      {
+        "suspect": "Agent Argyle",
+        "statement": "Midnight III was not in the bar."
+      }
+    ],
+    "ground_truth": {
+      "who": "Background Marengo",
+      "what": "A Fake Rose",
+      "where": "The Bar",
+      "why": "To break into the industry"
+    }
+  },
+  {
+    "problem_name": "The Real Murder at the Fake Estate",
+    "problem_description": "When Logico stepped onto the set of Irratino's childhood home, he felt an overwhelming wave of sadness and grief. Losing Irratino to death had been hard, but losing him to betrayal was worse. And the feelings got even more complex when the actor playing Irratino was killed.",
+    "suspects": [
+      {
+        "name": "The Duke of Vermillion",
+        "description": "Honestly, Silverton the Legend would've been better suited physically to play the duke.",
+        "height": "5'9\"",
+        "handedness": "left-handed",
+        "eye_color": "gray",
+        "hair_color": "white",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Dame Obsidian",
+        "description": "An actress playing Dame Obsidian who looks\u2014unbelievably\u2014identical to Dame Obsidian.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "black",
+        "zodiac": "Leo"
+      },
+      {
+        "name": "Brother Brownstone",
+        "description": "They cut most of the Brother Brownstone arc from the film, so now he's just a wise monk mentor.",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Capricorn"
+      },
+      {
+        "name": "Astrologer Azure",
+        "description": "Astrologer Azure was sort of a composite character for all of the Investigation Institute people.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "hazel",
+        "hair_color": "light brown",
+        "zodiac": "Aquarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Fifty-Car Garage",
+        "indoor": true,
+        "description": "The classic cars are all props manufactured by the Midnight prop shop."
+      },
+      {
+        "name": "The Servants' Quarters",
+        "indoor": true,
+        "description": "Ironically, this is also what they call their wages. Both are small."
+      },
+      {
+        "name": "The Balcony",
+        "indoor": false,
+        "description": "You can look out over the grounds, but it's actually just a matte painting of the grounds."
+      },
+      {
+        "name": "The Grounds",
+        "indoor": false,
+        "description": "The grass is long, thick, well-kept, and fake, like the hair of the guy who's playing Irratino."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Hypnotic Pocket Watch",
+        "weight": "light-weight",
+        "material": "metal",
+        "description": "If you look deeply into this watch, you can tell the time."
+      },
+      {
+        "name": "A Dowsing Rod",
+        "weight": "medium-weight",
+        "material": "wood",
+        "description": "You can find water, oil, and suckers with this."
+      },
+      {
+        "name": "A Crystal Dagger",
+        "weight": "medium-weight",
+        "material": "metal & jewels",
+        "description": "It might have some kind of ritual purpose, but it might just look great on your mantle."
+      },
+      {
+        "name": "A Poisoned Tincture",
+        "weight": "light-weight",
+        "material": "oil & poison",
+        "description": "According to the label, one drop of this will cure all your ails. Two will kill you."
+      }
+    ],
+    "motives": [
+      "To rob a grave",
+      "To promote the occult",
+      "To steal the estate",
+      "To test out a plot"
+    ],
+    "clues": [
+      "The Duke of Vermillion wanted to rob a grave. It was a long-standing dream.",
+      "On the call sheet, someone had written a scrambled observation: EORLGARTOS UZARE DAH A OHYCTNPI OETCKP WCAHT.",
+      "A member of the Order of the Sacred Oil was in the fifty-car garage.",
+      "Everyone with a medium-weight weapon was a member of the Order of the Sacred Oil.",
+      "A member of the Order of the Sacred Oil wanted to test out a plot.",
+      "A dowsing rod was discovered next to a beautiful matte painting.",
+      "Brother Brownstone was seen cramming himself into a spot that was so cramped it reminded him of his room at the monastery."
+    ],
+    "statements": [
+      {
+        "suspect": "The Duke of Vermillion",
+        "statement": "A Leo brought a dowsing rod."
+      },
+      {
+        "suspect": "Dame Obsidian",
+        "statement": "A thought: I brought a hypnotic pocket watch."
+      },
+      {
+        "suspect": "Brother Brownstone",
+        "statement": "In the name of God, whoever wanted to steal the estate was in the servants' quarters."
+      },
+      {
+        "suspect": "Astrologer Azure",
+        "statement": "Dame Obsidian did not bring a poisoned tincture."
+      }
+    ],
+    "ground_truth": {
+      "who": "Dame Obsidian",
+      "what": "A Dowsing Rod",
+      "where": "The Balcony",
+      "why": "To test out a plot"
+    }
+  },
+  {
+    "problem_name": "The Post-Production Process",
+    "problem_description": "Logico was shocked to find that after they had filmed the entire movie, the work was just beginning. They still had to edit, score, sound mix, color correct, and solve the murder of the assistant editor.",
+    "suspects": [
+      {
+        "name": "A-List Abalone",
+        "description": "When you're on the A-list, committing an occasional murder won't keep you from finishing a film.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "hazel",
+        "hair_color": "red",
+        "zodiac": "Libra"
+      },
+      {
+        "name": "Lord Lavender",
+        "description": "A politically conservative MP in the House of Lords, as well as a musical theater composer who clearly has a lot of hits, although nothing compares to Dogs.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "green",
+        "hair_color": "gray",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Director Dusty",
+        "description": "A true filmmaker. He wants to make a masterpiece. To do that, he might have to make a murder.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "bald",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Pearl, American Guild of Editors",
+        "description": "The editor of some of the best and highest-grossing movies ever made, though never both at once.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Aquarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Edit Bay",
+        "indoor": true,
+        "description": "Empty, like the heads of their stars."
+      },
+      {
+        "name": "The Scoring Stage",
+        "indoor": true,
+        "description": "Where they score the movies. There's usually an orchestra or a DJ here."
+      },
+      {
+        "name": "The Post-Production Lab",
+        "indoor": true,
+        "description": "Where the movies are saved from their incompetent directors."
+      },
+      {
+        "name": "The Water Tower Bar & Grill",
+        "indoor": true,
+        "description": "A themed restaurant that serves drinks in glasses in the shape of the tower."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Film Strip",
+        "weight": "light-weight",
+        "material": "plastic",
+        "description": "Ironically, this film strip depicts a man being strangled."
+      },
+      {
+        "name": "A Toxic Blowfish",
+        "weight": "medium-weight",
+        "material": "fish",
+        "description": "Prepared carefully, it's safe to eat. Prepared even more carefully, it can kill."
+      },
+      {
+        "name": "A Golf Cart",
+        "weight": "heavy-weight",
+        "material": "metal, plastic & rubber",
+        "description": "For getting around a studio or running somebody over."
+      },
+      {
+        "name": "An ADR Microphone",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "For dubbing. Also, for hitting people over the head."
+      }
+    ],
+    "motives": [
+      "To save face",
+      "For political purposes",
+      "To avenge their father",
+      "To get out of a bad movie"
+    ],
+    "clues": [
+      "The person who wanted to get out of a bad movie was not at the Water Tower Bar & Grill.",
+      "The person with a film strip wanted to avenge their father.",
+      "The tallest suspect was seen in the post-production lab.",
+      "The person with a toxic blowfish wanted to save face.",
+      "Lord Lavender brought a golf cart."
+    ],
+    "statements": [
+      {
+        "suspect": "A-List Abalone",
+        "statement": "Talk to my agent, but privately, a film strip was in the water tower."
+      },
+      {
+        "suspect": "Lord Lavender",
+        "statement": "Whoever wanted to save face was in the water tower."
+      },
+      {
+        "suspect": "Director Dusty",
+        "statement": "I'm very busy, but Pearl, AGE, had a motive to kill for political purposes."
+      },
+      {
+        "suspect": "Pearl, American Guild of Editors",
+        "statement": "I seem to have noticed that A-List Abalone brought a film strip."
+      }
+    ],
+    "ground_truth": {
+      "who": "Lord Lavender",
+      "what": "A Golf Cart",
+      "where": "The Scoring Stage",
+      "why": "To get out of a bad movie"
+    }
+  },
+  {
+    "problem_name": "Death at the Agency",
+    "problem_description": "A little rocked by all the murders at the studio, Deductive Logico went to a talent agency in a building known as the Black Tower to see if he could get out of his contract. There, he discovered a client had been killed, which nobody else seemed to mind, because he hadn't made a profitable picture in years.",
+    "suspects": [
+      {
+        "name": "Agent Argyle",
+        "description": "Unlike Agent Ink, Argyle does not have a heart of gold, or a heart at all.",
+        "height": "6'4\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Secretary Celadon",
+        "description": "The secretary of defense, and someone who is personally responsible for a number of failed states, some of which are now named after her.",
+        "height": "5'6\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "light brown",
+        "zodiac": "Leo"
+      },
+      {
+        "name": "President Midnight",
+        "description": "The CEO of Midnight Movies. He cares about his sons and his legacy, but not in that order.",
+        "height": "6'2\"",
+        "handedness": "right-handed",
+        "eye_color": "black",
+        "hair_color": "black",
+        "zodiac": "Capricorn"
+      },
+      {
+        "name": "Hack Blaxton",
+        "description": "He's one of the best paid writers in Hollywood, and one of the worst.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "bald",
+        "zodiac": "Sagittarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Mail Room",
+        "indoor": true,
+        "description": "This is the starting job. And if you're smart, you'll start opening your rival's letters."
+      },
+      {
+        "name": "The Balcony",
+        "indoor": true,
+        "description": "Here you can look down on the city you control."
+      },
+      {
+        "name": "The Lobby",
+        "indoor": true,
+        "description": "They have a lobby twice the size of any literary agency. Your voice echoes like a cave."
+      },
+      {
+        "name": "The Best Office",
+        "indoor": true,
+        "description": "The best-earning agent of the month gets this office. The worst is killed."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Steel Knife",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "For stabbing people in the back and stealing their clients."
+      },
+      {
+        "name": "An Award",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "A clearly not-so-prestigious Hollywood award."
+      },
+      {
+        "name": "Leather Gloves",
+        "weight": "light-weight",
+        "material": "leather",
+        "description": "Beware those who wear leather gloves. They've already killed a cow: who's next?!"
+      },
+      {
+        "name": "A Thousand-Page Contract",
+        "weight": "heavy-weight",
+        "material": "paper",
+        "description": "Sign your rights, life, and future away."
+      }
+    ],
+    "motives": [
+      "To prove a point",
+      "To silence a witness",
+      "To take over a studio",
+      "For religious reasons"
+    ],
+    "clues": [
+      "The person with the knife did not want to prove a point.",
+      "Secretary Celadon was in the Order of the Black Death.",
+      "A cowhide glove was found in a cavernous space.",
+      "The person who wanted to silence a witness was in the balcony.",
+      "All members of the Order of the Black Death had a motive to kill for religious reasons.",
+      "Someone with no hair brought a document to sign their life away.",
+      "A comprehensive report on one of the suspects was compiled, then hastily scribbled onto a note and passed to Logico: NGEAT YLRGEA ASW NESE IN EHT LAIM ROOM WHTI AN RAADW BUEESAC HE AENDWT TO TKAE OVRE A TDOSUI."
+    ],
+    "statements": [
+      {
+        "suspect": "Agent Argyle",
+        "statement": "A thousand-page contract was not in the lobby."
+      },
+      {
+        "suspect": "Secretary Celadon",
+        "statement": "Hack Blaxton did not bring leather gloves."
+      },
+      {
+        "suspect": "President Midnight",
+        "statement": "As president, Secretary Celadon was in the best office."
+      },
+      {
+        "suspect": "Hack Blaxton",
+        "statement": "President Midnight was not in the mail room."
+      }
+    ],
+    "ground_truth": {
+      "who": "President Midnight",
+      "what": "A Steel Knife",
+      "where": "The Balcony",
+      "why": "To silence a witness"
+    }
+  },
+  {
+    "problem_name": "They Bill You Double for Dying",
+    "problem_description": "Logico drove to an entertainment law firm he was recommended, but when he got there, he saw the size of their lobby and knew immediately that it was too expensive for him. Fortunately, a lawyer had just been murdered, so he offered to solve it in return for a discount.",
+    "suspects": [
+      {
+        "name": "Agent Argyle",
+        "description": "Unlike Agent Ink, Argyle does not have a heart of gold, or a heart at all.",
+        "height": "6'4\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Hack Blaxton",
+        "description": "He was a little embarrassed to run into his brother here, since he'd changed his last name.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "bald",
+        "zodiac": "Sagittarius"
+      },
+      {
+        "name": "Judge Pine",
+        "description": "Master of the courtroom and possessed of a firm belief in justice, as decided by her and her alone.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "dark brown",
+        "hair_color": "black",
+        "zodiac": "Taurus"
+      },
+      {
+        "name": "Blackstone, Esq.",
+        "description": "Incredibly talented at the most important skill for an attorney: finding employment at another firm when you're fired from your first for malpractice.",
+        "height": "5'8\"",
+        "handedness": "right-handed",
+        "eye_color": "black",
+        "hair_color": "black",
+        "zodiac": "Scorpio"
+      }
+    ],
+    "locations": [
+      {
+        "name": "A Partner's Office",
+        "indoor": true,
+        "description": "Pictures of the partner with every world leader, especially the bad ones."
+      },
+      {
+        "name": "The Archives",
+        "indoor": true,
+        "description": "Ancient legal books going back to the Code of Hammurabi. They belong in a museum."
+      },
+      {
+        "name": "The Break Room",
+        "indoor": true,
+        "description": "A full-time coffee barista, a walk-in fridge, and a fountain filled with priceless wine."
+      },
+      {
+        "name": "The Lobby",
+        "indoor": true,
+        "description": "This lobby makes that other law firm's lobby look like the bathroom at a used car lot."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Huge Pile of Paperwork",
+        "weight": "heavy-weight",
+        "material": "paper",
+        "description": "Mostly contracts acquiring the land for shooting locations for Murdle: The Movie."
+      },
+      {
+        "name": "A Bag of Cash",
+        "weight": "heavy-weight",
+        "material": "cloth & paper",
+        "description": "Great for bribery or just general corruption."
+      },
+      {
+        "name": "A Golden Pen",
+        "weight": "light-weight",
+        "material": "metal & ink",
+        "description": "This pen was used to sign the Magna Carta."
+      },
+      {
+        "name": "An Antique Clock",
+        "weight": "heavy-weight",
+        "material": "wood & metal",
+        "description": "Tick, tock, tick, tock. Technically, time is killing us all slowly."
+      }
+    ],
+    "motives": [
+      "To get revenge",
+      "As part of a real estate scam",
+      "Out of frustration",
+      "To get a higher percentage"
+    ],
+    "clues": [
+      "Whoever wanted to kill as part of a real estate scam had black hair.",
+      "Whoever wanted to get a higher percentage had light brown eyes.",
+      "A secretary had written a quick, scrambled note and given it to Logico: TEH SORENP OHW DOLWU LILK UTO FO UFRTOSRANTI AWS NI ETH HAVCIERS.",
+      "The person with a golden pen wanted to get revenge.",
+      "A Sagittarius was seen chatting up a coffee barista.",
+      "A faint ticking sound was heard next to a picture of a dictator."
+    ],
+    "statements": [
+      {
+        "suspect": "Agent Argyle",
+        "statement": "Here is the deal: Hack Blaxton brought a bag of cash."
+      },
+      {
+        "suspect": "Hack Blaxton",
+        "statement": "Picture it: a huge pile of paperwork was in the lobby."
+      },
+      {
+        "suspect": "Judge Pine",
+        "statement": "Judicially, whoever had the antique clock wanted to get a higher percentage."
+      },
+      {
+        "suspect": "Blackstone, Esq.",
+        "statement": "I'll give you my statement now and my bill later: Judge Pine brought a huge pile of paperwork."
+      }
+    ],
+    "ground_truth": {
+      "who": "Agent Argyle",
+      "what": "An Antique Clock",
+      "where": "A Partner's Office",
+      "why": "To get a higher percentage"
+    }
+  },
+  {
+    "problem_name": "Murder at the Mystery Show",
+    "problem_description": "Deductive Logico called the one person he knew could help, Inspector Irratino, and asked how he could escape Hollywood. And Irratino told him, \"Calm down, and go to this address.\" When Logico got there, he found a small theater staging a Hollywood Mystery Show. Being a professional, he was able to solve the whodunit well before the final act.",
+    "suspects": [
+      {
+        "name": "Assistant Applegreen",
+        "description": "Her father was proud that she has finally left that commune, but then she moved to Hollywood...",
+        "height": "5'3\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Background Marengo",
+        "description": "You'll never remember her, which is why she's a good extra, and a great murderer.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown",
+        "zodiac": "Gemini"
+      },
+      {
+        "name": "Superfan Smoky",
+        "description": "He knows the shooting locations of every Midnight mystery, but not how to make friends.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "black",
+        "hair_color": "dark brown",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Miss Saffron",
+        "description": "Gorgeous and stunning, but maybe not all there in the brains department. Or maybe she wants you to think that. Or maybe she wants you to think that's what she wants you to think.",
+        "height": "5'2\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond",
+        "zodiac": "Libra"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Audience",
+        "indoor": true,
+        "description": "This is a loud audience. They keep yelling and heckling and that seems to be the point."
+      },
+      {
+        "name": "The Lighting Booth",
+        "indoor": true,
+        "description": "A single person controls all the lights from a tiny, cramped booth full of knobs and switches."
+      },
+      {
+        "name": "The Stage",
+        "indoor": true,
+        "description": "On one side, the maestro plays the keyboard. On the other, the hostess serves drinks and gossips with the Scriptkeeper."
+      },
+      {
+        "name": "The Green Room",
+        "indoor": true,
+        "description": "Where the actors do their makeup and drugs. A single blue bulb lights the room. So, it's more of a blue room."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Jug of Whiskey",
+        "weight": "medium-weight",
+        "material": "metal & toxins",
+        "description": "This is probably the most dangerous weapon in the book, if you count long-term effects."
+      },
+      {
+        "name": "A Fake Rose",
+        "weight": "light-weight",
+        "material": "plastic",
+        "description": "The plastic stem is strong enough to strangle somebody."
+      },
+      {
+        "name": "A \"Prop\" Knife",
+        "weight": "light-weight",
+        "material": "metal & rubber",
+        "description": "Weirdly it's as sharp as a real knife. Wait a second\u2014"
+      },
+      {
+        "name": "A Ghost Light",
+        "weight": "heavy-weight",
+        "material": "metal & glass",
+        "description": "A theater superstition says you should always leave a light on stage. This is that light."
+      }
+    ],
+    "motives": [
+      "On behalf of the industry",
+      "For thematic reasons",
+      "To create a diversion",
+      "To promote the occult"
+    ],
+    "clues": [
+      "A ghost light was found under a blue light.",
+      "A \"prop\" knife was never taken on stage, which really hurt the case that it was a prop.",
+      "Miss Saffron had a light-weight weapon.",
+      "The second tallest suspect was the only one who wasn't a member of the Hollywood Mystery Society.",
+      "The person with a jug of whiskey wanted to create a diversion.",
+      "Whoever wanted to promote the occult had dark brown hair.",
+      "Members of the Hollywood Mystery Society are not allowed to be near knobs.",
+      "The person who wanted to kill on behalf of the industry was in the audience."
+    ],
+    "statements": [
+      {
+        "suspect": "Assistant Applegreen",
+        "statement": "I took notes on this: the tallest suspect was on the stage."
+      },
+      {
+        "suspect": "Background Marengo",
+        "statement": "Ooh! I brought a jug of whiskey."
+      },
+      {
+        "suspect": "Superfan Smoky",
+        "statement": "I did not bring a ghost light."
+      },
+      {
+        "suspect": "Miss Saffron",
+        "statement": "What do I know? Well, Assistant Applegreen was in the audience."
+      }
+    ],
+    "ground_truth": {
+      "who": "Miss Saffron",
+      "what": "A \"Prop\" Knife",
+      "where": "The Audience",
+      "why": "On behalf of the industry"
+    }
+  },
+  {
+    "problem_name": "Death in the Magick Shoppe",
+    "problem_description": "Tucked into a corner, Logico found the Hollywood Mystery Shoppe, a movie-magick emporium. It has everything you need to make it in the movies: spell books, magick powders, lighting equipment, and a dead clerk. Again, why had Irratino sent him to these people?",
+    "suspects": [
+      {
+        "name": "Bishop Azure",
+        "description": "A bishop in a local church, Azure has been known to pray for both her friends and her enemies. Of course, she asks for different things . . .",
+        "height": "5'4\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown",
+        "zodiac": "Gemini"
+      },
+      {
+        "name": "Director Dusty",
+        "description": "A true filmmaker. He wants to make a masterpiece. To do that, he might have to make a murder.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "bald",
+        "zodiac": "Pisces"
+      },
+      {
+        "name": "Comrade Champagne",
+        "description": "A communist and a rich one. Comrade Champagne likes nothing more than to travel the world, sharing the message of communism while sipping on the finest sparkling wines.",
+        "height": "5'11\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond",
+        "zodiac": "Capricorn"
+      },
+      {
+        "name": "Uncle Midnight",
+        "description": "When his dad died, he bought a desert mansion with a pool and retired. He was seventeen.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "dark brown",
+        "zodiac": "Sagittarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Secret Room",
+        "indoor": true,
+        "description": "A secret room used for conducting magick rituals and photo shoots."
+      },
+      {
+        "name": "The Back Office",
+        "indoor": true,
+        "description": "Where the proprietor\u2014a Hollywood mystery writer\u2014does most of his writing."
+      },
+      {
+        "name": "The Front Porch",
+        "indoor": false,
+        "description": "There's an inviting sign offering supplies for \"all your magickal mystery needs.\""
+      },
+      {
+        "name": "The Main Room",
+        "indoor": true,
+        "description": "You can buy all sorts of magick supplies, mystery books, and more."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Crystal Ball",
+        "weight": "heavy-weight",
+        "material": "crystal",
+        "description": "If you look into it, it will tell you your future, so long as your future is a crystal ball."
+      },
+      {
+        "name": "An Award",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "One of the most commonplace items in all of Hollywood, it seems."
+      },
+      {
+        "name": "A Sword Cane",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "Sharp and hidden. Looks like an ordinary cane."
+      },
+      {
+        "name": "A Cursed Dagger",
+        "weight": "medium-weight",
+        "material": "metal & jewels",
+        "description": "A dying duchess cursed this dagger when she used it to end her own life."
+      }
+    ],
+    "motives": [
+      "To steal a crystal",
+      "On behalf of the industry",
+      "To help sell a script",
+      "For religious reasons"
+    ],
+    "clues": [
+      "The suspect with the crystal ball had blond hair.",
+      "The second shortest suspect was in the Cult of the Black Cow.",
+      "Whoever was in the main room was right-handed.",
+      "The person who wanted to steal a crystal was in the back office.",
+      "A member of the High Order of the Dark Rain brought a cursed dagger.",
+      "The dead clerk had written a note in a scrambled hand before they died: EWVEORH AHD NA RAADW WSA ITHRG-EDDAHN.",
+      "Director Dusty was in a room he had previously used for photo shoots.",
+      "The person with a sword cane wanted to kill on behalf of the industry.",
+      "Nobody in the Cult of the Black Cow was also in the High Order of the Dark Rain: they were rivals."
+    ],
+    "statements": [
+      {
+        "suspect": "Bishop Azure",
+        "statement": "Whoever had the cursed dagger wanted to help sell a script."
+      },
+      {
+        "suspect": "Director Dusty",
+        "statement": "I was not in the back office."
+      },
+      {
+        "suspect": "Comrade Champagne",
+        "statement": "I was not in the main room."
+      },
+      {
+        "suspect": "Uncle Midnight",
+        "statement": "Hey now, Director Dusty was in the secret room."
+      }
+    ],
+    "ground_truth": {
+      "who": "Bishop Azure",
+      "what": "An Award",
+      "where": "The Main Room",
+      "why": "To help sell a script"
+    }
+  },
+  {
+    "problem_name": "A Ritual Killing",
+    "problem_description": "But then, five members of the Hollywood Mystery Society took Logico into the secret back room. They blew out all the lights, and then they began to sing and dance, performing some kind of magick ritual, when suddenly\u2014a scream! When the lights came on, one of them was dead.",
+    "suspects": [
+      {
+        "name": "Background Marengo",
+        "description": "You'll never remember her, which is why she's a good extra, and a great murderer.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "light brown",
+        "hair_color": "dark brown",
+        "zodiac": "Gemini"
+      },
+      {
+        "name": "Superfan Smoky",
+        "description": "He knows the shooting locations of every Midnight mystery, but not how to make friends.",
+        "height": "5'10\"",
+        "handedness": "left-handed",
+        "eye_color": "black",
+        "hair_color": "dark brown",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Assistant Applegreen",
+        "description": "Maybe one day she'll make her father proud again. Or maybe she'll murder someone.",
+        "height": "5'3\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Virgo"
+      },
+      {
+        "name": "Mx. Tangerine",
+        "description": "Proving that non-binary people can be murderers, too, they are an artist, poet, and suspect.",
+        "height": "5'5\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond",
+        "zodiac": "Pisces"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Bathroom",
+        "indoor": true,
+        "description": "Every ritual room needs a bathroom (that's part of the building code)."
+      },
+      {
+        "name": "The Secret Entrance",
+        "indoor": true,
+        "description": "It's behind a bookshelf in the Hollywood Mystery Shoppe. Just grab the right book."
+      },
+      {
+        "name": "The Floor Sigil",
+        "indoor": true,
+        "description": "A bunch of wild lines and circles on the floor that have occult significance."
+      },
+      {
+        "name": "The Altar",
+        "indoor": true,
+        "description": "Where the leader of the ritual stands and conducts the proceedings."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Bottle of Wine",
+        "weight": "medium-weight",
+        "material": "glass & alcohol",
+        "description": "Watch out for stains, because the red doesn't come out."
+      },
+      {
+        "name": "A Rose Flag",
+        "weight": "light-weight",
+        "material": "canvas",
+        "description": "There's a red rose on a black background on the flag."
+      },
+      {
+        "name": "An Award",
+        "weight": "medium-weight",
+        "material": "metal",
+        "description": "They use this in their rituals. It does have some kind of power."
+      },
+      {
+        "name": "A Heavy Candle",
+        "weight": "heavy-weight",
+        "material": "wax",
+        "description": "It's heavy, yet it lightens the room."
+      }
+    ],
+    "motives": [
+      "Because the vibes were off",
+      "On behalf of the industry",
+      "To make good art",
+      "To take over Hollywood"
+    ],
+    "clues": [
+      "Either someone who wanted to kill on behalf of the industry was in the secret entrance, or someone with an award was.",
+      "The suspect with the rose flag wanted to take over Hollywood.",
+      "A red stain was discovered in the bathroom.",
+      "Only members of the Order of the Rose & Key wanted to make good art.",
+      "A member wrote a hastily scribbled message: VERHEOW OWULD IKLL CEEBAUS HET ESIBV WERE FFO SWA A GIRVO.",
+      "Background Marengo never set foot on the floor sigil.",
+      "A drop of wax was discovered on the altar.",
+      "Assistant Applegreen was not in the Order of the Rose & Key."
+    ],
+    "statements": [
+      {
+        "suspect": "Background Marengo",
+        "statement": "Ooh! Superfan Smoky brought a bottle of wine."
+      },
+      {
+        "suspect": "Superfan Smoky",
+        "statement": "Oh, wow! A bottle of wine was in the bathroom."
+      },
+      {
+        "suspect": "Assistant Applegreen",
+        "statement": "Simply put, I brought a flag."
+      },
+      {
+        "suspect": "Mx. Tangerine",
+        "statement": "The person with the bottle of wine could kill because the vibes were off."
+      }
+    ],
+    "ground_truth": {
+      "who": "Assistant Applegreen",
+      "what": "A Heavy Candle",
+      "where": "The Altar",
+      "why": "On behalf of the industry"
+    }
+  },
+  {
+    "problem_name": "A Free Press Can Cost a Killing",
+    "problem_description": "Deductive Logico smuggled Inspector Irratino out of house arrest and into Hollywood, where they celebrated at Logico's apartment before heading to a local Hollywood trade, a newspaper for the Industry. \"Midnight Movies is involved in a global conspiracy!\" The first thing the editor said was that they needed proof. The second was that their assistant editor had just been killed.",
+    "suspects": [
+      {
+        "name": "Editor Ivory",
+        "description": "It turns out, being a murderer hurts your romance-genre employment prospects. It does not hurt your Hollywood trade employment prospects.",
+        "height": "5'6\"",
+        "handedness": "left-handed",
+        "eye_color": "light brown",
+        "hair_color": "gray",
+        "zodiac": "Scorpio"
+      },
+      {
+        "name": "Bookie-Winner Gainsboro",
+        "description": "Gainsboro's six-thousand-page dirt novel does not pay the bills. So he's a journalist, too. That, also, doesn't pay the bills.",
+        "height": "6'0\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "light brown",
+        "zodiac": "Gemini"
+      },
+      {
+        "name": "Hack Blaxton",
+        "description": "Hack Blaxton would never work as a journalist. He's here for a feature interview.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "bald",
+        "zodiac": "Sagittarius"
+      },
+      {
+        "name": "Comrade Champagne",
+        "description": "Comrade Champagne is here to see if he could unionize the workforce, and put them on the path to seizing the presses.",
+        "height": "5'11\"",
+        "handedness": "left-handed",
+        "eye_color": "hazel",
+        "hair_color": "blond",
+        "zodiac": "Capricorn"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Bullpen",
+        "indoor": true,
+        "description": "Where all the writers pitch stories and new slang terms. Filled with crumpled-up ideas."
+      },
+      {
+        "name": "The Printing Press",
+        "indoor": true,
+        "description": "An enormous machine of gears and belts and rollers."
+      },
+      {
+        "name": "The Balcony",
+        "indoor": false,
+        "description": "Don't look down! Not only is it scary, but also, someone might push you."
+      },
+      {
+        "name": "The Rooftop",
+        "indoor": false,
+        "description": "Back in the seventies, there was a helipad up here. Now there's a billboard for arthritis medicine."
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Letter Opener",
+        "weight": "light-weight",
+        "material": "metal",
+        "description": "A sharp knife used by people who won't just rip their letters open."
+      },
+      {
+        "name": "A Laptop",
+        "weight": "medium-weight",
+        "material": "metal & tech",
+        "description": "The machine you work on. It's connected to every distraction ever made."
+      },
+      {
+        "name": "A Marble Bust",
+        "weight": "heavy-weight",
+        "material": "marble",
+        "description": "It's a bust of a famous journalist, but don't look him up\u2014you won't like what you find."
+      },
+      {
+        "name": "A Printer",
+        "weight": "heavy-weight",
+        "material": "metal & tech",
+        "description": "If you're over the age of fifty, you probably use one of these."
+      }
+    ],
+    "motives": [
+      "To seize power",
+      "Out of frustration",
+      "To stop the revolution",
+      "To escape blackmail"
+    ],
+    "clues": [
+      "Whoever wanted to seize power was left-handed.",
+      "The author of a book about dirt is not a member of the Anointed Ones.",
+      "A letter opener was wedged in between a belt and a gear, making a grinding sound.",
+      "The suspect with the same height as Bookie-Winner Gainsboro was seen with a laptop.",
+      "A member of the Anointed Ones was on the rooftop.",
+      "An intern handed Logico a scrambled note: HTE TCUSPES THIW A TRNRPEI TENWDA OT POST EHT TOROUENVLI.",
+      "The person who would kill out of frustration was thinking about it on the balcony.",
+      "The suspect who wanted to escape blackmail was seen indoors."
+    ],
+    "statements": [
+      {
+        "suspect": "Editor Ivory",
+        "statement": "Well, I was at the printing press."
+      },
+      {
+        "suspect": "Bookie-Winner Gainsboro",
+        "statement": "I have a Bookie, so take it from me: a marble bust was on the balcony."
+      },
+      {
+        "suspect": "Hack Blaxton",
+        "statement": "Bookie-Winner Gainsboro brought a letter opener."
+      },
+      {
+        "suspect": "Comrade Champagne",
+        "statement": "Take it from me, a working man: I brought a marble bust."
+      }
+    ],
+    "ground_truth": {
+      "who": "Editor Ivory",
+      "what": "A Printer",
+      "where": "The Rooftop",
+      "why": "To stop the revolution"
+    }
+  },
+  {
+    "suspects": [
+      {
+        "name": "Midnight III",
+        "description": "He thinks the fact that his father splits his focus between making movies and making money is ruining the studio.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Libra"
+      },
+      {
+        "name": "Secretary Celadon",
+        "description": "The secretary of defense, and someone who is personally responsible for a number of war crimes, some of which are now named after her.",
+        "height": "5'6\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "light brown",
+        "zodiac": "Leo"
+      },
+      {
+        "name": "President Midnight",
+        "description": "The CEO of Midnight Movies. He cares about art and business, but definitely not in that order.",
+        "height": "6'2\"",
+        "handedness": "right-handed",
+        "eye_color": "black",
+        "hair_color": "black",
+        "zodiac": "Capricorn"
+      },
+      {
+        "name": "Executive Producer Steel",
+        "description": "The richest, smartest, and meanest producer in Hollywood. For now.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "gray",
+        "hair_color": "white",
+        "zodiac": "Aries"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Luxury Theater",
+        "description": "Where footage is screened for executives who can't direct, but can somehow give notes.",
+        "indoor": true
+      },
+      {
+        "name": "The Bungalows",
+        "description": "Where the talent lives while they're working on a movie, so the studio doesn't have to pay for hotel rooms.",
+        "indoor": true
+      },
+      {
+        "name": "The Prop Shop",
+        "description": "Where they make all the fake knives, fake cars, and fake tears.",
+        "indoor": true
+      },
+      {
+        "name": "The Locked Stage",
+        "description": "Nobody knows what's in here. It's been locked for years.",
+        "indoor": true
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Deck of Marot Cards",
+        "weight": "light-weight",
+        "description": "You can use these murder-themed tarot cards to read your future."
+      },
+      {
+        "name": "An Award",
+        "weight": "medium-weight",
+        "description": "By this point, Logico was convinced they could be used for paperweights."
+      },
+      {
+        "name": "A C-Stand",
+        "weight": "heavy-weight",
+        "description": "For holding up lights. Or swinging at skulls."
+      },
+      {
+        "name": "A Magnifying Glass",
+        "weight": "medium-weight",
+        "description": "You could use this to find a clue or to bonk somebody."
+      }
+    ],
+    "motives": [
+      "To get the recognition they deserve",
+      "To promote a movie",
+      "To get revenge",
+      "To take over Hollywood"
+    ],
+    "clues": [
+      "The person who wanted to promote a movie was in the bungalows.",
+      "A fortune-telling card was discovered in the building directly north of the Luxury Theatre. (See Exhibit D.)",
+      "Everybody in the Order of Buried Talents wanted to get the recognition they deserved.",
+      "Analysts discovered traces of a weapon made of metal on the clothing of Midnight III.",
+      "A scrambled message was found in the security guard's papers: EHT SORNPE HWTI A FIAINGNYMG SAGSL DNTEWA TO TEKA EORV DOLLOWOHY.",
+      "A Capricorn had the C-stand. (The C stood for Capricorn.)",
+      "Everybody with an award joined the Order of Buried Talents.",
+      "Whoever was in the building directly east of the studio tour check-in was right-handed. (See Exhibit D.)"
+    ],
+    "statements": [
+      {
+        "suspect": "Midnight III",
+        "statement": "I was not in the luxury theater."
+      },
+      {
+        "suspect": "Secretary Celadon",
+        "statement": "A magnifying glass was in the locked stage."
+      },
+      {
+        "suspect": "President Midnight",
+        "statement": "Midnight III did not bring a magnifying glass."
+      },
+      {
+        "suspect": "Executive Producer Steel",
+        "statement": "Look: I wanted to take over Hollywood."
+      }
+    ],
+    "ground_truth": {
+      "who": "Secretary Celadon",
+      "what": "A Deck of Marot Cards",
+      "where": "The Prop Shop",
+      "why": "To get revenge"
+    },
+    "problem_name": "96. BREAKING AND INVESTIGATING",
+    "problem_description": "Deductive Logico and Inspector Irratino snuck onto the lot by using an old trick: lying. They dressed up as mechanics and wore fake mustaches and walked right in. Eventually, they realized why it had been so easy: the security guard had been killed."
+  },
+  {
+    "suspects": [
+      {
+        "name": "Hack Blaxton",
+        "description": "He's one of the best paid writers in Hollywood, and one of the worst.",
+        "height": "6'0\"",
+        "handedness": "right-handed",
+        "eye_color": "light brown",
+        "hair_color": "bald",
+        "zodiac": "Sagittarius"
+      },
+      {
+        "name": "Silverton the Legend",
+        "description": "An acclaimed actor of the Golden Age, now in his golden years.",
+        "height": "6'4\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "silver",
+        "zodiac": "Leo"
+      },
+      {
+        "name": "A-List Abalone",
+        "description": "The most talented and in-demand actress of all time this month.",
+        "height": "5'6\"",
+        "handedness": "right-handed",
+        "eye_color": "hazel",
+        "hair_color": "red",
+        "zodiac": "Libra"
+      },
+      {
+        "name": "Uncle Midnight",
+        "description": "When his dad died, he bought a desert mansion with a pool and retired. He was seventeen.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "blue",
+        "hair_color": "dark brown",
+        "zodiac": "Sagittarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Bungalow 1",
+        "description": "For beginning writers. It has a bedroom, living room, and kitchen, but they're all the same room.",
+        "indoor": true
+      },
+      {
+        "name": "Bungalow 2",
+        "description": "When they upgrade you to Bungalow 2, you know you've made it. A full-sized refrigerator? Wow.",
+        "indoor": true
+      },
+      {
+        "name": "Bungalow 3",
+        "description": "A bungalow for the stars. You have your own balcony, and your shower has two showerheads.",
+        "indoor": true
+      },
+      {
+        "name": "Bungalow 4",
+        "description": "A luxury bungalow that is absolutely never occupied, as a way of making sure even the stars know their place.",
+        "indoor": true
+      }
+    ],
+    "weapons": [
+      {
+        "name": "An Antique Typewriter",
+        "weight": "heavy-weight",
+        "description": "From the 1920s, which, in Hollywood, makes it neolithic."
+      },
+      {
+        "name": "An Award",
+        "weight": "medium-weight",
+        "description": "This one is for Best Movie Adapted from a Puzzle Book. Very prestigious."
+      },
+      {
+        "name": "A Giant Screenplay",
+        "weight": "heavy-weight",
+        "description": "It sets up a franchise, so it's got an extra fifty pages that are incredibly boring."
+      },
+      {
+        "name": "A Fountain Pen",
+        "weight": "light-weight",
+        "description": "With this, you can sign checks or stab necks. Unfortunately, it leaks ink."
+      }
+    ],
+    "motives": [
+      "For money",
+      "To get revenge",
+      "To steal a prized book",
+      "To win an award"
+    ],
+    "clues": [
+      "The person with the giant screenplay did not want to kill for money.",
+      "An ink stain was discovered in a one-roomed bungalow.",
+      "Logico received a tip from a journalist, written in the Next Letter Code: VGNDUDQ VZMSDC SN VHM ZM ZVZQC VZR KDES-GZMCDC.",
+      "Uncle Midnight was seen next to a full-sized refrigerator.",
+      "Either A-List Abalone was under two showerheads, or A-List Abalone brought an antique typewriter.",
+      "The person who wanted to get revenge was in Bungalow 4."
+    ],
+    "statements": [
+      {
+        "suspect": "Hack Blaxton",
+        "statement": "Picture it: I was in Bungalow 4."
+      },
+      {
+        "suspect": "Silverton the Legend",
+        "statement": "Let me tell you how it is: an antique typewriter was in Bungalow 2."
+      },
+      {
+        "suspect": "A-List Abalone",
+        "statement": "Talk to my agent, but privately, Silverton the Legend brought an antique typewriter."
+      },
+      {
+        "suspect": "Uncle Midnight",
+        "statement": "Hey now, a giant screenplay was in Bungalow 3."
+      }
+    ],
+    "ground_truth": {
+      "who": "A-List Abalone",
+      "what": "A Giant Screenplay",
+      "where": "Bungalow 3",
+      "why": "To steal a prized book"
+    },
+    "problem_name": "97. BUNGALOW MORAL CHARACTER",
+    "problem_description": "So Deductive Logico and Inspector Irratino, after solving one murder on the lot, went over to the bungalows to interview the temporary residents about the ruins. They couldn't come up with a pretext for the intrusion, but fortunately, when they arrived, an extra had been killed."
+  },
+  {
+    "suspects": [
+      {
+        "name": "Pearl, AGE",
+        "description": "The editor of some of the best and highest-grossing movies ever made, though never both at once.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Aquarius"
+      },
+      {
+        "name": "Officer Copper",
+        "description": "The only non-murdered security guard on the Midnight Movies lot.",
+        "height": "5'5\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "blond",
+        "zodiac": "Aries"
+      },
+      {
+        "name": "Dame Obsidian",
+        "description": "Sure, she's murdered a ton of people, but nobody else sews like her, so why should she?",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "black",
+        "zodiac": "Leo"
+      },
+      {
+        "name": "Midnight III",
+        "description": "Believes that Murdle: The Movie will help restore the studio to its original glory.",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Libra"
+      }
+    ],
+    "locations": [
+      {
+        "name": "A Tarp",
+        "description": "It's covering something huge in the middle of the warehouse.",
+        "indoor": true
+      },
+      {
+        "name": "A Large Tank",
+        "description": "Where the oil is stored as it awaits refinement.",
+        "indoor": true
+      },
+      {
+        "name": "A Great Machine",
+        "description": "Some kind of refining equipment or separation tank, or maybe something else?",
+        "indoor": true
+      },
+      {
+        "name": "A Pumpjack",
+        "description": "It's working overtime to pump oil out from under the studio.",
+        "indoor": true
+      }
+    ],
+    "weapons": [
+      {
+        "name": "An Oil Drum",
+        "weight": "heavy-weight",
+        "description": "Really more of a can than a drum: you've never seen a band feature an oil drum solo."
+      },
+      {
+        "name": "A Knife",
+        "weight": "medium-weight",
+        "description": "You can use this for lots of things, like chopping vegetables, or murder."
+      },
+      {
+        "name": "A Piece of Rebar",
+        "weight": "medium-weight",
+        "description": "A long piece of metal. If this isn't a weapon, then nothing is. Often found with cement."
+      },
+      {
+        "name": "A Shovel",
+        "weight": "medium-weight",
+        "description": "The amazing thing about using a shovel to kill is it can also dig a hole to help hide the body."
+      }
+    ],
+    "motives": [
+      "To get a promotion",
+      "To take over a studio",
+      "To protect a secret",
+      "To win an award"
+    ],
+    "clues": [
+      "Officer Copper brought an oil drum.",
+      "A member of the Ancient Blood of Beasts had the knife.",
+      "Irratino was clutching a scribbled note in his hand that read: HET OPNSER IHWT A CEEPI FO ERABR IDD TNO NTWA TO NIW AN WRAAD.",
+      "Midnight III was seen examining a mysterious tarp.",
+      "A member of the Ancient Blood of Beasts wanted to get a promotion.",
+      "Whoever had the shovel was next to the pumpjack.",
+      "Only people with blue eyes are allowed to join the Ancient Blood of Beasts.",
+      "Pearl, AGE, wanted to protect a secret."
+    ],
+    "statements": [
+      {
+        "suspect": "Pearl, AGE",
+        "statement": "I seem to have noticed that Officer Copper was by a great machine."
+      },
+      {
+        "suspect": "Officer Copper",
+        "statement": "I was not near the tarp."
+      },
+      {
+        "suspect": "Dame Obsidian",
+        "statement": "Midnight III was not by a great machine."
+      },
+      {
+        "suspect": "Midnight III",
+        "statement": "A piece of rebar was not by a great machine."
+      }
+    ],
+    "ground_truth": {
+      "who": "Pearl, AGE",
+      "what": "A Knife",
+      "where": "A Great Machine",
+      "why": "To protect a secret"
+    },
+    "problem_name": "98. STAGE FRIGHT",
+    "problem_description": "Dame Obsidian led them over to the mysterious sound stage on the western edge of the studio. Outside its locked door, Pearl, AGE, and Midnight III were arguing over the ending of Murdle: The Movie. But when Dame Obsidian held up the key, they both seemed shocked.\n\n\"Nobody has been in the locked sound stage in years,\" Pearl said.\n\"Maybe it's time they did,\" replied Midnight III. \"Let's see what Dad's been up to.\"\n\nDame Obsidian unlocked the door, and they all crept inside. But when they were surrounded by darkness, they all heard a scream. Somebody had killed Irratino! Again!"
+  },
+  {
+    "suspects": [
+      {
+        "name": "Midnight I",
+        "description": "The original founder of Midnight Movies. A genius in getting people to work harder for less. And one of the meanest men to ever live.",
+        "height": "5'11\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "dark brown",
+        "zodiac": "Gemini"
+      },
+      {
+        "name": "Teenage Midnight",
+        "description": "He was a teenager back then, and his father had just given him this ridiculous tophat.",
+        "height": "6'2\"",
+        "handedness": "right-handed",
+        "eye_color": "black",
+        "hair_color": "black",
+        "zodiac": "Capricorn"
+      },
+      {
+        "name": "Pr\u00e9sident Amaranth",
+        "description": "The literal French pr\u00e9sident, Amaranth loves spending time with his constituents, especially a certain one percent of them.",
+        "height": "5'10\"",
+        "handedness": "right-handed",
+        "eye_color": "gray",
+        "hair_color": "red",
+        "zodiac": "Gemini"
+      },
+      {
+        "name": "Chairman Chalk",
+        "description": "He figured out how to make money 40 years ago and never looked back. He called ebooks a \"fad\" and still owns a rotary phone. He is worth a billion dollars.",
+        "height": "5'9\"",
+        "handedness": "right-handed",
+        "eye_color": "blue",
+        "hair_color": "white",
+        "zodiac": "Sagittarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "An Oil Derrick",
+        "description": "They're digging another well right now with this massive derrick.",
+        "indoor": false
+      },
+      {
+        "name": "A Pumpjack",
+        "description": "It's working hard, bobbing up and down, bringing oil up from the ground.",
+        "indoor": false
+      },
+      {
+        "name": "The Ancient Ruins",
+        "description": "You can see them from the edge of the fields, silhouetted in the light of the setting sun.",
+        "indoor": false
+      },
+      {
+        "name": "The Offices",
+        "description": "Air-conditioned to such a low temperature that it uses most of the energy they produce.",
+        "indoor": true
+      }
+    ],
+    "weapons": [
+      {
+        "name": "A Crowbar",
+        "weight": "medium-weight",
+        "description": "Honestly, they're used more often for crime than anything else."
+      },
+      {
+        "name": "A Piece of Rebar",
+        "weight": "medium-weight",
+        "description": "A long piece of metal. If this isn't a weapon, then nothing is. Often found with cement."
+      },
+      {
+        "name": "An Oil Drum",
+        "weight": "heavy-weight",
+        "description": "Really more of a can than a drum: you've never seen a band feature an oil drum solo."
+      },
+      {
+        "name": "A Shovel",
+        "weight": "medium-weight",
+        "description": "The great thing about using a shovel for murder is it can also dig a hole to help hide the body."
+      }
+    ],
+    "motives": [
+      "To found a studio",
+      "To break a union",
+      "To gain an inheritance",
+      "To help win a war"
+    ],
+    "clues": [
+      "Either Teenage Midnight was at the pumpjack, or Midnight I brought a shovel.",
+      "The shortest suspect had a rivalry with the person who brought an oil drum.",
+      "The person who wanted to help win a war was at the pumpjack.",
+      "Pr\u00e9sident Amaranth was relaxing in an air-conditioned room.",
+      "The suspect in the ancient ruins had dark brown hair.",
+      "The person who wanted to found a studio was standing beside the ancient ruins.",
+      "The person with the oil drum wanted to gain an inheritance."
+    ],
+    "statements": [
+      {
+        "suspect": "Midnight I",
+        "statement": "As clear as day, Chairman Chalk brought a piece of rebar."
+      },
+      {
+        "suspect": "Teenage Midnight",
+        "statement": "I did not bring a piece of rebar."
+      },
+      {
+        "suspect": "Pr\u00e9sident Amaranth",
+        "statement": "The shovel was at the ruins."
+      },
+      {
+        "suspect": "Chairman Chalk",
+        "statement": "Hmm . . . Midnight I brought a shovel."
+      }
+    ],
+    "ground_truth": {
+      "who": "Midnight I",
+      "what": "A Shovel",
+      "where": "The Ancient Ruins",
+      "why": "To found a studio"
+    },
+    "problem_name": "99. THE FOUNDING OF MIDNIGHT MOVIES",
+    "problem_description": "Suddenly, it all made sense to Deductive Logico. And with the help of Inspector Irratino's visualization techniques, he could travel back in time (in his mind) and see the founding of the studio as clear as sepia-tinted day. It had been born, not out of a love of cinema, but out of greed. You see, the original owner of the land had been murdered."
+  },
+  {
+    "suspects": [
+      {
+        "name": "Midnight III",
+        "description": "The grandson of the founder. Will he succeed in his plan to restore Midnight Movies to its Golden Age?",
+        "height": "5'8\"",
+        "handedness": "left-handed",
+        "eye_color": "dark brown",
+        "hair_color": "dark brown",
+        "zodiac": "Libra"
+      },
+      {
+        "name": "President Midnight",
+        "description": "The CEO of Midnight Movies. Would he murder dozens just to keep himself in power?",
+        "height": "6'2\"",
+        "handedness": "right-handed",
+        "eye_color": "black",
+        "hair_color": "black",
+        "zodiac": "Capricorn"
+      },
+      {
+        "name": "Dame Obsidian",
+        "description": "Has the world's greatest mystery writer simply been adding more murders to her portfolio?",
+        "height": "5'4\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "black",
+        "zodiac": "Leo"
+      },
+      {
+        "name": "Inspector Irratino",
+        "description": "The esoteric detective. But has everything he's ever said been a lie?",
+        "height": "6'2\"",
+        "handedness": "left-handed",
+        "eye_color": "green",
+        "hair_color": "dark brown",
+        "zodiac": "Aquarius"
+      }
+    ],
+    "locations": [
+      {
+        "name": "The Stage",
+        "description": "If you get invited to a movie here, you pay by being forced to listen to the on-stage Q & A afterward.",
+        "indoor": true
+      },
+      {
+        "name": "The Plush Seating",
+        "description": "Red velvet seats, just like in the old days. There's gum on them from the old days, too.",
+        "indoor": true
+      },
+      {
+        "name": "The Emergency Exit",
+        "description": "It's hard to find, because the studio has taped over the emergency lights in order to make the theater perfectly dark.",
+        "indoor": true
+      },
+      {
+        "name": "The Concessions Stand",
+        "description": "All of the concessions are free and, as a result, ridiculously tiny. Grab a handful of popcorn and a capful of soda.",
+        "indoor": true
+      }
+    ],
+    "weapons": [
+      {
+        "name": "An Award",
+        "weight": "medium-weight",
+        "description": "The most important thing in all of Hollywood. And also, it's meaningless."
+      },
+      {
+        "name": "A Red Herring",
+        "weight": "medium-weight",
+        "description": "If you hold it by the tail, you can get some real momentum behind it."
+      },
+      {
+        "name": "A Selenite Wand",
+        "weight": "medium-weight",
+        "description": "For casting spells and bashing skulls."
+      },
+      {
+        "name": "A Bottle of Wine",
+        "weight": "medium-weight",
+        "description": "Watch out for stains, because the red doesn't come out."
+      }
+    ],
+    "motives": [
+      "To hold on to power",
+      "To take over a studio",
+      "To get revenge",
+      "To drill for oil"
+    ],
+    "clues": [
+      "The letter connected to the O in the labyrinth engraved on the side of the ancient ruins is not the first letter of the last name of the suspect who wants to take over a studio. (See Exhibit C.)",
+      "The suspect at the concessions stand was a member of the Academy of Moving Images.",
+      "The Investigation Institute issued their report (See Exhibit B) with various alchemical symbols.",
+      "The selenite wand was next to old gum, and nobody would have let a red herring on the stage.",
+      "Either the person with an award wanted to drill for oil, or Dame Obsidian brought a bottle of wine.",
+      "The Academy of Moving Images only admits people with black hair.",
+      "A filmgoer scribbled their thoughts on a piece of paper and handed it to Logico: PESNERTID IGTMDHNI TENDWA TO OLDH TNOO REWPO.",
+      "The Detective Club finally got in touch with Logico, and they sent him a message in their traditional code: GSV HVXLMW HSLIGVHG HFHKVXG DZH HVVM DRGS ZM ZDZIW. (See Exhibit A.)"
+    ],
+    "statements": [
+      {
+        "suspect": "Midnight III",
+        "statement": "Let me jump in: my father brought a selenite wand."
+      },
+      {
+        "suspect": "President Midnight",
+        "statement": "My son wanted to take over the studio."
+      },
+      {
+        "suspect": "Dame Obsidian",
+        "statement": "Whoever wanted to get revenge was at the concessions stand."
+      },
+      {
+        "suspect": "Inspector Irratino",
+        "statement": "President Midnight was not at the concessions stand."
+      }
+    ],
+    "ground_truth": {
+      "who": "Midnight III",
+      "what": "An Award",
+      "where": "The Stage",
+      "why": "To take over a studio"
+    },
+    "problem_name": "100. MURDER AT THE MURDLE PREMIERE",
+    "problem_description": "The night before Murdle: The Movie premiered at the luxury theatre at Midnight Movie Studios, Detective Logico got a call. \"I know who framed Irratino!\" said a mysterious voice, but when Logico asked who, the line went dead.\n\nThe next night, at the premiere, Logico and Irratino arrived in their tuxedos and found that the vice president of Midnight Movies had been killed. In his pocket, Logico found a slip of paper with his phone number on it. If Logico could solve this murder, he could solve the whole mystery at once."
+  }
+]

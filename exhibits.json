@@ -1,0 +1,54 @@
+[
+  {
+    "exhibit_id": "A",
+    "title": "The Contents of Deductive Logico's Detective Kit",
+    "items": [
+      {
+        "name": "Membership Card & Pin",
+        "description": "This card and fedora pin confirm Logico's membership (#6KLM) in the Detective Club."
+      },
+      {
+        "name": "Secret Decoder Ring",
+        "description": "A mechanical device for reading and writing in Detective Code:\n\nDECODED\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\nZ Y X W V U T S R Q P O N M L K J I H G F E D C B A\nENCODED"
+      },
+      {
+        "name": "Magnifying Glass",
+        "description": "Logico uses this to find clues and to read the fine print. Made with crystal from Emerald Industries."
+      },
+      {
+        "name": "VHS Tape and Book",
+        "description": "A mystery tape from Midnight Movies and a novel by Dame Obsidian. Plus a Detective Club bookmark."
+      },
+      {
+        "name": "Cup of Coffee",
+        "description": "The perfect fuel for solving armchair mysteries. The cup once belonged to General Coffee himself!"
+      }
+    ]
+  },
+  {
+    "exhibit_id": "B",
+    "title": "Inspector Irratino's Astrological Primer",
+    "items": [
+      {
+        "name": "Zodiac Signs",
+        "description": "ARIES | ♈ | FIRE | MAR 21 – APRIL 19\nTAURUS | ♉ | EARTH | APRIL 20 – MAY 20\nGEMINI | ♊ | AIR | MAY 21 – JUNE 21\nCANCER | ♋ | WATER | JUNE 22 – JULY 22\nLEO | ♌ | FIRE | JULY 23 – AUG 22\nVIRGO | ♍ | EARTH | AUG 23 – SEP 22\nLIBRA | ♎ | AIR | SEP 23 – OCT 22\nSCORPIO | ♏ | WATER | OCT 23 – NOV 21\nSAGITTARIUS | ♐ | FIRE | NOV 22 – DEC 21\nCAPRICORN | ♑ | EARTH | DEC 22 – JAN 19\nAQUARIUS | ♒ | AIR | JAN 20 – FEB 18\nPISCES | ♓ | WATER | FEB 19 – MAR 20"
+      },
+      {
+        "name": "Other Alchemical Symbols",
+        "description": "MERCURY | ☿\nBRIMSTONE | 🜍 (infinity/loop over a cross-like mark)\nHEMATITE | ⊚ (circle with short vertical line and small bars above/below)\nIRON | ♂\nOIL | 🜔 (three linked circles, one above two)\nNITER | 🜍 (circle with a vertical line inside)\nEARTH | 🜃 (inverted triangle with a horizontal bar)\nFIRE | △\nRADIUM | ☢\nURANUS | ♅\nDISSOLVE | 🜄 (V/trident-like mark with a vertical stem)"
+      }
+    ]
+  },
+  {
+    "exhibit_id": "C",
+    "title": "A Labyrinth Engraved on the Ancient Ruins",
+    "description": "The image looks like a scanned or photographed page from a book or dossier, printed on slightly yellowed/gray aged paper. The artwork and text are in dark brown/black ink, with a clean, diagrammatic style.\n\nMAIN GRAPHIC (UPPER HALF)\nThree circular labyrinths/mazes dominate the top portion. Each maze is drawn as a thick-outlined circle filled with many concentric ring corridors and short radial walls, forming a classic labyrinth/maze pattern. The three circles are arranged like a triangle and touch/overlap slightly: one maze at the upper left, one maze at the right, and one maze at the lower left. The circles are also connected by short corridor bridges where they meet, suggesting a combined system rather than three totally separate puzzles.\n\nCENTER MARKERS (NUMBERS)\nEach labyrinth has a bold number in a small central circle:\n- Upper-left maze: 3\n- Right maze: 1\n- Lower-left maze: 2\n\nLETTER MARKERS (SMALL CIRCLED LETTERS)\nAround the outer rings of the mazes are several small circles containing single uppercase letters:\n- Upper-left (3) maze: letters U, L, E placed around its perimeter (U near the upper-left edge; L near the right edge; E near the left/lower-left area).\n- Right (1) maze: letters O, A, N (O near the top; A on the right; N near the bottom).\n- Lower-left (2) maze: letters N, R, I (N on the left; R on the right; I near the lower-left edge).\n\nNOTE TEXT (MID-LOWER RIGHT)\nTo the right of the lower area of the diagram is a small printed note:\n\"NOTE\nAll letters have been transliterated into modern script.\"\n\nThe diagram presents as a stylized archaeological or cryptographic puzzle: three connected labyrinth seals labeled with numbers and letters, with an explanatory note about transliteration.",
+    "items": []
+  },
+  {
+    "exhibit_id": "D",
+    "title": "A Map of Midnight Movie Studios",
+    "description": "Top banner / title area\nEXHIBIT D\n\nCentered at the very top.\nPrinted in bold uppercase lettering.\nDecorative horizontal lines extend out from both sides.\nIt gives the map the feel of a case file, clue, or formal exhibit.\n\nUpper-left quadrant: Soundstages\nSOUNDSTAGES\n\nThis heading sits above a cluster of stage buildings in the upper-left.\nThe buildings are simple rectangles, like studio stage boxes.\n\nStage A / Stage B\nFirst large rectangle directly under \"SOUNDSTAGES.\"\nSplit down the middle with a dotted vertical divider.\nLeft half labeled A, right half labeled B.\n\nStage C / Stage D\nSecond large rectangle directly below A/B.\nAlso split down the middle with a dotted divider.\nLeft half labeled C, right half labeled D.\n\nMystery Stage (?)\nBelow the C/D building is another stage-like square/rectangle.\nIt contains a large question mark (?) instead of a normal label.\nThis is one of the most visually striking details in the map.\n\nLeft-middle quadrant: Office / operations side\nHEAD OFFICE\n\nLarge regular building below the soundstage area.\nPositioned left-center of the map.\nLabeled in two lines: HEAD / OFFICE.\nLooks like the administrative hub of the studio lot.\n\nSECURITY\nSmaller irregular building in the lower-left area, beneath the Head Office.\nLabeled SECURITY.\nLikely near a controlled access point to the lot.\n\nSTUDIO TOUR CHECK-IN\nJust to the right of the Security building.\nMarked by a small booth-like icon (tiny rounded structure).\nLabel appears in stacked lines:\nSTUDIO\nTOUR\nCHECK-IN\nThis looks like the starting point for the mapped route.\n\nLower-left quadrant: Parking\nPARKING LOT A\n\nLarge rectangular parking lot at the bottom-left.\nFilled with many short line marks representing parking spaces.\nClearly labeled PARKING LOT A beneath it.\n\nUpper-center quadrant: Backlot / sets\nUnlabeled set/building shapes\n\nBetween the soundstages and the City Backlot (upper-center), there are a few irregular outlined shapes.\nThey're not labeled, but they look like structures, set pieces, or auxiliary buildings.\n\nCITY BACKLOT\nLarge central feature in the upper-middle.\nIrregular, rounded-corner block labeled CITY BACKLOT.\nOne of the main destination areas on the map.\nThe tour route runs along and across this area.\n\nCenter-middle quadrant: Production support\nPROP SHOP\n\nLocated below the City Backlot.\nIrregular block labeled PROP SHOP.\nSits roughly central on the map.\nA vertical inner line suggests an entry partition or internal division.\n\nUpper-right quadrant: Music / post (partially cropped)\n(The map image is cropped on the right, so these are partially visible.)\n\nSCORING STAGE\nLarge building near the top-right.\nLabeled SCORING STAGE.\nPart of the right side is cut off by the image edge.\n\nPOST LAB\nSmaller rectangular building to the lower-right of the Scoring Stage.\nLabeled POST LAB.\nAlso partially affected by the crop.\n\nMid-right quadrant: Water tower and restaurant area (partially cropped)\nWATER TOWER (upper/right-mid label)\n\nThere is a \"WATER TOWER\" label near the right-center.\nNear it is a circular feature that likely represents the tower base or tower footprint.\n\nBAR & GRILL\nBuilding/area labeled BAR & GRILL in the mid-right section.\nAnother \"WATER TOWER\" label appears above it, reading as:\nWATER TOWER\nBAR & GRILL\nThe right side of this zone is cut off, so the full footprint isn't visible.\n\nCenter-lower quadrant: Entertainment / landmark area\nLUXURY THEATRE\n\nLarge, dominant building in the lower center.\nLabeled LUXURY THEATRE.\nIrregular shape with a rounded extension at the bottom.\nFeels like a major guest-facing attraction on the lot.\n\nMIDNIGHT STATUE\nSmall circular icon and label just left-lower of the Luxury Theatre.\nLabeled MIDNIGHT STATUE.\nThe route passes close to it.\n\nENTRANCE GATE\nNear the bottom center.\nMarked by a gate-like icon (a horizontal bar with vertical supports).\nLabeled ENTRANCE GATE.\nPositioned just below the Midnight Statue area.\n\nLower-right quadrant: Fountain / parking / bungalows\nFOUNTAIN\n\nCircular feature to the right of the Luxury Theatre, labeled FOUNTAIN.\nThe tour route clearly loops around this point.\n\nRight-side Parking Lot B\nRectangular parking area with stall markings above-right of the Fountain.\nLabel reads \"PARKING LOT B\".\n\nBUNGALOWS\nDiagonal row of small tilted rectangles near the bottom-right.\nLabeled along the edge with angled text: BUNGALOWS.\nIndividual units are numbered:\n1\n2\n3\n4\nThey look like small offices/dressing-room buildings.\n\nCompass rose (cropped)\nSmall compass symbol at the lower-right corner.\nN, W, S are visible.\nThe east side is cut off by the image crop.\n\nTour path walkthrough (how the dotted route moves)\nThe map's dotted/chevron route with black dots appears to guide visitors through the lot. Reading it as a path:\n\nStarts near Studio Tour Check-In (left-center/lower-left area)\nMoves upward toward the left side of the central map\nPasses near the edge between the soundstage/office side and the City Backlot\nRuns diagonally across the upper-center, skirting the City Backlot\nTurns and goes down the right side toward the Water Tower / Bar & Grill side\nContinues downward toward the Fountain\nLoops around the lower area near the Bungalows\nCurves back leftward near the Luxury Theatre / Midnight Statue area",
+    "items": []
+  }
+]
