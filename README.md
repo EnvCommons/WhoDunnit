@@ -54,7 +54,7 @@ Data consists of JSON files (`tasks_elementary.json`, `tasks_impossible.json`, `
 
 ## Time Horizon
 
-Multi-turn. Agents typically use 4-7 information gathering calls before submitting their final answer.
+Multi-turn. Agents gather information using multiple tool calls before submitting their final answer.
 
 ## Environment Difficulty
 
