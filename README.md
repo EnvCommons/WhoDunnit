@@ -1,10 +1,10 @@
-# Whodunnit
+# WhoDunit
 
-[![OpenReward Environment](https://img.shields.io/badge/%E2%AD%90%20OpenReward-Environment-f7e6cc)](https://www.openreward.ai/GeneralReasoning/Whodunnit)
+[![OpenReward Environment](https://img.shields.io/badge/%E2%AD%90%20OpenReward-Environment-f7e6cc)](https://www.openreward.ai/GeneralReasoning/WhoDunit)
 
 ## Description
 
-Whodunnit is an environment for evaluating deductive reasoning on murder mystery puzzles. It contains 100 cases where agents must gather information about suspects, weapons, locations, and clues to deduce who committed the murder, with what weapon, and where it occurred.
+WhoDunit is an environment for evaluating deductive reasoning on murder mystery puzzles. It contains 100 cases where agents must gather information about suspects, weapons, locations, and clues to deduce who committed the murder, with what weapon, and where it occurred.
 
 ## Capabilities
 
@@ -62,9 +62,9 @@ Multi-turn. Agents typically use 4-7 information gathering calls before submitti
 
 ## Other Environment Requirements
 
-There are no further environment requirements; Whodunnit works out of the box with the OpenReward endpoint without any external API keys.
+There are no further environment requirements; WhoDunit works out of the box with the OpenReward endpoint without any external API keys.
 
 ## Safety
 
-Agents in Whodunnit solve fictional murder mystery puzzles in a standard environment. The environment does not present direct safety risks.
+Agents in WhoDunit solve fictional murder mystery puzzles in a standard environment. The environment does not present direct safety risks.
 
