@@ -4,7 +4,7 @@
 
 ## Description
 
-WhoDunit is an environment for evaluating deductive reasoning on murder mystery puzzles. It contains 100 cases where agents must gather information about suspects, weapons, locations, and clues to deduce who committed the murder, with what weapon, and where it occurred.
+WhoDunit is an ORS environment for evaluating deductive reasoning on murder mystery puzzles. It contains 100 cases where agents must gather information about suspects, weapons, locations, and clues to deduce who committed the murder, with what weapon, and where it occurred.
 
 ## Capabilities
 
