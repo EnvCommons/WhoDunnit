@@ -1,10 +1,62 @@
 from __future__ import annotations
 
 import json
+import re
+import string
 from typing import Optional
 
 from openreward.environments import Environment, JSONObject, TextBlock, ToolOutput, tool
 from pydantic import BaseModel, Field
+
+
+# --- Answer normalization for submit_answer grading ---
+
+_PUNCT_TABLE = str.maketrans("", "", string.punctuation)
+_LEADING_ARTICLES = re.compile(r"^(the|a|an)\s+")
+
+_TITLES_MULTI = [
+    "vice president", "executive producer", "former mayor",
+    "high alchemist", "supreme master",
+    "the duke of", "the duchess of", "duke of", "duchess of",
+    "the amazing", "the crystal", "amazing", "crystal",
+    "a-list", "bookie-winner", "deductive",
+]
+_TITLES_SINGLE = [
+    "mr", "mrs", "ms", "miss", "mx", "dr", "sir", "dame", "lord", "lady",
+    "father", "brother", "sister", "uncle", "signor",
+    "chef", "boss", "captain", "capt", "admiral", "amiral", "general", "colonel",
+    "corporal", "inspector", "officer", "constable", "agent",
+    "judge", "justice", "mayor", "chairman", "chancellor", "president",
+    "président", "director", "secretary", "dean", "editor", "coach",
+    "earl", "baron", "viscount", "bishop", "deacon", "comrade",
+    "cowboy", "cosmonaut", "astrologer", "numerologist", "philologist",
+    "philosopher", "sociologist", "cryptozoologist", "herbalist",
+    "grandmaster", "superfan", "hack", "babyface", "midnight", "teenage", "background",
+]
+# "principal" is intentionally omitted: tasks_elementary.json task 59 has both
+# "Assistant Applegreen" and "Principal Applegreen" — stripping "principal"
+# would let "Applegreen" match the wrong suspect.
+_TITLE_RE = re.compile(
+    r"^(" + "|".join(re.escape(t) for t in
+                     sorted(_TITLES_MULTI + _TITLES_SINGLE, key=len, reverse=True)) + r")\s+"
+)
+_TRAILING_SUFFIX = re.compile(r"\s+(esq|jr|sr)$")
+
+
+def _normalize_answer(s: Optional[str]) -> str:
+    if s is None:
+        return ""
+    s = s.strip().lower()
+    s = s.translate(_PUNCT_TABLE)
+    s = " ".join(s.split())
+    s = _LEADING_ARTICLES.sub("", s)
+    while True:
+        new = _TITLE_RE.sub("", s)
+        if new == s:
+            break
+        s = new
+    s = _TRAILING_SUFFIX.sub("", s)
+    return s.strip()
 
 
 # --- Pydantic Models for Task Data ---
@@ -322,15 +374,9 @@ class Whodunnit(Environment):
 
         ground_truth = self.task_data.ground_truth
 
-        # Normalize answers for comparison (case-insensitive, strip whitespace)
-        def normalize(s: Optional[str]) -> str:
-            if s is None:
-                return ""
-            return s.strip().lower()
-
-        who_correct = normalize(params.who) == normalize(ground_truth.who)
-        what_correct = normalize(params.what) == normalize(ground_truth.what)
-        where_correct = normalize(params.where) == normalize(ground_truth.where)
+        who_correct = _normalize_answer(params.who) == _normalize_answer(ground_truth.who)
+        what_correct = _normalize_answer(params.what) == _normalize_answer(ground_truth.what)
+        where_correct = _normalize_answer(params.where) == _normalize_answer(ground_truth.where)
 
         # Check why only if ground truth has a motive
         why_provided = params.why is not None
@@ -339,7 +385,7 @@ class Whodunnit(Environment):
         # Partial reward calculation
         if why_expected:
             # 4 components: who, what, where, why (0.25 each)
-            why_correct = normalize(params.why) == normalize(ground_truth.why)
+            why_correct = _normalize_answer(params.why) == _normalize_answer(ground_truth.why)
             reward = (
                 (0.25 if who_correct else 0.0)
                 + (0.25 if what_correct else 0.0)
