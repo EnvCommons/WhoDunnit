@@ -8,6 +8,10 @@ from typing import Optional
 from openreward.environments import Environment, JSONObject, TextBlock, ToolOutput, tool
 from pydantic import BaseModel, Field
 
+# Reward for a submission made after the task has already been graded. Negative
+# so repeat submissions are actively discouraged, not merely left unscored.
+REPEAT_SUBMISSION_PENALTY = -0.1
+
 
 # --- Answer normalization for submit_answer grading ---
 
@@ -180,6 +184,11 @@ class Whodunnit(Environment):
         task_id = task_spec["task_id"]
         self.task_data = WhodunnitTaskSpec.model_validate(TASKS_RAW[task_id])
         self.task_id = task_id
+
+        # Graded submissions this session. Only the first is rewarded: the
+        # feedback prints the expected who/what/where/why, so an uncapped tool
+        # would let the agent read the answer and resubmit it.
+        self.submitted = 0
 
     @classmethod
     def list_splits(cls) -> list[str]:
@@ -372,6 +381,16 @@ class Whodunnit(Environment):
         This will finish the episode and provide your final score.
         """
 
+        if self.submitted > 0:
+            return ToolOutput(
+                blocks=[TextBlock(text="An answer has already been submitted for this task. "
+                                       "This episode is over: it is not re-graded, and repeat "
+                                       "submissions are penalised (reward -0.1).")],
+                metadata={"already_submitted": True, "submission_count": self.submitted},
+                reward=REPEAT_SUBMISSION_PENALTY,
+                finished=True,
+            )
+
         ground_truth = self.task_data.ground_truth
 
         who_correct = _normalize_answer(params.who) == _normalize_answer(ground_truth.who)
@@ -440,6 +459,8 @@ class Whodunnit(Environment):
             message = "❌ Incorrect. You did not solve the case.\n\n"
 
         message += "\n".join(feedback)
+
+        self.submitted += 1
 
         return ToolOutput(
             blocks=[TextBlock(type="text", text=message)],
