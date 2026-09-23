@@ -1,0 +1,491 @@
+{
+  "split": "train_old",
+  "description": "Train cases using no post-2000 concepts, language or knowledge.",
+  "model": "deepseek-v4.1-flash",
+  "votes_per_case": 2,
+  "rule": "dropped if any vote flags it with a quote found verbatim in the case",
+  "generated": "2026-09-23T16:58:52Z",
+  "tasks": [
+    {
+      "task_id": 0,
+      "problem_name": "Murder in Hollywood"
+    },
+    {
+      "task_id": 1,
+      "problem_name": "And Then There Was Another One"
+    },
+    {
+      "task_id": 2,
+      "problem_name": "The Art of the Kill"
+    },
+    {
+      "task_id": 4,
+      "problem_name": "Physician, Heal Myself!"
+    },
+    {
+      "task_id": 5,
+      "problem_name": "Murder in the Alley"
+    },
+    {
+      "task_id": 6,
+      "problem_name": "A Quaint Little Village Slaying"
+    },
+    {
+      "task_id": 7,
+      "problem_name": "The Butler Did It (Die)"
+    },
+    {
+      "task_id": 8,
+      "problem_name": "Hedge Your Bets, The Constable Cried"
+    },
+    {
+      "task_id": 9,
+      "problem_name": "Eat, Drink, and Be Merry, For a Jerk Just Died"
+    },
+    {
+      "task_id": 10,
+      "problem_name": "The Case of the Coffee Shop Killer"
+    },
+    {
+      "task_id": 11,
+      "problem_name": "The Mysterious Mystery Bookshop Mystery"
+    },
+    {
+      "task_id": 12,
+      "problem_name": "The Killing of a Cowboy"
+    },
+    {
+      "task_id": 13,
+      "problem_name": "A Very Proper Murder"
+    },
+    {
+      "task_id": 14,
+      "problem_name": "The Perplexing Problem of the Parrot"
+    },
+    {
+      "task_id": 15,
+      "problem_name": "Fifteen Percent of Murder"
+    },
+    {
+      "task_id": 16,
+      "problem_name": "The Case of the Contract & The Captain"
+    },
+    {
+      "task_id": 17,
+      "problem_name": "Throw the (Bookie-Winning) Book at Them!"
+    },
+    {
+      "task_id": 18,
+      "problem_name": "Death on the Book Tour"
+    },
+    {
+      "task_id": 19,
+      "problem_name": "Dead Tired"
+    },
+    {
+      "task_id": 20,
+      "problem_name": "Oil Kill You for This"
+    },
+    {
+      "task_id": 22,
+      "problem_name": "The Courthouse Killing"
+    },
+    {
+      "task_id": 24,
+      "problem_name": "The Death of Justice"
+    },
+    {
+      "task_id": 25,
+      "problem_name": "The Murder of a Mailman QQ"
+    },
+    {
+      "task_id": 26,
+      "problem_name": "A Mysterious Murder in the Mysterious Woods"
+    },
+    {
+      "task_id": 27,
+      "problem_name": "Oh No, Not in the Chateau! QQ"
+    },
+    {
+      "task_id": 28,
+      "problem_name": "Investigation at the Investigation Institute"
+    },
+    {
+      "task_id": 29,
+      "problem_name": "The Case of the Definitely Dead President"
+    },
+    {
+      "task_id": 31,
+      "problem_name": "The New Moon Murder"
+    },
+    {
+      "task_id": 32,
+      "problem_name": "A Recent Death in an Ancient Temple"
+    },
+    {
+      "task_id": 33,
+      "problem_name": "The Body in the Graveyard"
+    },
+    {
+      "task_id": 34,
+      "problem_name": "Murder at the Cult: A True-Crime Documentary"
+    },
+    {
+      "task_id": 35,
+      "problem_name": "A Cruise to Die For"
+    },
+    {
+      "task_id": 36,
+      "problem_name": "Logico Goes Home"
+    },
+    {
+      "task_id": 37,
+      "problem_name": "Irratino Returns to His Estate"
+    },
+    {
+      "task_id": 38,
+      "problem_name": "The Case of the Haunted Hotel"
+    },
+    {
+      "task_id": 39,
+      "problem_name": "The Big-Money Big-Bank Murder"
+    },
+    {
+      "task_id": 40,
+      "problem_name": "The Psychic Who Didn't Foresee His Death"
+    },
+    {
+      "task_id": 41,
+      "problem_name": "The Return of the Coffee Shop Killer"
+    },
+    {
+      "task_id": 42,
+      "problem_name": "The Heinous Crime of Penguicide"
+    },
+    {
+      "task_id": 43,
+      "problem_name": "Murder on the Stage"
+    },
+    {
+      "task_id": 44,
+      "problem_name": "Fade in to a Murder Mystery"
+    },
+    {
+      "task_id": 46,
+      "problem_name": "The Mystery of the Mysterious Island"
+    },
+    {
+      "task_id": 47,
+      "problem_name": "The Body in the Moonlit Ruins"
+    },
+    {
+      "task_id": 48,
+      "problem_name": "Death in the Dead Woods"
+    },
+    {
+      "task_id": 49,
+      "problem_name": "The Killing of Irratino"
+    },
+    {
+      "task_id": 50,
+      "problem_name": "The Grave Death at the Graveyard"
+    },
+    {
+      "task_id": 51,
+      "problem_name": "A Return to the Institute"
+    },
+    {
+      "task_id": 52,
+      "problem_name": "The Walk in the Mysterious Woods"
+    },
+    {
+      "task_id": 54,
+      "problem_name": "Unusual Webbing, Unnatural Crimes"
+    },
+    {
+      "task_id": 55,
+      "problem_name": "The Ruins of a Village"
+    },
+    {
+      "task_id": 56,
+      "problem_name": "Sing a Hymn of Horror"
+    },
+    {
+      "task_id": 57,
+      "problem_name": "A Maze of Death and Hedges"
+    },
+    {
+      "task_id": 58,
+      "problem_name": "I Yacht to Kill You for This"
+    },
+    {
+      "task_id": 59,
+      "problem_name": "Death on the Commune: A True-Crime Sequel"
+    },
+    {
+      "task_id": 60,
+      "problem_name": "The Island of Bad Dreams"
+    },
+    {
+      "task_id": 61,
+      "problem_name": "You Can Go Home Again"
+    },
+    {
+      "task_id": 62,
+      "problem_name": "The Body in the Snowdrift"
+    },
+    {
+      "task_id": 63,
+      "problem_name": "Deduction College"
+    },
+    {
+      "task_id": 64,
+      "problem_name": "LIKE OLD TIMES IN OLD MAIN"
+    },
+    {
+      "task_id": 65,
+      "problem_name": "VIVE LA R\u00c9VOLUTION !"
+    },
+    {
+      "task_id": 66,
+      "problem_name": "KING ARTHUR AND THE MURDER OF A JESTER"
+    },
+    {
+      "task_id": 67,
+      "problem_name": "HOUSTON, WE HAVE A BODY"
+    },
+    {
+      "task_id": 68,
+      "problem_name": "THE MAGICAL MYSTERY MURDER"
+    },
+    {
+      "task_id": 69,
+      "problem_name": "DEATH IN AN EVEN DARKER ALLEY"
+    },
+    {
+      "task_id": 70,
+      "problem_name": "NEW AGE, NEW MURDER!"
+    },
+    {
+      "task_id": 71,
+      "problem_name": "PRISM OR PRISON?"
+    },
+    {
+      "task_id": 72,
+      "problem_name": "KITSCHY KITSCHY KILLING"
+    },
+    {
+      "task_id": 74,
+      "problem_name": "REVENGE IN THE CAVE"
+    },
+    {
+      "task_id": 75,
+      "problem_name": "Hooray for Hollywood!"
+    },
+    {
+      "task_id": 76,
+      "problem_name": "Logico Goes to a Hollywood Party"
+    },
+    {
+      "task_id": 77,
+      "problem_name": "Plenty of Kills in the Sea"
+    },
+    {
+      "task_id": 78,
+      "problem_name": "Murder at the Movies"
+    },
+    {
+      "task_id": 79,
+      "problem_name": "The Cost of the Rent is the Real Killer"
+    },
+    {
+      "task_id": 80,
+      "problem_name": "The Murder at MysteryCon"
+    },
+    {
+      "task_id": 81,
+      "problem_name": "Murder in the Park"
+    },
+    {
+      "task_id": 82,
+      "problem_name": "Parking is Murder"
+    },
+    {
+      "task_id": 83,
+      "problem_name": "The Tour of Death"
+    },
+    {
+      "task_id": 84,
+      "problem_name": "Quiet on Set... Too Quiet!"
+    },
+    {
+      "task_id": 85,
+      "problem_name": "Murder on Sound Stage B"
+    },
+    {
+      "task_id": 86,
+      "problem_name": "The Water Tower Bar & Kill"
+    },
+    {
+      "task_id": 87,
+      "problem_name": "The Real Murder at the Fake Estate"
+    },
+    {
+      "task_id": 88,
+      "problem_name": "The Post-Production Process"
+    },
+    {
+      "task_id": 89,
+      "problem_name": "Death at the Agency"
+    },
+    {
+      "task_id": 90,
+      "problem_name": "They Bill You Double for Dying"
+    },
+    {
+      "task_id": 91,
+      "problem_name": "Murder at the Mystery Show"
+    },
+    {
+      "task_id": 92,
+      "problem_name": "Death in the Magick Shoppe"
+    },
+    {
+      "task_id": 93,
+      "problem_name": "A Ritual Killing"
+    },
+    {
+      "task_id": 94,
+      "problem_name": "A Free Press Can Cost a Killing"
+    },
+    {
+      "task_id": 95,
+      "problem_name": "96. BREAKING AND INVESTIGATING"
+    },
+    {
+      "task_id": 96,
+      "problem_name": "97. BUNGALOW MORAL CHARACTER"
+    },
+    {
+      "task_id": 97,
+      "problem_name": "98. STAGE FRIGHT"
+    },
+    {
+      "task_id": 98,
+      "problem_name": "99. THE FOUNDING OF MIDNIGHT MOVIES"
+    },
+    {
+      "task_id": 99,
+      "problem_name": "100. MURDER AT THE MURDLE PREMIERE"
+    }
+  ],
+  "dropped": [
+    {
+      "task_id": 3,
+      "problem_name": "The Last Train to Murder",
+      "evidence": [
+        {
+          "quote": "If she asks you to step into her metaverse, politely decline.",
+          "why": "The term 'metaverse' in its modern sense of a virtual reality online world was popularized after 2000 (notably by Neal Stephenson's 1992 novel, but the concept and term entered ordinary usage as a tech concept post-2000, especially with VR platforms)."
+        },
+        {
+          "quote": "If she asks you to step into her metaverse, politely decline.",
+          "why": "The term 'metaverse' in its modern sense of a virtual reality online world was popularized after 2000 (notably by Neal Stephenson's 1992 novel, but the concept and term entered ordinary usage as a tech concept post-2000, especially with VR platforms)."
+        }
+      ]
+    },
+    {
+      "task_id": 21,
+      "problem_name": "They Bill You for Dying",
+      "evidence": [
+        {
+          "quote": "If she asks you to step into her metaverse, walk away quickly.",
+          "why": "The term 'metaverse' in its modern sense of a virtual reality online world became widely known after 2000, especially popularized in the 2020s."
+        },
+        {
+          "quote": "The suspect with a metaverse had never been in the partner's office.",
+          "why": "References a 'metaverse' as a place or concept, which is a post-2000 concept in ordinary usage."
+        },
+        {
+          "quote": "If she asks you to step into her metaverse, walk away quickly.",
+          "why": "The term 'metaverse' in its modern sense of a virtual reality online world was popularized after 2000 (notably by Neal Stephenson's 1992 novel, but the concept and term entered ordinary usage much later, especially around 2021)."
+        },
+        {
+          "quote": "The suspect with a metaverse had never been in the partner's office.",
+          "why": "Same post-2000 concept of 'metaverse' as a virtual world/platform."
+        }
+      ]
+    },
+    {
+      "task_id": 23,
+      "problem_name": "Will the Foreman Please Die?",
+      "evidence": [
+        {
+          "quote": "true-crime podcast enthusiasts",
+          "why": "Podcasts are a post-2000 medium; podcasting did not exist in ordinary use before 2000."
+        },
+        {
+          "quote": "true-crime podcast enthusiasts",
+          "why": "Podcasts are a post-2000 medium; the term and the everyday concept of podcasting did not exist in ordinary use before 2000."
+        }
+      ]
+    },
+    {
+      "task_id": 30,
+      "problem_name": "The Case of the Lab with Legal Issues",
+      "evidence": [
+        {
+          "quote": "If she asks you to step into her metaverse, get out now!",
+          "why": "The term 'metaverse' in its modern sense of a virtual reality online world became widely known after 2000 (popularized by works like Snow Crash in 1992 but entering common usage as a tech concept post-2000, especially with VR/AR platforms)."
+        },
+        {
+          "quote": "If she asks you to step into her metaverse, get out now!",
+          "why": "The term 'metaverse' in its modern sense of a virtual reality online world became widely known after 2000 (popularized by sci-fi and later tech companies); it is a post-2000 concept."
+        }
+      ]
+    },
+    {
+      "task_id": 45,
+      "problem_name": "A Cruise to Die For 2",
+      "evidence": [
+        {
+          "quote": "If she asks you to step into her metaverse \u2014 my God! Get out now!",
+          "why": "The term 'metaverse' in its modern virtual-reality/online-world sense became widely known after 2000 (popularized by sci-fi and later tech companies); it is a post-2000 concept."
+        },
+        {
+          "quote": "If she asks you to step into her metaverse",
+          "why": "The term 'metaverse' in its modern virtual-reality/online-world sense became widely known after 2000 (popularized by sci-fi and later tech companies); it was not an ordinary pre-2000 concept."
+        }
+      ]
+    },
+    {
+      "task_id": 53,
+      "problem_name": "And Then There Was Another One Again",
+      "evidence": [
+        {
+          "quote": "If she asks you to step into her metaverse",
+          "why": "The 'metaverse' as a virtual-reality shared online world became a widely known concept after 2000 (popularized by sci-fi and especially by Facebook/Meta in 2021); it was not an ordinary pre-2000 concept."
+        },
+        {
+          "quote": "If she asks you to step into her metaverse",
+          "why": "The term 'metaverse' in its modern VR/online-world sense became widely known after 2000 (popularized by sci-fi and later tech platforms); it is not ordinary pre-2000 usage."
+        }
+      ]
+    },
+    {
+      "task_id": 73,
+      "problem_name": "UFO, WHAT'D YOU KNOW?",
+      "evidence": [
+        {
+          "quote": "an abductee NFT",
+          "why": "NFTs (non-fungible tokens) are a blockchain-based concept that did not exist or come into ordinary use before 2000."
+        },
+        {
+          "quote": "an abductee NFT",
+          "why": "NFTs (non-fungible tokens) are a blockchain-based concept that did not exist or come into ordinary use before 2000."
+        }
+      ]
+    }
+  ],
+  "flagged_exhibits": []
+}

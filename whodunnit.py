@@ -160,6 +160,24 @@ TASKS_SPEC = [
 with open(ENV_PATH / "exhibits.json", "r") as f:
     EXHIBITS_RAW: list[dict] = json.load(f)
 
+# Optional "train_old" split: the train tasks that use no post-2000 concepts, language
+# or knowledge, as selected by scripts/make_train_old.py. Listed only when its file is
+# present, so a deployment without the file keeps serving "train" alone. Each entry
+# carries its problem_name as well as its task_id, and an entry whose name no longer
+# matches the task at that index is dropped -- a reordered tasks file must never make
+# train_old serve the wrong case.
+TRAIN_OLD_SPEC: list[dict] = []
+_train_old_file = ENV_PATH / "split_train_old.json"
+if _train_old_file.exists():
+    with open(_train_old_file, "r") as f:
+        _train_old = json.load(f)
+    TRAIN_OLD_SPEC = [
+        TASKS_SPEC[t["task_id"]]
+        for t in _train_old["tasks"]
+        if 0 <= t["task_id"] < len(TASKS_SPEC)
+        and TASKS_SPEC[t["task_id"]]["problem_name"] == t["problem_name"]
+    ]
+
 # --- Tool Input Models ---
 
 class EmptyParams(BaseModel):
@@ -192,12 +210,14 @@ class Whodunnit(Environment):
 
     @classmethod
     def list_splits(cls) -> list[str]:
-        return ["train"]
+        return ["train", "train_old"] if TRAIN_OLD_SPEC else ["train"]
 
     @classmethod
     def list_tasks(cls, split: str) -> list[JSONObject]:
         if split == "train":
             return TASKS_SPEC
+        if split == "train_old" and TRAIN_OLD_SPEC:
+            return TRAIN_OLD_SPEC
         raise ValueError(f"Unknown split: {split}")
 
     def get_prompt(self) -> list[TextBlock]:
