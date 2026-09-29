@@ -435,16 +435,16 @@ class Whodunnit(Environment):
             # Build feedback
             feedback = []
             feedback.append(
-                f"WHO? {'✓' if who_correct else '✗'} (Expected: {ground_truth.who})"
+                f"WHO? {'✓' if who_correct else '✗'}"
             )
             feedback.append(
-                f"WHAT? {'✓' if what_correct else '✗'} (Expected: {ground_truth.what})"
+                f"WHAT? {'✓' if what_correct else '✗'}"
             )
             feedback.append(
-                f"WHERE? {'✓' if where_correct else '✗'} (Expected: {ground_truth.where})"
+                f"WHERE? {'✓' if where_correct else '✗'}"
             )
             feedback.append(
-                f"WHY? {'✓' if why_correct else '✗'} (Expected: {ground_truth.why})"
+                f"WHY? {'✓' if why_correct else '✗'}"
             )
 
         else:
@@ -458,13 +458,13 @@ class Whodunnit(Environment):
             # Build feedback
             feedback = []
             feedback.append(
-                f"WHO? {'✓' if who_correct else '✗'} (Expected: {ground_truth.who})"
+                f"WHO? {'✓' if who_correct else '✗'}"
             )
             feedback.append(
-                f"WHAT? {'✓' if what_correct else '✗'} (Expected: {ground_truth.what})"
+                f"WHAT? {'✓' if what_correct else '✗'}"
             )
             feedback.append(
-                f"WHERE? {'✓' if where_correct else '✗'} (Expected: {ground_truth.where})"
+                f"WHERE? {'✓' if where_correct else '✗'}"
             )
 
             if why_provided:
@@ -491,7 +491,6 @@ class Whodunnit(Environment):
                     "where": params.where,
                     "why": params.why,
                 },
-                "ground_truth": ground_truth.model_dump(),
                 "components": {
                     "who_correct": who_correct,
                     "what_correct": what_correct,
