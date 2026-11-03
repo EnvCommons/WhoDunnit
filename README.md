@@ -1,6 +1,6 @@
 # WhoDunit
 
-[![OpenReward Environment](https://img.shields.io/badge/%E2%AD%90%20OpenReward-Environment-f7e6cc)](https://www.openreward.ai/GeneralReasoning/WhoDunit)
+[![OpenReward Environment](https://img.shields.io/badge/%E2%AD%90%20OpenReward-Environment-f7e6cc)](https://openreward.ai/GeneralReasoning/WhoDunit)
 
 ## Description
 
@@ -17,11 +17,16 @@ WhoDunit is an environment for evaluating deductive reasoning on murder mystery 
 
 Agents are given a standard environment with no sandbox or file system access.
 
+## License
+
+[MIT](https://opensource.org/licenses/MIT).
+
 ## Tasks
 
-There is one split in this environment:
+There are two splits in this environment:
 
 - **train**: 100 tasks (75 elementary + 25 impossible difficulty)
+- **train_old**: 93 tasks, the subset of `train` cases that use no post-2000 concepts, language or knowledge
 
 Each case includes suspects with physical descriptions, potential weapons, locations, clues, and optionally motives and suspect statements.
 
@@ -33,7 +38,9 @@ This is a multi-turn environment with partial credit scoring. Agents gather info
 
 **4-Component Tasks**: WHO (25%) + WHAT (25%) + WHERE (25%) + WHY (25%)
 
-Validation is deterministic case-insensitive exact match. Reward ranges from 0.0 to 1.0 based on correct components.
+Validation is a deterministic exact match after normalisation (lower-casing, stripping punctuation, leading articles, titles such as "Inspector" and suffixes such as "Jr"). Reward ranges from 0.0 to 1.0 based on correct components. Only the first `submit_answer` call is graded; any further call returns a reward of -0.1 and is not re-graded.
+
+We do not use LLM graders for this task.
 
 ## Data
 
@@ -56,10 +63,6 @@ Data consists of JSON files (`tasks_elementary.json`, `tasks_impossible.json`, `
 
 Multi-turn. Agents gather information using multiple tool calls before submitting their final answer.
 
-## Environment Difficulty
-
-[Put environment difficulty here]
-
 ## Other Environment Requirements
 
 There are no further environment requirements; WhoDunit works out of the box with the OpenReward endpoint without any external API keys.
@@ -68,3 +71,14 @@ There are no further environment requirements; WhoDunit works out of the box wit
 
 Agents in WhoDunit solve fictional murder mystery puzzles in a standard environment. The environment does not present direct safety risks.
 
+## Citations
+
+```bibtex
+@dataset{GRWhoDunit,
+  author    = {General Reasoning Inc. Team},
+  title     = {WhoDunit},
+  year      = {2026},
+  publisher = {OpenReward},
+  url       = {https://openreward.ai/GeneralReasoning/WhoDunit}
+}
+```
